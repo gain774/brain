@@ -2,12 +2,28 @@
  "window_hours": 5,
  "ceiling_units": 20000000,
  "ceiling_calibrated": false,
+ "weekly": {
+  "window_hours": 168,
+  "ceiling_units": 150000000,
+  "ceiling_calibrated": false,
+  "spend_target_pct": 85,
+  "tiers": [
+   {"max_pct": 60, "tier": 0, "name": "制限なし",
+    "do": "5時間窓のTIERに従う"},
+   {"max_pct": 75, "tier": 1, "name": "週次セーブ",
+    "do": "実測検証・敵対的レビュー・夜間メニューをスキップ(週の残りを守る)"},
+   {"max_pct": 85, "tier": 2, "name": "週次最小",
+    "do": "x_research.py+最小ログ+コミットのみ"},
+   {"max_pct": 100, "tier": 3, "name": "週次スキップ",
+    "do": "recordのみして即終了。残りはユーザーの手動利用のために温存"}
+  ]
+ },
  "night": {
   "jst_hours": [0, 5],
   "spend_target_pct": 90,
   "tiers": [
    {"max_pct": 90, "tier": 0, "name": "夜間フル実行",
-    "do": "全手順+BRAIN.md第2部の夜間メニューで予算(90%)を使い切る。残り予算に応じて深さを調整"},
+    "do": "全手順+BRAIN.md第2部の夜間メニューで予算を使い切る。残り予算に応じて深さを調整"},
    {"max_pct": 95, "tier": 2, "name": "最小",
     "do": "x_research.py実行と日次ログへの最小追記+コミットのみ"},
    {"max_pct": 100, "tier": 3, "name": "スキップ",
@@ -16,9 +32,9 @@
  },
  "tiers": [
   {"max_pct": 50, "tier": 0, "name": "フル実行",
-   "do": "全手順(Xリサーチ+記事+評価+実測検証+knowledge整理+ループ+改善)"},
+   "do": "全手順(Xリサーチ+評価+実測検証+knowledge整理+ループ+改善)"},
   {"max_pct": 75, "tier": 1, "name": "標準",
-   "do": "Xリサーチ+記事+評価+記録+軽いknowledge更新。実測検証と敵対的レビューはスキップ"},
+   "do": "Xリサーチ+評価+記録+軽いknowledge更新。実測検証と敵対的レビューはスキップ"},
   {"max_pct": 90, "tier": 2, "name": "最小",
    "do": "x_research.py実行と日次ログへの最小追記+コミットのみ。分析・整理はしない"},
   {"max_pct": 100, "tier": 3, "name": "スキップ",

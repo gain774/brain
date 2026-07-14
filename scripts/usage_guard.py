@@ -37,6 +37,22 @@ DEFAULT_CONFIG = {
     "window_hours": 5,
     "ceiling_units": 20_000_000,
     "ceiling_calibrated": False,
+    "weekly": {
+        "window_hours": 168,
+        "ceiling_units": 150_000_000,
+        "ceiling_calibrated": False,
+        "spend_target_pct": 85,
+        "tiers": [
+            {"max_pct": 60, "tier": 0, "name": "制限なし",
+             "do": "5時間窓のTIERに従う"},
+            {"max_pct": 75, "tier": 1, "name": "週次セーブ",
+             "do": "実測検証・敵対的レビュー・夜間メニューをスキップ(週の残りを守る)"},
+            {"max_pct": 85, "tier": 2, "name": "週次最小",
+             "do": "x_research.py+最小ログ+コミットのみ"},
+            {"max_pct": 100, "tier": 3, "name": "週次スキップ",
+             "do": "recordのみして即終了。残りはユーザーの手動利用のために温存"},
+        ],
+    },
     "night": {
         "jst_hours": [0, 5],
         "spend_target_pct": 90,
@@ -93,10 +109,14 @@ def load(path, default):
     return default
 
 
-def window_total(ledger, cfg, now, exclude_session=None):
-    horizon = now - cfg["window_hours"] * 3600
+def window_total(ledger, hours, now, exclude_session=None):
+    horizon = now - hours * 3600
     return sum(e["units"] for e in ledger
                if e["ts"] >= horizon and e.get("session") != exclude_session)
+
+
+def pick_tier(tiers, pct):
+    return next(t for t in tiers if pct <= t["max_pct"] or t["max_pct"] >= 100)
 
 
 def main():
@@ -119,36 +139,62 @@ def main():
     sid = os.environ.get("CLAUDE_CODE_SESSION_ID", "unknown")
 
     if cmd == "limit-hit":
+        which = sys.argv[2] if len(sys.argv) > 2 else "5h"
         own, _ = own_session_units()
-        total = window_total(ledger, cfg, now, exclude_session=sid) + own
-        cfg["ceiling_units"] = round(total)
-        cfg["ceiling_calibrated"] = True
+        if which == "weekly":
+            total = window_total(ledger, cfg["weekly"]["window_hours"], now,
+                                 exclude_session=sid) + own
+            cfg["weekly"]["ceiling_units"] = round(total)
+            cfg["weekly"]["ceiling_calibrated"] = True
+        else:
+            total = window_total(ledger, cfg["window_hours"], now,
+                                 exclude_session=sid) + own
+            cfg["ceiling_units"] = round(total)
+            cfg["ceiling_calibrated"] = True
         CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
-        print(f"ceiling calibrated to {round(total):,} units")
+        print(f"{which} ceiling calibrated to {round(total):,} units")
         return
 
     # check
     own, _ = own_session_units()
-    total = window_total(ledger, cfg, now, exclude_session=sid) + own
-    pct = 100.0 * total / cfg["ceiling_units"]
+    total5 = window_total(ledger, cfg["window_hours"], now, exclude_session=sid) + own
+    pct5 = 100.0 * total5 / cfg["ceiling_units"]
+
+    wk = cfg.get("weekly", {})
+    totalw = window_total(ledger, wk.get("window_hours", 168), now,
+                          exclude_session=sid) + own
+    pctw = 100.0 * totalw / wk.get("ceiling_units", 150_000_000)
 
     hour = datetime.fromtimestamp(now, JST).hour
     night = cfg.get("night", {})
     nh = night.get("jst_hours", [0, 5])
     is_night = nh[0] <= hour < nh[1] and "tiers" in night
-    tiers = night["tiers"] if is_night else cfg["tiers"]
     mode = f"🌙夜間モード(JST {nh[0]}時〜{nh[1]}時)" if is_night else "☀️昼間モード"
 
-    tier = next(t for t in tiers if pct <= t["max_pct"] or t["max_pct"] >= 100)
-    calib = "実測校正済み" if cfg.get("ceiling_calibrated") else "未校正(推定値)"
-    print(f"{mode} / 直近{cfg['window_hours']}時間の推定消費: {round(total):,} / "
-          f"{cfg['ceiling_units']:,} units = {pct:.1f}% ({calib})")
-    print(f"→ TIER {tier['tier']}: {tier['name']} — {tier['do']}")
+    tier5 = pick_tier(night["tiers"] if is_night else cfg["tiers"], pct5)
+    tierw = pick_tier(wk["tiers"], pctw) if wk.get("tiers") else {"tier": 0}
+    # 週次 > 5時間: 厳しい方を採用
+    tier = tierw if tierw["tier"] > tier5["tier"] else tier5
+    limited_by = "週次制限" if tierw["tier"] > tier5["tier"] else "5時間制限"
+
+    calib5 = "校正済" if cfg.get("ceiling_calibrated") else "未校正"
+    calibw = "校正済" if wk.get("ceiling_calibrated") else "未校正"
+    print(f"📅 週次(直近7日): {round(totalw):,} / {wk.get('ceiling_units', 0):,} units "
+          f"= {pctw:.1f}% ({calibw}) → 週次TIER {tierw['tier']}")
+    print(f"{mode} 直近{cfg['window_hours']}時間: {round(total5):,} / "
+          f"{cfg['ceiling_units']:,} units = {pct5:.1f}% ({calib5}) "
+          f"→ TIER {tier5['tier']}")
+    print(f"→ 最終TIER {tier['tier']}({limited_by}が支配): "
+          f"{tier['name']} — {tier['do']}")
     if is_night and tier["tier"] == 0:
-        budget = cfg["ceiling_units"] * night.get("spend_target_pct", 90) / 100 - total
-        print(f"💰 夜間の残り予算: 約{max(0, round(budget)):,} units "
-              f"(この予算内で追加リサーチ・実験・整理を使い切ってよい。"
-              f"参考: 標準的なフル実行1回 ≈ 4,000,000〜5,000,000 units)")
+        budget5 = cfg["ceiling_units"] * night.get("spend_target_pct", 90) / 100 - total5
+        budgetw = (wk.get("ceiling_units", 0)
+                   * wk.get("spend_target_pct", 85) / 100 - totalw)
+        budget = min(budget5, budgetw)
+        src = "週次" if budgetw < budget5 else "5時間"
+        print(f"💰 夜間の残り予算: 約{max(0, round(budget)):,} units({src}窓が上限) "
+              f"— この予算内で夜間メニューを実行。"
+              f"参考: 標準的なフル実行1回 ≈ 4,000,000〜5,000,000 units")
     sys.exit(tier["tier"])
 
 
