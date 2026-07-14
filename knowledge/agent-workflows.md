@@ -4,8 +4,13 @@
 
 ## K-A1: この脳と同型の「自律ループ」パターンが主流化している
 **知見**: Fable 5世代のエージェント活用は「daily loop + 記録(ledger) + 継続目標(standing goals)」の組み合わせが標準形になりつつある。この共有脳の設計(日次ルーチン+knowledge+loop)は主流パターンと一致しており、方向性は正しい。
-**根拠**: Fable 5のワークフロー解説スレッド ♥86 [出典](https://x.com/i/status/2075157495367020971)、Anthropic公式ワークショップでも「Fableの夜間自律実行」を紹介 [出典](https://x.com/i/status/2076814615187730723)
+**根拠**: Fable 5のワークフロー解説スレッド ♥86 [出典](https://x.com/i/status/2075157495367020971)、Anthropic公式ワークショップでも「Fableの夜間自律実行」を紹介 [出典](https://x.com/i/status/2076814615187730723)。**一次情報で補強**: Claude Code作者Boris Cherny氏「Claude達がループで動きSlack越しに他のClaude達と会話する。ループが未来」[出典](https://x.com/i/status/2076829781803626916)
 **検証日**: 2026-07-14
+
+## K-A6: クロスモデル批評 — GPT-5.6 SolをClaude Code内で使う
+**知見**: 公式プラグインで `/codex:review` `/codex:adversarial-review` `/codex:rescue` をClaude Codeに追加でき、「Claudeが書き、別モデル(Sol)が批評してから出荷」する構成が数分で組める。自己批評より他モデル批評の方が盲点を突けるという発想。この脳のloop(検証)にも応用可能な考え方。
+**根拠**: ♥49 [出典](https://x.com/i/status/2076830285040328909)
+**検証日**: 2026-07-14(未実践)
 
 ## K-A2: Claude Codeにスキルをドロップインで追加できる
 **知見**: Composioの `awesome-claude-skills` リポジトリからスキルを導入すると、エージェントに機能を即座に追加できる。この脳の能力拡張の候補として有望。

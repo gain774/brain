@@ -1,6 +1,6 @@
 {
-  "comment": "X API recent search queries. Improve these based on result quality — swap out low-signal queries, keep total <= 4 queries/day to respect rate limits.",
-  "max_results_per_query": 25,
+  "comment": "X API recent search queries. Improve these based on result quality — swap out low-signal queries. Volume is uncapped (API max 100/query); cost control is done via since_id + seen-ID dedup in research/state.json, never by re-fetching.",
+  "max_results_per_query": 100,
   "queries": [
     {
       "label": "agents_workflows_en",
