@@ -2,19 +2,29 @@
 """Usage guard: estimate 5-hour-window utilization and pick an action tier.
 
 The official usage-limit API is not reachable from this environment, so we
-approximate: every session records its own token consumption (parsed from its
+approximate: every session records its token consumption (parsed from its
 local transcript) into research/usage-log.json, which lives in the repo and is
 shared across sessions via git. Utilization = weighted units consumed in the
 rolling window / ceiling.
 
+IMPORTANT — this session is persistent (bound to a Routine via
+persistent_session_id, so the SAME session/transcript is reused across many
+firings spanning days). own_session_units() therefore returns the FULL
+CUMULATIVE transcript total, not "recent" usage. We track a per-session
+baseline (research/usage-baselines.json) and only ever count the DELTA since
+the last record() call — each firing's delta becomes its own ledger entry,
+so it ages out of the 5h/weekly windows naturally. Never treat the raw
+own_session_units() return value as "current window usage" — it grows
+forever for a long-lived persistent session.
+
 Known limits (documented in BRAIN.md): the user's own interactive sessions are
 not in the ledger, and crashed sessions don't record. The ceiling is a guess
 until calibrated — when a real usage-limit error is observed, run
-`usage_guard.py limit-hit` to set the ceiling to the observed window total.
+`usage_guard.py limit-hit [5h|weekly]` to set the ceiling to the observed total.
 
 Commands:
   check      print utilization estimate and the tier to run (also exit code 0-3)
-  record     append this session's consumption to the ledger (run before final commit)
+  record     append this run's consumption delta to the ledger (run before final commit)
   limit-hit  calibrate: set ceiling to current window total
 """
 
@@ -30,6 +40,7 @@ JST = timezone(timedelta(hours=9))
 
 ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "research/usage-log.json"
+BASELINES = ROOT / "research/usage-baselines.json"
 CONFIG = ROOT / "config/usage.json"
 RETENTION_SEC = 14 * 86400
 
@@ -101,10 +112,14 @@ def load(path, default):
     return default
 
 
-def window_total(ledger, hours, now, exclude_session=None):
+def window_total(ledger, hours, now):
     horizon = now - hours * 3600
-    return sum(e["units"] for e in ledger
-               if e["ts"] >= horizon and e.get("session") != exclude_session)
+    return sum(e["units"] for e in ledger if e["ts"] >= horizon)
+
+
+def live_delta(sid, own_full, baselines):
+    """Usage in the current run not yet flushed to the ledger by record()."""
+    return max(0.0, own_full - baselines.get(sid, 0.0))
 
 
 def pick_tier(tiers, pct):
@@ -122,22 +137,23 @@ def weekly_window_start(now, anchor):
     return cand.timestamp()
 
 
-def weekly_state(ledger, wk, now, own, exclude_session):
-    """Return (pct, pace_target_pct, consumed, window_end_ts)."""
+def weekly_state(ledger, wk, now, live):
+    """Return (pct, pace_target_pct, consumed, window_end_ts).
+
+    `live` = current run's not-yet-recorded delta (see live_delta()).
+    """
     start = weekly_window_start(now, wk.get("anchor", {}))
     end = start + 7 * 86400
     ceiling = wk["ceiling_units"]
-    consumed = own + sum(e["units"] for e in ledger
-                         if e["ts"] >= start and e.get("session") != exclude_session)
+    consumed = live + sum(e["units"] for e in ledger if e["ts"] >= start)
     base = wk.get("baseline")
     base_ts = start
     base_pct = 0.0
     if base and start <= base["ts"] < end:
         # 申告時点の実測pctから外部消費(台帳に載らない分)をオフセットとして復元
         ledger_at_base = sum(e["units"] for e in ledger
-                             if start <= e["ts"] <= base["ts"]
-                             and e.get("session") != exclude_session)
-        external = max(0.0, base["pct"] / 100 * ceiling - ledger_at_base - own)
+                             if start <= e["ts"] <= base["ts"])
+        external = max(0.0, base["pct"] / 100 * ceiling - ledger_at_base - live)
         consumed += external
         base_ts, base_pct = base["ts"], base["pct"]
     pct = 100.0 * consumed / ceiling
@@ -170,28 +186,31 @@ def main():
     now = time.time()
     ledger = [e for e in ledger if e["ts"] >= now - RETENTION_SEC]
 
-    if cmd == "record":
-        units, path = own_session_units()
-        sid = os.environ.get("CLAUDE_CODE_SESSION_ID", "unknown")
-        ledger = [e for e in ledger if e.get("session") != sid]
-        ledger.append({"ts": now, "session": sid, "units": round(units)})
-        LEDGER.write_text(json.dumps(ledger, indent=1))
-        print(f"recorded {round(units):,} units for session {sid[:8]}… "
-              f"(transcript: {path})")
-        return
-
     sid = os.environ.get("CLAUDE_CODE_SESSION_ID", "unknown")
+    baselines = load(BASELINES, {})
+
+    if cmd == "record":
+        own_full, path = own_session_units()
+        delta = live_delta(sid, own_full, baselines)
+        baselines[sid] = own_full
+        BASELINES.write_text(json.dumps(baselines, indent=1))
+        ledger.append({"ts": now, "session": sid, "units": round(delta)})
+        LEDGER.write_text(json.dumps(ledger, indent=1))
+        print(f"recorded +{round(delta):,} units this run for session {sid[:8]}… "
+              f"(session-lifetime cumulative: {round(own_full):,}, transcript: {path})")
+        return
 
     if cmd == "limit-hit":
         which = sys.argv[2] if len(sys.argv) > 2 else "5h"
-        own, _ = own_session_units()
+        own_full, _ = own_session_units()
+        live = live_delta(sid, own_full, baselines)
         if which == "weekly":
-            _, _, consumed, _ = weekly_state(ledger, cfg["weekly"], now, own, None)
+            _, _, consumed, _ = weekly_state(ledger, cfg["weekly"], now, live)
             cfg["weekly"]["ceiling_units"] = round(consumed)
             cfg["weekly"]["ceiling_calibrated"] = True
+            total = consumed
         else:
-            total = window_total(ledger, cfg["window_hours"], now,
-                                 exclude_session=sid) + own
+            total = window_total(ledger, cfg["window_hours"], now) + live
             cfg["ceiling_units"] = round(total)
             cfg["ceiling_calibrated"] = True
         CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
@@ -199,12 +218,13 @@ def main():
         return
 
     # check
-    own, _ = own_session_units()
-    total5 = window_total(ledger, cfg["window_hours"], now, exclude_session=sid) + own
+    own_full, _ = own_session_units()
+    live = live_delta(sid, own_full, baselines)
+    total5 = window_total(ledger, cfg["window_hours"], now) + live
     pct5 = 100.0 * total5 / cfg["ceiling_units"]
 
     wk = cfg.get("weekly", {})
-    pctw, pace, consumedw, wend = weekly_state(ledger, wk, now, own, sid)
+    pctw, pace, consumedw, wend = weekly_state(ledger, wk, now, live)
     hard_cap = wk.get("hard_cap_pct", 95)
 
     hour = datetime.fromtimestamp(now, JST).hour
