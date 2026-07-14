@@ -1,0 +1,2036 @@
+{
+ "date": "2026-07-14",
+ "queries": [
+  {
+   "label": "agents_workflows_en",
+   "query": "(\"Claude Code\" OR \"AI agent\" OR agentic) (tips OR workflow OR \"how I\" OR guide OR setup) -is:retweet -is:reply lang:en",
+   "http": 200,
+   "tweets": [
+    {
+     "author_id": "1224538644247203844",
+     "created_at": "2026-07-09T09:57:56.000Z",
+     "edit_history_tweet_ids": [
+      "2075157495367020971"
+     ],
+     "id": "2075157495367020971",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 75,
+      "impression_count": 11827,
+      "like_count": 86,
+      "quote_count": 0,
+      "reply_count": 37,
+      "retweet_count": 11
+     },
+     "text": "Fable 5 is live in Claude Code till July 12th\n\nso I just broke down every single agentic workflow inside Fable 5 before it disappears\n\n&gt; the daily loop, trust ledger, standing goals + the 4 optional loops\n&gt; how each one actually works under the hood\n&gt; the exact setup to get every https://t.co/2kIPhZL0PY https://t.co/rpNyRngQVV",
+     "author_username": "eng_khairallah1",
+     "author_followers": 72883
+    },
+    {
+     "author_id": "1330490030733848600",
+     "created_at": "2026-07-08T20:19:12.000Z",
+     "edit_history_tweet_ids": [
+      "2074951456784793603"
+     ],
+     "id": "2074951456784793603",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 186,
+      "impression_count": 10581,
+      "like_count": 94,
+      "quote_count": 3,
+      "reply_count": 10,
+      "retweet_count": 7
+     },
+     "text": "He built Archon, the first open-source harness builder for AI coding.\n\ninstead of yet another chatbot wrapper, he shipped a workflow engine that makes Claude Code deterministic across sessions.\n\nCole Medin. Founder of Dynamous - the AI-agent builder community.\n\n'Archon' - https://t.co/mPBvJgyI9t",
+     "author_username": "Granite0x",
+     "author_followers": 794
+    },
+    {
+     "author_id": "1252949905158467585",
+     "created_at": "2026-07-09T11:09:07.000Z",
+     "edit_history_tweet_ids": [
+      "2075175411013578797"
+     ],
+     "id": "2075175411013578797",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🧵 AI Agent Tools digest:\n\nClaude Code → Anthropic CLI agent — coding, file ops, git workflow langsung dari ter\n\n📈 obra/superpowers (⭐250,420) — An agentic skills framework &amp; software development\n\n🔥 Trending: langflow-ai/langflow — Langflow is a powerful tool for building and",
+     "author_username": "rakaxbt",
+     "author_followers": 272
+    },
+    {
+     "author_id": "1608745792214294528",
+     "created_at": "2026-07-11T18:04:26.000Z",
+     "edit_history_tweet_ids": [
+      "2076004703872094695"
+     ],
+     "id": "2076004703872094695",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 56,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Meet claude-desktop-buddy. A tiny ESP32 device that sits on your desk and connects directly to Claude Code.\nAnd it just changed how I work forever. \nHere's what this little box actually does \nIt connects to Claude Code over Bluetooth (BLE) — no wires, no setup, no friction.\nWhen https://t.co/JF5WS57FVo https://t.co/Y8SB3JRIZf",
+     "author_username": "CryptoPOWERKIT",
+     "author_followers": 44
+    },
+    {
+     "author_id": "1373665408193036293",
+     "created_at": "2026-07-11T10:36:01.000Z",
+     "edit_history_tweet_ids": [
+      "2075891857721299001"
+     ],
+     "id": "2075891857721299001",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 100,
+      "impression_count": 10423,
+      "like_count": 114,
+      "quote_count": 1,
+      "reply_count": 31,
+      "retweet_count": 11
+     },
+     "text": "THIS CLAUDE CODE GUIDE SHOWS HOW TO BUILD YOUR FIRST WORKING AI AGENT IN UNDER AN HOUR.\n\nZERO CODING REQUIRED.\n\nNot a chatbot.\nNot a demo.\n\nAn agent that reads files, calls tools, and completes a real task on its own.\n\nYou describe what you want in plain English. Claude Code https://t.co/F7aCSOlvP4",
+     "author_username": "cyrilXBT",
+     "author_followers": 189492
+    },
+    {
+     "author_id": "1698152542868213760",
+     "created_at": "2026-07-08T20:37:00.000Z",
+     "edit_history_tweet_ids": [
+      "2074955937450963112"
+     ],
+     "id": "2074955937450963112",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 235,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Figma just acquired the team behind Bud, an AI agent platform that could browse the web, write code, and automate tasks. Figma is shutting down Bud's standalone product by July 18.\n\nThis is not a design tool acquisition. This is Figma buying agent infrastructure.\n\nFigma already",
+     "author_username": "vbkotecha",
+     "author_followers": 415
+    },
+    {
+     "author_id": "881930670540509184",
+     "created_at": "2026-07-09T14:28:40.000Z",
+     "edit_history_tweet_ids": [
+      "2075225629625085978"
+     ],
+     "id": "2075225629625085978",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 137,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "Google Cloud just dropped a ~46-min session on intent-driven development with Claude Code:\n\n00:00 – Claude Code intro + guests\n07:35 – Build a 3D physics game live, using only voice prompts\n26:12 – Parallel coding sub-agents (Fable 5) generating UI, audio &amp; haptics at once\n31:50 https://t.co/oC1HmGtI9h",
+     "author_username": "bygodgiven",
+     "author_followers": 19
+    },
+    {
+     "author_id": "2075250977125675008",
+     "created_at": "2026-07-12T19:23:16.000Z",
+     "edit_history_tweet_ids": [
+      "2076386929600610434"
+     ],
+     "id": "2076386929600610434",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 432,
+      "like_count": 49,
+      "quote_count": 0,
+      "reply_count": 14,
+      "retweet_count": 20
+     },
+     "text": "I rebuilt my viral TikTok AI agent with Claude Code in 37 minutes 🤯\n\nA full research-to-brief pipeline that scrapes TikTok, analyzes videos with AI, and generates creative briefs for your clients.\n\nAll inside Claude Code + Replit.\n\nPerfect for creative agencies and DTC brands https://t.co/d1g6lJgtEz",
+     "author_username": "TechByNagma",
+     "author_followers": 205
+    },
+    {
+     "author_id": "2041156973152911360",
+     "created_at": "2026-07-08T21:24:48.000Z",
+     "edit_history_tweet_ids": [
+      "2074967966467154371"
+     ],
+     "id": "2074967966467154371",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Shipped: the most complete guide on using Claude Code in VS Code.\n\nExtension vs terminal, full setup, my actual daily workflow (parallel sessions + git worktrees), and troubleshooting for the weird stuff nobody documents.\n\nFree, no signup:\nhttps://t.co/Gun2gxUsgs",
+     "author_username": "neozino_dev",
+     "author_followers": 31
+    },
+    {
+     "author_id": "1366752206058180608",
+     "created_at": "2026-07-10T01:16:00.000Z",
+     "edit_history_tweet_ids": [
+      "2075388537122488370"
+     ],
+     "id": "2075388537122488370",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 970,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "text": "This video breaks down 5 powerful agentic workflows for Claude Code, moving beyond manual prompting into true loop engineering.\n\nIt maps out specific architectures for different use cases:\n\n- Stateless: For hard, concrete checks (like passing test suites).\n- Learning: Agents that https://t.co/rKUhXjANGR",
+     "author_username": "victor_explore",
+     "author_followers": 19788
+    },
+    {
+     "author_id": "2698904662",
+     "created_at": "2026-07-09T11:51:31.000Z",
+     "edit_history_tweet_ids": [
+      "2075186083210350992"
+     ],
+     "id": "2075186083210350992",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 576,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "text": "How To Use Agent Swarms In Claude Code SAFELY Without Getting Lost &amp; Confused\n\nLearn how to build safely with AI agent swarms using Claude Code, Codex, Cursor, and CodeSpring without letting AI take over your product.\n\nIn this video, I show my real AI app build process for https://t.co/1upLtrYZbD",
+     "author_username": "sebastianvolkis",
+     "author_followers": 9328
+    },
+    {
+     "author_id": "1483409796531625987",
+     "created_at": "2026-07-09T08:50:45.000Z",
+     "edit_history_tweet_ids": [
+      "2075140589415432627"
+     ],
+     "id": "2075140589415432627",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 52,
+      "impression_count": 5801,
+      "like_count": 60,
+      "quote_count": 0,
+      "reply_count": 17,
+      "retweet_count": 15
+     },
+     "text": "Elon Musk shared a tutorial built with this free tool.\n\nIt lets you create AI agents that work for you 24/7.\n\nPraisonAI is an open source framework that lets you build autonomous AI agents that research, plan, code, and execute tasks on their own. You give it a goal.\n\nIt figures https://t.co/eg6S2mKIPm https://t.co/ZBScxIaCVo",
+     "author_username": "KanikaBK",
+     "author_followers": 34900
+    },
+    {
+     "author_id": "1405031034",
+     "created_at": "2026-07-07T10:24:23.000Z",
+     "edit_history_tweet_ids": [
+      "2074439377657405706"
+     ],
+     "id": "2074439377657405706",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2193,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "text": "This might be the best free AI coding workflow available.\n\nConnect Omni Route to Claude Code and get access to 90+ AI providers from one interface.\n\nIf one model is unavailable, another takes over automatically.\n\nBuild faster.\n\nAutomate more.\n\nNever worry about switching models https://t.co/NhgDKopdCJ",
+     "author_username": "JulianGoldieSEO",
+     "author_followers": 171872
+    },
+    {
+     "author_id": "802748077765521409",
+     "created_at": "2026-07-07T07:38:45.000Z",
+     "edit_history_tweet_ids": [
+      "2074397693619646482"
+     ],
+     "id": "2074397693619646482",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 84,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Best caption for your X post:\n\"The most productive habit in AI coding right now isn’t a better model — it’s two of them checking each other.\nOpenAI literally built a plugin so you can run Codex inside Claude Code.\nSetup takes 4 commands. Then you get real code reviews, https://t.co/QgeqzbUn1X",
+     "author_username": "Alumao_",
+     "author_followers": 358
+    },
+    {
+     "author_id": "115431036",
+     "created_at": "2026-07-10T17:08:59.000Z",
+     "edit_history_tweet_ids": [
+      "2075628360219430979"
+     ],
+     "id": "2075628360219430979",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 123,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Practical guide to configuring Claude Code in .NET: SDK setup, auth, model selection, prompt templates, streaming, type-safe payloads, security and testing tips for production-ready integrations. #dotnet #Claude\n\nhttps://t.co/1t0fiXDIHI",
+     "author_username": "isaacrlevin",
+     "author_followers": 3728
+    },
+    {
+     "author_id": "1441632711639138309",
+     "created_at": "2026-07-07T23:40:22.000Z",
+     "edit_history_tweet_ids": [
+      "2074639692511789117"
+     ],
+     "id": "2074639692511789117",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 68,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "The new Videnly AI agent is a big improvement for our faceless video creation workflow:\n\n- start from a simple idea and let it guide you\n- plan faceless videos with tailored settings\n- save context for future projects to simplify your workflow\n- get recommended video ideas based https://t.co/rgsOONGdCL",
+     "author_username": "louiejancevski",
+     "author_followers": 30
+    },
+    {
+     "author_id": "3095721641",
+     "created_at": "2026-07-07T11:19:46.000Z",
+     "edit_history_tweet_ids": [
+      "2074453314813444516"
+     ],
+     "id": "2074453314813444516",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 113,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "The number one prompt to run with Fable 5 before subscription access ends:\n\nAnalyze my latest 30 Claude Code sessions and produce a brutally honest, creative review of how I actually work.\n\nScan all 30 sessions, but only output the highest-signal recommendations.\n\nFocus on:",
+     "author_username": "gabrielgtapps",
+     "author_followers": 81
+    },
+    {
+     "author_id": "1951901855451348992",
+     "created_at": "2026-07-13T15:49:26.000Z",
+     "edit_history_tweet_ids": [
+      "2076695505372065968"
+     ],
+     "id": "2076695505372065968",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 144,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 6
+     },
+     "text": "This might be the best Claude Code workflow you'll see today. 🔥\n\nClaude Code + Obsidian = A powerful autonomous AI agent.\n\nComplete step-by-step tutorial below.\n\nSave this you'll use it more than once. https://t.co/04QUpT6PkK",
+     "author_username": "EaStEnRaY1",
+     "author_followers": 10565
+    },
+    {
+     "author_id": "63228936",
+     "created_at": "2026-07-12T11:13:16.000Z",
+     "edit_history_tweet_ids": [
+      "2076263617993789444"
+     ],
+     "id": "2076263617993789444",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 198,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "AI Agent Turns a Feature Request Into a Deployed PR\n\nWatch an AI agent turn a feature request into working code.\n\nThe workflow uses Claude Code, GitHub Actions, pull requests, automated testing, Docker containers, and @Railway  deployment. The result is an app that can build and",
+     "author_username": "alnutile",
+     "author_followers": 769
+    },
+    {
+     "author_id": "1562843426185674755",
+     "created_at": "2026-07-08T13:40:07.000Z",
+     "edit_history_tweet_ids": [
+      "2074851025433878831"
+     ],
+     "id": "2074851025433878831",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 510,
+      "like_count": 6,
+      "quote_count": 1,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "text": "🚨 Google's former CEO just shared an idea that could shape the next wave of AI.\n\nThe takeaway is simple: AI has made it easier than ever to build products, start businesses, and create wealth.\n\nThe catch is that you need to learn the right tools and know how to use them well. https://t.co/pfQHCq9Y7F",
+     "author_username": "Oluwaphilemon1",
+     "author_followers": 7793
+    },
+    {
+     "author_id": "1405031034",
+     "created_at": "2026-07-09T08:30:00.000Z",
+     "edit_history_tweet_ids": [
+      "2075135368676991219"
+     ],
+     "id": "2075135368676991219",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2080,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "HY3 from Tencent Hunyuan just opened up a new AI agent workflow.\n\nConnect it to Hermes Agent.\n\nBuild apps.\n\nAutomate tasks.\n\nCreate AI workflows.\n\nAll from one clean Agent OS setup.\n\nWant the full walkthrough?\n\nComment Agent OS and I’ll send you the free guide. https://t.co/8zehCmSD1A",
+     "author_username": "JulianGoldieSEO",
+     "author_followers": 171872
+    },
+    {
+     "author_id": "1962137089992167424",
+     "created_at": "2026-07-13T08:11:43.000Z",
+     "edit_history_tweet_ids": [
+      "2076580316194427151"
+     ],
+     "id": "2076580316194427151",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 50,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "\"Forget N8N.\"\n\nhe got Claude Code to build the entire \nAI agent workflow instead.\n\nAI Agent. Supabase Vector Store. \nMemory. Embeddings. Chat trigger.\n\nno drag and drop.\nno visual builder.\njust Claude Code and a description \nof what the system needs to do.\n\nthe skill is not https://t.co/xOLzGKilt1 https://t.co/0NK3hW2ZU1",
+     "author_username": "OxVelnox",
+     "author_followers": 122
+    },
+    {
+     "author_id": "1405031034",
+     "created_at": "2026-07-09T06:29:20.000Z",
+     "edit_history_tweet_ids": [
+      "2075104999189914005"
+     ],
+     "id": "2075104999189914005",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 1999,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "text": "Want to build apps, tools, websites, and games with AI?\n\nTry Hunyuan HY3.\n\nIt’s a free API you can plug into your AI agent workflow to build and automate projects faster.\n\nThis is one of the easiest free AI stacks to test right now.\n\nComment Agent OS and I’ll send you the full https://t.co/T4n79zfCKK",
+     "author_username": "JulianGoldieSEO",
+     "author_followers": 171872
+    },
+    {
+     "author_id": "146000731",
+     "created_at": "2026-07-07T05:25:33.000Z",
+     "edit_history_tweet_ids": [
+      "2074364174876995750"
+     ],
+     "id": "2074364174876995750",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 8,
+      "impression_count": 718,
+      "like_count": 19,
+      "quote_count": 1,
+      "reply_count": 9,
+      "retweet_count": 8
+     },
+     "text": "🚨 Someone just compiled the most complete library of Claude Code skills in existence.\n\nOne repo. Every skill category. Drop any of them into Claude Code and your agent gains a new capability instantly.\n\nIt's called awesome-claude-skills. Built and maintained by Composio — the https://t.co/XYLV84iqv5",
+     "author_username": "RituWithAI",
+     "author_followers": 63123
+    },
+    {
+     "author_id": "2070259733949214720",
+     "created_at": "2026-07-11T01:39:27.000Z",
+     "edit_history_tweet_ids": [
+      "2075756826017063109"
+     ],
+     "id": "2075756826017063109",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "THIS CLAUDE CODE GUIDE SHOWS HOW TO BUILD YOUR FIRST WORKING AI AGENT IN UNDER AN HOUR WITH ZERO CODING. https://t.co/p9f8LzQiml",
+     "author_username": "Lmoch04",
+     "author_followers": 10
+    }
+   ]
+  },
+  {
+   "label": "monetization_en",
+   "query": "(\"AI agent\" OR \"with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\") -is:retweet -is:reply lang:en",
+   "http": 200,
+   "tweets": [
+    {
+     "author_id": "458841972",
+     "created_at": "2026-07-12T07:11:36.000Z",
+     "edit_history_tweet_ids": [
+      "2076202803513741396"
+     ],
+     "id": "2076202803513741396",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 613,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 6,
+      "retweet_count": 11
+     },
+     "text": "25 AI TOOLS YOU CAN’T IGNORE IN 2026:\n\n1. https://t.co/xMXa7CBhbd – solves anything\n2. https://t.co/DGW3KMQs0j – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/AkKXFCAMbc - create viral AI videos that you can monetize\n4. https://t.co/t60hzHCEtq - AI powered https://t.co/5rGwrahzbK",
+     "author_username": "TechByKillian",
+     "author_followers": 10258
+    },
+    {
+     "author_id": "1892074453846327298",
+     "created_at": "2026-07-12T10:36:56.000Z",
+     "edit_history_tweet_ids": [
+      "2076254473253781524"
+     ],
+     "id": "2076254473253781524",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 1541,
+      "like_count": 63,
+      "quote_count": 0,
+      "reply_count": 16,
+      "retweet_count": 38
+     },
+     "text": "25 AI tools you can’t Ignore in 2026:\n\n1. https://t.co/OfcOc2svNI – solves anything\n2. https://t.co/1bOEiZjIz5 – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/5iOxO7KW3f - create viral AI videos that you can monetize\n4. https://t.co/klSp1cQGgh - AI powered https://t.co/Z4irqkVmrF",
+     "author_username": "rosemoni18",
+     "author_followers": 9026
+    },
+    {
+     "author_id": "1959303681351794688",
+     "created_at": "2026-07-07T19:44:44.000Z",
+     "edit_history_tweet_ids": [
+      "2074580394926907834"
+     ],
+     "id": "2074580394926907834",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 46,
+      "impression_count": 2764,
+      "like_count": 88,
+      "quote_count": 0,
+      "reply_count": 43,
+      "retweet_count": 50
+     },
+     "text": "25 AI TOOLS YOU CAN’T IGNORE IN 2026:\n\n1. https://t.co/M8xttIHLR2 – solves anything\n2. https://t.co/lGyxdfSNZ4 – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/wAcNKuAWI5 - create viral AI videos that you can monetize\n4. https://t.co/obiAE2WuPf - AI powered https://t.co/2bTerkEwKd",
+     "author_username": "monicaa_AI",
+     "author_followers": 6477
+    },
+    {
+     "author_id": "2006702826601447424",
+     "created_at": "2026-07-11T04:11:44.000Z",
+     "edit_history_tweet_ids": [
+      "2075795147942658146"
+     ],
+     "id": "2075795147942658146",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 1369,
+      "like_count": 73,
+      "quote_count": 0,
+      "reply_count": 29,
+      "retweet_count": 47
+     },
+     "text": "25 AI tools you can’t ignore in 2026:\n\n1. https://t.co/iSvU6FDzso – solves anything\n2. https://t.co/x5jdOwUwHe – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/jTNuCDXH1e - create viral AI videos that you can monetize\n4. https://t.co/io0FL234ZD - AI powered https://t.co/EroNTM8O2n",
+     "author_username": "ElizabethA77617",
+     "author_followers": 6439
+    },
+    {
+     "author_id": "1996597035185885184",
+     "created_at": "2026-07-11T07:22:20.000Z",
+     "edit_history_tweet_ids": [
+      "2075843116754739219"
+     ],
+     "id": "2075843116754739219",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 142,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "25 AI tools you can’t ignore in 2026:\n\n1. https://t.co/ad1u64i0XO – solves anything\n2. https://t.co/hITMbxxiiB – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/EpwOSmpqBR - create viral AI videos that you can monetize\n4. https://t.co/inqKwwHL6Q - AI powered https://t.co/wo0LXdozMK",
+     "author_username": "Daniyal_Nasim_7",
+     "author_followers": 2109
+    },
+    {
+     "author_id": "2006767830692438016",
+     "created_at": "2026-07-08T15:45:27.000Z",
+     "edit_history_tweet_ids": [
+      "2074882563903283409"
+     ],
+     "id": "2074882563903283409",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 2564,
+      "like_count": 39,
+      "quote_count": 0,
+      "reply_count": 8,
+      "retweet_count": 16
+     },
+     "text": "25 AI TOOLS YOU CAN’T IGNORE IN 2026:\n\n1. https://t.co/LqMKUQI3xA – solves anything\n2. https://t.co/QOiV6sRTcf – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/RpPyH1YfMX - create viral AI videos that you can monetize\n4. https://t.co/WeW1WSojHr - AI powered https://t.co/fTBwmrEB1J",
+     "author_username": "mahim_aibrief",
+     "author_followers": 341
+    },
+    {
+     "author_id": "3277617193",
+     "created_at": "2026-07-08T11:44:16.000Z",
+     "edit_history_tweet_ids": [
+      "2074821866871787633"
+     ],
+     "id": "2074821866871787633",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 14,
+      "impression_count": 1323,
+      "like_count": 17,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 3
+     },
+     "text": "25 AI TOOLS YOU CAN’T IGNORE IN 2026:\n\n1. https://t.co/VN9KHJ5Tzg – solves anything\n2. https://t.co/nYmtzD535x – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/kAHg6uXFsA - create viral AI videos that you can monetize\n4. https://t.co/vWgBIFPH8L - AI powered https://t.co/dZol5VaeW9",
+     "author_username": "ottleyai",
+     "author_followers": 49498
+    },
+    {
+     "author_id": "1958306985742331905",
+     "created_at": "2026-07-09T17:16:21.000Z",
+     "edit_history_tweet_ids": [
+      "2075267827758493931"
+     ],
+     "id": "2075267827758493931",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 158,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 3
+     },
+     "text": "25 AI TOOLS YOU CAN’T IGNORE IN 2026:\n\n1. https://t.co/QMViyHurF9 – solves anything\n2. https://t.co/QIHzbpzN8D – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/gzdAeFNpsk - create viral AI videos that you can monetize\n4. https://t.co/Tet6bB4aa6 - AI powered https://t.co/l8lxVA99vZ",
+     "author_username": "RichNigga001",
+     "author_followers": 2730
+    },
+    {
+     "author_id": "1849781181040164865",
+     "created_at": "2026-07-10T06:19:05.000Z",
+     "edit_history_tweet_ids": [
+      "2075464809790021953"
+     ],
+     "id": "2075464809790021953",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 33,
+      "impression_count": 2696,
+      "like_count": 74,
+      "quote_count": 0,
+      "reply_count": 36,
+      "retweet_count": 32
+     },
+     "text": "25 AI tools you can’t Ignore in 2026:\n\n1. https://t.co/f453O9qCkR – solves anything\n2. https://t.co/pn79TJkNET – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/2WYNFs8YB1 - create viral AI videos that you can monetize\n4. https://t.co/9thcIbXwdM - AI powered https://t.co/eA1qUmRvha",
+     "author_username": "Ayzacoder",
+     "author_followers": 13127
+    },
+    {
+     "author_id": "1819218311013396480",
+     "created_at": "2026-07-10T07:33:12.000Z",
+     "edit_history_tweet_ids": [
+      "2075483459976417435"
+     ],
+     "id": "2075483459976417435",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 504,
+      "like_count": 31,
+      "quote_count": 0,
+      "reply_count": 18,
+      "retweet_count": 11
+     },
+     "text": "25 AI tools you can’t Ignore in 2026:\n\n1. https://t.co/7I6nMWfxLW – solves anything\n2. https://t.co/oq3nyL9uFX – rank higher on Google, ChatGPT, Claude, Etc!\n3. https://t.co/pg4roTFTmG - create viral AI videos that you can monetize\n4. https://t.co/8zFjszJMX8 - AI powered https://t.co/L47AI2mMTw",
+     "author_username": "Abdullah__Ai7",
+     "author_followers": 9412
+    },
+    {
+     "author_id": "1482468203024588803",
+     "created_at": "2026-07-12T14:03:30.000Z",
+     "edit_history_tweet_ids": [
+      "2076306371889270988",
+      "2076306458711412894"
+     ],
+     "id": "2076306458711412894",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 1355,
+      "like_count": 37,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "He Shows How to Become a YouTuber Without a Camera Without Editing and Without Creating Content From Scratch Using YouTube Automation\n\nA few years ago reaching 1000 subscribers and 4000 watch hours felt almost impossible for most creators\n\nBut today things have completely changed https://t.co/Bd9b0MjD1o https://t.co/rFoJsFoCh9",
+     "author_username": "Durektor97",
+     "author_followers": 89
+    },
+    {
+     "author_id": "91079890",
+     "created_at": "2026-07-10T15:17:03.000Z",
+     "edit_history_tweet_ids": [
+      "2075600193551319333"
+     ],
+     "id": "2075600193551319333",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 35,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Big news — I was recently featured on The Asad Talk podcast for a deep conversation about AI! 🤖🔥\n\nWe covered EVERYTHING:\n\n💸 The ₹35L/month AI strategy 🤖 Best AI tools (ChatGPT, Claude, Gemini) 💰 How to make money with AI 🚀 AI for business &amp; freelancing ⚡ Productivity",
+     "author_username": "JitendraBlogger",
+     "author_followers": 4925
+    },
+    {
+     "author_id": "2311987360",
+     "created_at": "2026-07-11T15:18:01.000Z",
+     "edit_history_tweet_ids": [
+      "2075962823843463388"
+     ],
+     "id": "2075962823843463388",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 175,
+      "impression_count": 133357,
+      "like_count": 327,
+      "quote_count": 10,
+      "reply_count": 64,
+      "retweet_count": 11
+     },
+     "text": "I just added an MCP for @trust_mrr 🤖🔗🤖\n\nIt's a wrapper around the public API to fetch startups listed with their revenue, MRR, marketing channels, etc.\n\nThe final step is to build a ChatGPT App around the MCP.\n\nI want TrustMRR to be an AI agent first marketplace, and I thought https://t.co/vUfXaT8omu",
+     "author_username": "marclou",
+     "author_followers": 361972
+    },
+    {
+     "author_id": "1268256980034084869",
+     "created_at": "2026-07-07T14:17:58.000Z",
+     "edit_history_tweet_ids": [
+      "2074498161083814203"
+     ],
+     "id": "2074498161083814203",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 𝗔𝗜 𝗦𝗞𝗜𝗟𝗟𝗦 𝗧𝗛𝗔𝗧 𝗖𝗢𝗨𝗟𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨 𝗠𝗢𝗡𝗘𝗬 𝗜𝗡 2026 — NOW FREE 🚨\n\nThousands are learning high-income AI skills online…\n\nBut most paid courses cost hundreds of dollars 💸\n\nSo I collected the best AI resources and made them FREE for a limited time 🔥 https://t.co/3uIkly7DCE",
+     "author_username": "ItxAuggie",
+     "author_followers": 15
+    },
+    {
+     "author_id": "1165176922214584325",
+     "created_at": "2026-07-07T02:56:45.000Z",
+     "edit_history_tweet_ids": [
+      "2074326726730301508"
+     ],
+     "id": "2074326726730301508",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 21,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 𝗔𝗜 𝗦𝗞𝗜𝗟𝗟𝗦 𝗧𝗛𝗔𝗧 𝗖𝗢𝗨𝗟𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨 𝗠𝗢𝗡𝗘𝗬 𝗜𝗡 2026 — NOW FREE 🚨\n\nThousands are learning high-income AI skills online…\n\nBut most paid courses cost hundreds of dollars 💸\n\nSo I collected the best AI resources and made them FREE for a limited time 🔥 https://t.co/bBPzZbphVN",
+     "author_username": "rakibhossen2251",
+     "author_followers": 168
+    },
+    {
+     "author_id": "1396429065284833280",
+     "created_at": "2026-07-07T11:18:10.000Z",
+     "edit_history_tweet_ids": [
+      "2074452911556645367"
+     ],
+     "id": "2074452911556645367",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 97,
+      "impression_count": 19282,
+      "like_count": 350,
+      "quote_count": 2,
+      "reply_count": 226,
+      "retweet_count": 173
+     },
+     "text": "🚨 𝗔𝗜 𝗦𝗞𝗜𝗟𝗟𝗦 𝗧𝗛𝗔𝗧 𝗖𝗢𝗨𝗟𝗗 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨 𝗠𝗢𝗡𝗘𝗬 𝗜𝗡 2026 — NOW FREE 🚨\n\nThousands are learning high-income AI skills online…\n\nBut most paid courses cost hundreds of dollars 💸\n\nSo I collected the best AI resources and made them FREE for a limited time 🔥 https://t.co/yaFRu4JnY9",
+     "author_username": "itspriionly",
+     "author_followers": 35681
+    },
+    {
+     "author_id": "1562923373897793536",
+     "created_at": "2026-07-12T16:54:06.000Z",
+     "edit_history_tweet_ids": [
+      "2076349392324370618"
+     ],
+     "id": "2076349392324370618",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 820,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "The internet is slowly becoming a machine talking to itself\n\n57% of all web traffic is bots. Not search crawlers. Not scrapers. Agentic AI, autonomous systems making decisions, visiting thousands of sites per task, with zero human involvement in the loop\n\nEvery time you ask https://t.co/7D2hzf2qTX",
+     "author_username": "cyber_rekk",
+     "author_followers": 19012
+    },
+    {
+     "author_id": "2311987360",
+     "created_at": "2026-07-12T09:21:43.000Z",
+     "edit_history_tweet_ids": [
+      "2076235547643969870"
+     ],
+     "id": "2076235547643969870",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 460,
+      "impression_count": 56239,
+      "like_count": 466,
+      "quote_count": 6,
+      "reply_count": 103,
+      "retweet_count": 10
+     },
+     "text": "My friend @AlexandruGlv is building a micro SaaS while working a 9/5, but the growth is very slow, so he asked for my opinion.\n\n(for context, his product is a database to find YouTube\ninfluencers to sponsor)\n\nI went to ChatGPT and asked: \"How to find youtubers to sponsor?\"\n\nIt https://t.co/p9jY93kW4B",
+     "author_username": "marclou",
+     "author_followers": 361972
+    },
+    {
+     "author_id": "2071266009063841792",
+     "created_at": "2026-07-07T21:39:40.000Z",
+     "edit_history_tweet_ids": [
+      "2074609316930216309"
+     ],
+     "id": "2074609316930216309",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 50,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "I've noticed there are a lot of different ways to make money with AI.\n\nFor example, you can pay for subscriptions to ChatGPT, Claude, Grok, and other AI tools. If you're willing to put in the work, you can even build your own AI systems and rent them out to businesses or https://t.co/LcE0LgJsEv https://t.co/R5DwrY1HAO",
+     "author_username": "Copybaraxxx",
+     "author_followers": 20
+    },
+    {
+     "author_id": "2074832104068726784",
+     "created_at": "2026-07-09T14:21:19.000Z",
+     "edit_history_tweet_ids": [
+      "2075223778968178996"
+     ],
+     "id": "2075223778968178996",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 152,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "A 12-year-old girl just built an AI assistant for her father’s business… 🤯\n\nShe used tools like ChatGPT and Claude to help write the code and created an AI receptionist that can answer calls, manage appointments, and help businesses save time.\n\nNow the system is already",
+     "author_username": "LAR7Crypto",
+     "author_followers": 221
+    },
+    {
+     "author_id": "1592224580319547392",
+     "created_at": "2026-07-12T07:00:57.000Z",
+     "edit_history_tweet_ids": [
+      "2076200123307082009"
+     ],
+     "id": "2076200123307082009",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 22,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "The average person doesn’t need to build the next ChatGPT to make money with AI.\n\nFind work people are already paying for.\n\nThen do it faster with AI.\n\nDon’t sell AI.\n\nSell the finished result.",
+     "author_username": "EZHIIBLYA",
+     "author_followers": 345
+    },
+    {
+     "author_id": "1583398220",
+     "created_at": "2026-07-10T05:01:02.000Z",
+     "edit_history_tweet_ids": [
+      "2075445165670756595"
+     ],
+     "id": "2075445165670756595",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 1344,
+      "like_count": 29,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 5
+     },
+     "text": "I'm shocked most people still think AI is only for saving time.\n\nHere's how people are building $1M+ businesses with AI.\n\n---\n\n1. AI users save time by using AI for everyday tasks and workflows.\n\n---\n\n2. AI-assisted freelancers use AI to deliver writing, design, and editing work https://t.co/vXwOl7JKuh",
+     "author_username": "shushant_l",
+     "author_followers": 64692
+    },
+    {
+     "author_id": "1835997072056516608",
+     "created_at": "2026-07-13T19:30:00.000Z",
+     "edit_history_tweet_ids": [
+      "2076751013680197762"
+     ],
+     "id": "2076751013680197762",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 49,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "text": "$4,580/month with an AI influencer. The strategy is surprisingly simple.\n\nI analyzed dozens of AI creator businesses. One strategy keeps showing up.\n\nA creator built an AI influencer using Claude and spent less than 2 hours a day creating content.\n\nStack:\n\n• Claude — $20/month https://t.co/cUysny20wq https://t.co/xPkLICVCgk",
+     "author_username": "novak7747",
+     "author_followers": 176
+    },
+    {
+     "author_id": "1792507048430645249",
+     "created_at": "2026-07-09T18:11:10.000Z",
+     "edit_history_tweet_ids": [
+      "2075281623285637270"
+     ],
+     "id": "2075281623285637270",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 3755,
+      "like_count": 60,
+      "quote_count": 0,
+      "reply_count": 7,
+      "retweet_count": 4
+     },
+     "text": "IF SHE LOST EVERYTHING TODAY EXCEPT CLAUDE, THIS IS EXACTLY HOW SHE'D MAKE HER FIRST $10K\n\nNot by selling prompts.\n\nNot by building another AI wrapper.\n\nAnd definitely not by waiting for the \"perfect SaaS idea.\"\n\nHere's what she'd do:\n\n&lt; Find one painful, expensive problem\n&lt; https://t.co/v01vsQ2Qa4 https://t.co/TRax3odjak",
+     "author_username": "shiqway92",
+     "author_followers": 341
+    },
+    {
+     "author_id": "1696490265480151040",
+     "created_at": "2026-07-08T01:39:55.000Z",
+     "edit_history_tweet_ids": [
+      "2074669780909576287"
+     ],
+     "id": "2074669780909576287",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 15,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "【Selling Well!】\n「The ChatGPT Millionaire: Making Money Online has never been this EASY (How to make money with AI)」\nAuthor：Dagger, Neil\nPublisher：Independently published\nPublication date：January 19, 2023\nhttps://t.co/k0vTyFcVaP",
+     "author_username": "BusinessMoneey",
+     "author_followers": 241
+    }
+   ]
+  },
+  {
+   "label": "ai_japan_ja",
+   "query": "(AIエージェント OR \"Claude Code\" OR 生成AI) (活用 OR 使い方 OR 収益化 OR マネタイズ OR 自動化) -is:retweet -is:reply lang:ja",
+   "http": 200,
+   "tweets": [
+    {
+     "author_id": "83286809",
+     "created_at": "2026-07-12T00:31:00.000Z",
+     "edit_history_tweet_ids": [
+      "2076101987586691079"
+     ],
+     "id": "2076101987586691079",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "[広告]\nClaudeCoworkの教科書: AIエージェントの使い方と活用術 資料作成・データ分析・業務自動化を日本語で指示するだけ (生成AI活用シリーズ)\n2026年7月12日\nhttps://t.co/GaQS4Mqalh",
+     "author_username": "affily220202",
+     "author_followers": 1472
+    },
+    {
+     "author_id": "1606218941839265792",
+     "created_at": "2026-07-09T13:12:20.000Z",
+     "edit_history_tweet_ids": [
+      "2075206417833972142"
+     ],
+     "id": "2075206417833972142",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "【売れてます！】\n「ClaudeCoworkの教科書: AIエージェントの使い方と活用術　資料作成・データ分析・業務自動化を日本語で指示するだけ 生成AI活用シリーズ」\n著者：AIアイデア工房(著)、黒川 葵 (著)\n発売日：2026年03月26日\nhttps://t.co/9GvTFf2G3Y",
+     "author_username": "computer_rev5",
+     "author_followers": 420
+    },
+    {
+     "author_id": "2013479868768624642",
+     "created_at": "2026-07-07T13:03:17.000Z",
+     "edit_history_tweet_ids": [
+      "2074479367288393933"
+     ],
+     "id": "2074479367288393933",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3920,
+      "like_count": 51,
+      "quote_count": 1,
+      "reply_count": 9,
+      "retweet_count": 4
+     },
+     "text": "1日で50名ほどの方にフォローして頂いた！！\n\nありがとうございます！！😆\n\n・Claude Codeの使用時間2,000時間越え\n\n・噂が回りすぎて、営業しなくても上場企業の方から声をかけてくる\n\n・複数プラットフォーム×複数アカウント自動化 &amp; マネタイズ\n\n・AIエージェントでのクライアントワーク時給20万円 https://t.co/blR0HQEWSp",
+     "author_username": "nabetaro_agent",
+     "author_followers": 382
+    },
+    {
+     "author_id": "193828970",
+     "created_at": "2026-07-12T06:04:53.000Z",
+     "edit_history_tweet_ids": [
+      "2076186011168878968"
+     ],
+     "id": "2076186011168878968",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 163,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "前回満席で大好評だったAIセミナーを、バージョンアップして開催します\n\n Claude Code × AIエージェント実践活用\n・業務効率化\n・営業、集客の強化\n・AIエージェント活用\n・Claude Code実践\n・Fable5最新事例\n\nを分かりやすく解説\n\n人生が変わったと感想を頂く方も多い！\n\n詳細はこちら https://t.co/WxVHyMtevS",
+     "author_username": "NORIAKI_INAMI",
+     "author_followers": 1268
+    },
+    {
+     "author_id": "2007540689287221248",
+     "created_at": "2026-07-13T06:41:15.000Z",
+     "edit_history_tweet_ids": [
+      "2076557552633209157"
+     ],
+     "id": "2076557552633209157",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 66,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "text": "公式サイトを公開しました。\n\nAI活用・業務自動化・AI研修・AIエージェント開発、自動コラムなど、現在の活動をまとめています。\nご相談・ご依頼はお気軽にどうぞ。\n\n#生成AI #AI活用 #業務自動化 #AIエージェント #DX #AI研修 #ChatGPT #Claude #Gemini https://t.co/C2U7213cGW",
+     "author_username": "mikuta_AI_pro",
+     "author_followers": 32
+    },
+    {
+     "author_id": "2032383224442445824",
+     "created_at": "2026-07-08T13:31:11.000Z",
+     "edit_history_tweet_ids": [
+      "2074848776829968646"
+     ],
+     "id": "2074848776829968646",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "『Claude CodeのPM業務活用法』について解説しました。\n\nClaude Codeを活用したPM業務の自動化手法や、ChatGPTとの違いについて紹介しています。\n#note #生成AI活用研究部\nhttps://t.co/7Pui9pJwjH",
+     "author_username": "notecomgenaird",
+     "author_followers": 9
+    },
+    {
+     "author_id": "1552673128413032448",
+     "created_at": "2026-07-10T16:10:55.000Z",
+     "edit_history_tweet_ids": [
+      "2075613750854549545"
+     ],
+     "id": "2075613750854549545",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1284,
+      "like_count": 4,
+      "quote_count": 1,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "text": "AWS DMS スキーマ変換がAIエージェントの自動化をサポートするようになった\n\nAWSデータベース移行サービス（DMS）のスキーマ変換機能が、AWS MCPサーバーを通じてAIエージェントの自動化をサポートするようになりました。Kiro、Claude",
+     "author_username": "awswhatsnew_jp",
+     "author_followers": 3487
+    },
+    {
+     "author_id": "2006009089751670785",
+     "created_at": "2026-07-07T20:34:16.000Z",
+     "edit_history_tweet_ids": [
+      "2074592860176056646"
+     ],
+     "id": "2074592860176056646",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 35,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Claude Codeの最新アップデートで、AIエージェントの稼働規模を調整できる新設定が導入されました。開発規模に応じた柔軟な自動化が可能になり、実行履歴の追跡も強化。開発効率と安定性がさらに向上しました。\n\nhttps://t.co/KXRpwUllTS\n#ClaudeCode #生成AI #AIニュース https://t.co/4XpxFaBQD2",
+     "author_username": "WAI1510608",
+     "author_followers": 10
+    },
+    {
+     "author_id": "880360862208344064",
+     "created_at": "2026-07-08T02:53:37.000Z",
+     "edit_history_tweet_ids": [
+      "2074688327614390713",
+      "2074690295246291232"
+     ],
+     "id": "2074688327614390713",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 592,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "✨AIで発信も収益化も自動化したい方へ✨\n\n知識を学び続ける時代から、AIエージェントと一緒に成果をつくる時代へ。\n\nAIが最新トレンドをリサーチし、売れるコンテンツを生成。\nさらに、最適なタイミングで投稿まで自動化。\n\nまるで、あなた専属の優秀なマーケターが https://t.co/kz0VufluPe",
+     "author_username": "crystalray7777",
+     "author_followers": 29997
+    },
+    {
+     "author_id": "880360862208344064",
+     "created_at": "2026-07-08T03:01:26.000Z",
+     "edit_history_tweet_ids": [
+      "2074688327614390713",
+      "2074690295246291232"
+     ],
+     "id": "2074690295246291232",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 5691,
+      "like_count": 14,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 3
+     },
+     "text": "✨AIで発信も収益化も自動化したい方へ✨\n\n知識を学び続ける時代から、AIエージェントと一緒に成果をつくる時代へ。\n\nAIが最新トレンドをリサーチし、売れるコンテンツを生成。\nさらに、最適なタイミングで投稿まで自動化。\n\nまるで、あなた専属の優秀なマーケターが https://t.co/igL6ulOpF7",
+     "author_username": "crystalray7777",
+     "author_followers": 29997
+    },
+    {
+     "author_id": "2074074671415451648",
+     "created_at": "2026-07-07T06:17:50.000Z",
+     "edit_history_tweet_ids": [
+      "2074377329431003323"
+     ],
+     "id": "2074377329431003323",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 9,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "【保存版】Claude Code完全セットアップマニュアル｜迷わず10分で\"使える状態\"にする手順｜ことみ / Kotomi https://t.co/2TcgX7OeZB\n#ClaudeCode #AI副業 #プログラミング初心者 #ノーコード開発 #生成AI活用 #副業初心者 #AIエージェント",
+     "author_username": "_minase_yuka",
+     "author_followers": 5
+    },
+    {
+     "author_id": "697254148861882368",
+     "created_at": "2026-07-09T22:32:32.000Z",
+     "edit_history_tweet_ids": [
+      "2075347398268977164"
+     ],
+     "id": "2075347398268977164",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 42,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "📢 本日の日経AIトピック\n\n① 自治体業務に自律型AI「自治体AX」\n→ 申請受付〜手続き完了まで自動化するAIエージェント活用を検討\n\n② 119番通報にAIが自動応答\n→ 消防・救急の人手不足に対応し、AIが状況分析→指令員に対応提案\n\n💡 自治体でもAIエージェント活用の時代！\n\n#生成AI #AI活用 #DX",
+     "author_username": "koji_0331",
+     "author_followers": 19
+    },
+    {
+     "author_id": "697254148861882368",
+     "created_at": "2026-07-13T21:43:10.000Z",
+     "edit_history_tweet_ids": [
+      "2076784525066342603"
+     ],
+     "id": "2076784525066342603",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "📢本日の日経AIトピック\n\n①選挙のAI利用明示を義務化、改正2法成立\n\n②監査法人がAIエージェント独自開発、定型業務を自動化\n\n💡AI活用の透明性が信頼の条件に\n\n#生成AI #AI活用 #DX",
+     "author_username": "koji_0331",
+     "author_followers": 19
+    },
+    {
+     "author_id": "1578203011197079552",
+     "created_at": "2026-07-12T12:54:11.000Z",
+     "edit_history_tweet_ids": [
+      "2076289016794677617"
+     ],
+     "id": "2076289016794677617",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 44,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "NSW、ソフトマックス、ソリューション・アンド・テクノロジー、BLUEISHが、OCIとOracle AI Databaseを活用し、次世代のAI搭載SaaSを構築。AIエージェント、業務特化型AI、生成AIをサービスに実装し、ワークフロー自動化や業務効率化、企業データ活用を支援します。https://t.co/el84dX1eVL",
+     "author_username": "saasdao",
+     "author_followers": 3251
+    },
+    {
+     "author_id": "1863159318608216064",
+     "created_at": "2026-07-12T09:01:00.000Z",
+     "edit_history_tweet_ids": [
+      "2076230332219830782"
+     ],
+     "id": "2076230332219830782",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 873,
+      "like_count": 28,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 3
+     },
+     "text": "AIエージェント仕事術｜生成AIの活用の次の一歩。自ら毎回プロンプトを書くスタイルの活用はされている方も多いと思います。作業を自動化できる「エージェント」の活用もしてみませんか？私もこの本を手元に置いて、エージェントを作ります※ツナグ図書館を通じてご恵贈いただきました↓抜粋 https://t.co/z788QShUI6",
+     "author_username": "tetsu_books",
+     "author_followers": 4667
+    },
+    {
+     "author_id": "2835740353",
+     "created_at": "2026-07-13T22:00:54.000Z",
+     "edit_history_tweet_ids": [
+      "2076788989533503926"
+     ],
+     "id": "2076788989533503926",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 66,
+      "like_count": 1,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "NSW、ソフトマックス、ソリューション・アンド・テクノロジー、BLUEISHが、OCIとOracle AI Databaseを活用し、次世代のAI搭載SaaSを構築。AIエージェント、業務特化型AI、生成AIをサービスに実装し、ワークフロー自動化や業務効率化、企業データ活用を支援します。https://t.co/VYxjfC9Zji",
+     "author_username": "Nobu_Tanigawa",
+     "author_followers": 222
+    },
+    {
+     "author_id": "83286809",
+     "created_at": "2026-07-11T03:39:45.000Z",
+     "edit_history_tweet_ids": [
+      "2075787098641121385"
+     ],
+     "id": "2075787098641121385",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 60,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "[広告]\nClaude Codeの実践ドリル: 初心者でも簡単！AI副業・アプリ開発・画像生成・動画作成・自動化まで、プログラミング知識ゼロで全部やってみた (生成AI活用シリーズ)\n2026年7月11日\nhttps://t.co/5Du0Yp3QWP",
+     "author_username": "affily220202",
+     "author_followers": 1472
+    },
+    {
+     "author_id": "1829891399980105730",
+     "created_at": "2026-07-07T22:00:46.000Z",
+     "edit_history_tweet_ids": [
+      "2074614628202553554"
+     ],
+     "id": "2074614628202553554",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 53,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "新しいAIエージェントを活用し、業務自動化を実現！Gemini APIの新機能を使って、リモート業務の効率化やバックグラウンドタスクの代行を提供しよう。詳細はこちら：https://t.co/uQgrnzT5pJ AI活用と副業アイデアを毎朝チェックしたい方はフォロー #AI副業 #生成AI https://t.co/HgLh6pzQcb",
+     "author_username": "yasu_ai_journey",
+     "author_followers": 70
+    },
+    {
+     "author_id": "56612817",
+     "created_at": "2026-07-08T02:30:00.000Z",
+     "edit_history_tweet_ids": [
+      "2074682384088256794"
+     ],
+     "id": "2074682384088256794",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 392,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "NSW、ソフトマックス、ソリューション・アンド・テクノロジー、BLUEISHが、OCIとOracle AI Databaseを活用し、次世代のAI搭載SaaSを構築。AIエージェント、業務特化型AI、生成AIをサービスに実装し、ワークフロー自動化や業務効率化、企業データ活用を支援します。https://t.co/2JPo1tfeT8",
+     "author_username": "Oracle_Japan",
+     "author_followers": 15266
+    },
+    {
+     "author_id": "2013479868768624642",
+     "created_at": "2026-07-08T11:00:02.000Z",
+     "edit_history_tweet_ids": [
+      "2074810736032055320"
+     ],
+     "id": "2074810736032055320",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3912,
+      "like_count": 59,
+      "quote_count": 2,
+      "reply_count": 3,
+      "retweet_count": 3
+     },
+     "text": "2日で100名の方にフォローして頂きました！\n\n18時でこれなので、まだ20人くらい増えそう😳\n\nClaude Codeの使用時間2,000時間越えの自動化ノウハウ、かなり需要ありそうですね！\n\n・複数プラットフォーム×複数アカウント自動化 &amp; マネタイズ\n\n・AIエージェントでのクライアントワーク時給20万円 https://t.co/5M6kYTIPVU https://t.co/FAPhNp0QF8",
+     "author_username": "nabetaro_agent",
+     "author_followers": 382
+    },
+    {
+     "author_id": "1967525961555193856",
+     "created_at": "2026-07-09T10:13:36.000Z",
+     "edit_history_tweet_ids": [
+      "2075161437564190749"
+     ],
+     "id": "2075161437564190749",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 292,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "「Claude codeで月収100万目指してます」ってサラリーマンと昨日カフェでお会いしてきた。\n\n結論、Claude codeとかClaude Fable 5とかで初心者がマネタイズするのは90%不可能。",
+     "author_username": "gamesedori_ps5",
+     "author_followers": 463
+    },
+    {
+     "author_id": "2072269841583800320",
+     "created_at": "2026-07-07T11:04:49.000Z",
+     "edit_history_tweet_ids": [
+      "2074449552871153975"
+     ],
+     "id": "2074449552871153975",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 53,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "投稿しました。\nClaude Codeを使ったとんでもない実績が生れました。\n\n#claude #AIエージェント\n生成AIで行政システムを刷新、Claude活用が示す自治体DXの現実解(2026/07/07)｜ねいうす @naiews_note https://t.co/P6atI19LDC",
+     "author_username": "naiews_note",
+     "author_followers": 45
+    },
+    {
+     "author_id": "1818700202372653056",
+     "created_at": "2026-07-09T17:38:13.000Z",
+     "edit_history_tweet_ids": [
+      "2075273331251859724"
+     ],
+     "id": "2075273331251859724",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "AIエージェント Manus（マナス）で仕事自動化！ゼロからはじめるAI活用 超入門: マンガと図解付きで初心者でもわかる時短・効率化のはじめ方【ChatGPT/生成AI/業務効率化/リスキリング/副業】 超入門シリーズ #PR\nhttps://t.co/8Qcnt9o5de",
+     "author_username": "nn_chn_n",
+     "author_followers": 11
+    },
+    {
+     "author_id": "2042963315647811584",
+     "created_at": "2026-07-12T06:55:01.000Z",
+     "edit_history_tweet_ids": [
+      "2076198629677932839"
+     ],
+     "id": "2076198629677932839",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 60,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Metaが新AIコーディングエージェント『Muse Spark 1.1』を発表。OpenAI・Anthropicに対抗し価格は業界最安値級。SIer目線だと、バグ修正やコード移行の自動化がここまで来たかと実感。価格競争が中小企業のAI活用を後押し。#AIエージェント #生成AI",
+     "author_username": "S57_sier_oji",
+     "author_followers": 35
+    },
+    {
+     "author_id": "1940331094332829696",
+     "created_at": "2026-07-10T11:28:22.000Z",
+     "edit_history_tweet_ids": [
+      "2075542644986650649"
+     ],
+     "id": "2075542644986650649",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 65,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 ChatGPT Workが出てきて、AIの使い方が変わりそう。\nこれからは、どのAIが賢いかより\nどの作業でMP（AI利用枠）を使うか\nが重要になる気がしています。\n\n簡単な文章を作るだけなら、 GPT-5.5で十分かもしれない。\n\nWork\nCodex\nClaude Code\nまで使い始めると、 https://t.co/X1HKCMk9Bu",
+     "author_username": "mick_174_369",
+     "author_followers": 2360
+    }
+   ]
+  },
+  {
+   "label": "tools_updates_en",
+   "query": "(MCP OR \"Claude Code\" OR OpenAI OR Anthropic OR Gemini) (launched OR released OR announcing OR \"new feature\" OR update) -is:retweet -is:reply lang:en",
+   "http": 200,
+   "tweets": [
+    {
+     "author_id": "1816122827537313792",
+     "created_at": "2026-07-12T16:36:51.000Z",
+     "edit_history_tweet_ids": [
+      "2076345049781002513"
+     ],
+     "id": "2076345049781002513",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 65,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "AI just had one of its biggest weeks in months.\n\nOpenAI released GPT-5.6 and GPT-Live, Meta launched Muse Spark 1.1 with a 1M-token context window, and Google upgraded its Gemini agents with background execution and remote MCP support.\n\nSo, do you think anthropic still got it?",
+     "author_username": "BuilderGuest",
+     "author_followers": 24
+    },
+    {
+     "author_id": "1977401898584952832",
+     "created_at": "2026-07-13T10:15:54.000Z",
+     "edit_history_tweet_ids": [
+      "2076611568213663818"
+     ],
+     "id": "2076611568213663818",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 52,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Anthropic just extended free access to Claude Fable 5 on all paid plans through July 19, 2026. The update also keeps Claude Code weekly rate limits 50 percent higher. This second extension comes after OpenAI launched GPT-5.6 Sol, signaling a massive battle for developer loyalty. https://t.co/tZFrEabH11",
+     "author_username": "Learnifi_ai",
+     "author_followers": 8
+    },
+    {
+     "author_id": "1698152542868213760",
+     "created_at": "2026-07-07T10:02:38.000Z",
+     "edit_history_tweet_ids": [
+      "2074433904740889046"
+     ],
+     "id": "2074433904740889046",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 777,
+      "like_count": 4,
+      "quote_count": 1,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "The single most underrated development in AI this year is not a model. It is a protocol.\n\nMCP, Model Context Protocol, was released by Anthropic in late 2024. It got almost no press. No keynote. No product launch event. Just a GitHub repository and a specification document.\n\n18",
+     "author_username": "vbkotecha",
+     "author_followers": 415
+    },
+    {
+     "author_id": "1591492614968180736",
+     "created_at": "2026-07-13T22:23:32.000Z",
+     "edit_history_tweet_ids": [
+      "2076794685129916748"
+     ],
+     "id": "2076794685129916748",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Who is winning? Which one you are using? \n\nPerks given by frontier models developers: \n\n@OpenAI @ChatGPTapp @sama @thsottiaux \nOpenAI (ChatGPT Plus / Pro / Codex)\n•July 9: GPT-5.6 family (Sol flagship, Terra, Luna) launched widely. Paid tiers get higher effort modes +",
+     "author_username": "WiseSam_",
+     "author_followers": 8
+    },
+    {
+     "author_id": "1169465549614567425",
+     "created_at": "2026-07-11T04:05:11.000Z",
+     "edit_history_tweet_ids": [
+      "2075793499908178421"
+     ],
+     "id": "2075793499908178421",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 279,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "https://t.co/jGccZetNEv | 𝗧𝗵𝗶𝘀 𝘄𝗲𝗲𝗸 𝗶𝗻 𝗔𝗜 (7/4 - 7/10)\n\nA week after export controls dominated the conversation, attention shifted back to what the labs are shipping. OpenAI's newest flagship became widely available, several companies reworked their products and",
+     "author_username": "DreyXAI",
+     "author_followers": 37
+    },
+    {
+     "author_id": "2044237813416165376",
+     "created_at": "2026-07-09T11:35:55.000Z",
+     "edit_history_tweet_ids": [
+      "2075182154993340722"
+     ],
+     "id": "2075182154993340722",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Anthropic just launched official Claude certifications.  Claude Certified Associate — for consultants and  sellers. Non-technical.  Claude Certified Developer — for engineers building  with the API, Claude Code, and MCP.  A Professional Architect tier launches July 13.",
+     "author_username": "replacewithclde",
+     "author_followers": 2
+    },
+    {
+     "author_id": "2196354635",
+     "created_at": "2026-07-13T23:42:44.000Z",
+     "edit_history_tweet_ids": [
+      "2076814615187730723"
+     ],
+     "id": "2076814615187730723",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 393,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 2
+     },
+     "text": "Anthropic just released a 1-hour Claude Code workshop - from zero to power user, with live demos:\n\n• 00:00 - the agentic loop\n• 12:40 - right model - Sonnet, Opus, Fable\n• 30:25 - CLAUDE.md + plan mode\n• 37:25 - Fable autonomy running overnight\n• 44:45 - MCP - USB for tools https://t.co/IDnptN37Nr https://t.co/4eAXalb6NS",
+     "author_username": "vartekxx",
+     "author_followers": 173
+    },
+    {
+     "author_id": "338443084",
+     "created_at": "2026-07-12T19:18:32.000Z",
+     "edit_history_tweet_ids": [
+      "2076385739521364328"
+     ],
+     "id": "2076385739521364328",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 9160,
+      "like_count": 39,
+      "quote_count": 1,
+      "reply_count": 5,
+      "retweet_count": 5
+     },
+     "text": "A big week at OpenAI and Anthropic - GPT-5.6, ChatGPT Work, GPT-Live, and the J-space (Week 28, 2026)\n\nOpenAI launched the GPT-5.6 family for general availability, with Sol as the flagship, plus Terra and Luna, across ChatGPT, Codex, and the API\n\nWith it came ChatGPT Work, a new https://t.co/tUxtwodw7R https://t.co/LwwJHksn2T",
+     "author_username": "btibor91",
+     "author_followers": 39003
+    },
+    {
+     "author_id": "1768517280114016256",
+     "created_at": "2026-07-11T18:36:40.000Z",
+     "edit_history_tweet_ids": [
+      "2076012815425442190"
+     ],
+     "id": "2076012815425442190",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 147,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "AI Tool of the Day\n\nMuse Spark 1.1 + Meta Model API | Meta enters paid AI coding competition\n\nWhat it does: Meta's new AI coding model built for agentic tasks — multi-modal reasoning, tool use, coding, and complex bug fixing. It can manage multi-agent systems and handle 1 million",
+     "author_username": "Tolu_Atanda",
+     "author_followers": 1738
+    },
+    {
+     "author_id": "278612158",
+     "created_at": "2026-07-13T13:59:47.000Z",
+     "edit_history_tweet_ids": [
+      "2076667911150727637"
+     ],
+     "id": "2076667911150727637",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 662,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "text": "July has been absolutely ridiculous for frontier AI, and we’re only 13 days in.\n\nModels released so far:\n\n• Grok 4.5\n• GPT-5.6 Sol\n• GPT-5.6 Terra\n• GPT-5.6 Luna\n• Muse Spark 1.1\n• Fable 5 -rerelease. \n\nThat’s a bunch of  models from SpacexAI, OpenAI and Meta in less than",
+     "author_username": "Conor_D_Dart",
+     "author_followers": 1292
+    },
+    {
+     "author_id": "2021249463017226240",
+     "created_at": "2026-07-09T14:15:37.000Z",
+     "edit_history_tweet_ids": [
+      "2075222346873422067"
+     ],
+     "id": "2075222346873422067",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 430,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Meta just dropped Muse Spark 1.1 and its an agent beast.\n\nIt beats Opus 4.8, GPT 5.5 and Gemini 3.1 Pro on tool use benchmarks like MCP Atlas and Humanity's Last Exam, and its Metas first paid developer tier.\n\nAnd thats just today.\n\nThis week in AI:\nAnthropic extended Fable 5 to https://t.co/OW6vkj8vRx",
+     "author_username": "aipulseda1ly",
+     "author_followers": 263
+    },
+    {
+     "author_id": "1961631661202038784",
+     "created_at": "2026-07-13T19:20:04.000Z",
+     "edit_history_tweet_ids": [
+      "2076748512428228895"
+     ],
+     "id": "2076748512428228895",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 17,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Cursor is building a general agent called Sand. OpenAI reset Codex and ChatGPT Work usage limits the same day. Anthropic has Claude Code.\n\nAll three launched on coding as the distribution channel. They're all sprinting to the same destination.\n\nCoding was just the landing page.",
+     "author_username": "Eric_M_Stevens",
+     "author_followers": 224
+    },
+    {
+     "author_id": "2036254339145277442",
+     "created_at": "2026-07-10T01:15:08.000Z",
+     "edit_history_tweet_ids": [
+      "2075388319240974664"
+     ],
+     "id": "2075388319240974664",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 670,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 7
+     },
+     "text": "🚨 Every major AI lab just released a model on the same day — a first.\n\nOpenAI launched its new GPT-5.6 models today, and 𝗲𝗹𝗼𝗻 𝗺𝘂𝘀𝗸'𝘀 𝘅𝗔𝗜 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝗱 𝗚𝗿𝗼𝗸 𝟰.𝟱 𝗽𝘂𝗯𝗹𝗶𝗰𝗹𝘆 the same day. It's being called the most consequential single day in AI model https://t.co/BjkYrduApP",
+     "author_username": "US_storyline",
+     "author_followers": 807
+    },
+    {
+     "author_id": "2038099371556823041",
+     "created_at": "2026-07-13T06:49:11.000Z",
+     "edit_history_tweet_ids": [
+      "2076559549973336092"
+     ],
+     "id": "2076559549973336092",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 93,
+      "impression_count": 5775,
+      "like_count": 115,
+      "quote_count": 0,
+      "reply_count": 12,
+      "retweet_count": 33
+     },
+     "text": "Anthropic just launched the Claude Architect Certification!\n\nYou’ll have to complete 60 multiple-choice questions across five competency areas in a single session. No external resources or breaks.\n\nHere’s how I’m planning to prepare for it (steal my roadmap):\n\nWeek 1\nComplete the https://t.co/zc1p8MwXUw",
+     "author_username": "LearnWithBrij",
+     "author_followers": 3131
+    },
+    {
+     "author_id": "1305923222492401665",
+     "created_at": "2026-07-08T09:25:59.000Z",
+     "edit_history_tweet_ids": [
+      "2074787066886430931"
+     ],
+     "id": "2074787066886430931",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 141,
+      "like_count": 0,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "ANTHROPIC JUST OVERTOOK OPENAI ON REVENUE.\n\nLet that sink in.\n\n18 months ago Anthropic was “the safe but slower alternative.”\n\nNow they’re winning on the metric that actually matters.\n\nHow:\n\nClaude Code became the default coding agent for enterprise.\n\n65% of Anthropic’s own code",
+     "author_username": "__vandos__",
+     "author_followers": 1226
+    },
+    {
+     "author_id": "1899369907227402240",
+     "created_at": "2026-07-13T13:32:14.000Z",
+     "edit_history_tweet_ids": [
+      "2076660979967070705"
+     ],
+     "id": "2076660979967070705",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 70,
+      "like_count": 43,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 22
+     },
+     "text": "Anthropic just launched the Claude Architect Certification!\n\nYou’ll have to complete 60 multiple-choice questions across five competency areas in a single session. No external resources or breaks.\n\nHere’s how I’m planning to prepare for it (steal my roadmap):\n\nWeek 1\nComplete the https://t.co/gKbN67vBXE",
+     "author_username": "ai_with_jyoti",
+     "author_followers": 108
+    },
+    {
+     "author_id": "750437851171549184",
+     "created_at": "2026-07-09T16:53:16.000Z",
+     "edit_history_tweet_ids": [
+      "2075262020098650212"
+     ],
+     "id": "2075262020098650212",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 330,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "CHINA JUST DROPPED A FULL IDE FOR ONE MODEL.\n\nhttps://t.co/LuEoQ1vqEm launched ZCode — a free desktop “Agentic Development Environment” built entirely around GLM-5.2.\n\nNot a plugin. Not a VS Code fork. A native harness for a single model.\n\nWhat you get:\n\n→ Goal Mode: agent https://t.co/cE3WyQXS4N",
+     "author_username": "nikskld",
+     "author_followers": 84
+    },
+    {
+     "author_id": "2058695984264450048",
+     "created_at": "2026-07-12T00:22:34.000Z",
+     "edit_history_tweet_ids": [
+      "2076099865332097047"
+     ],
+     "id": "2076099865332097047",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Robinhood just named Anthropic, OpenAI, and Grok as the first AI agents you can connect to its new crypto trading feature. Call it the \"Permission Slip Architecture.\"\n\nHere's what's actually happening: Robinhood launched Agentic Trading back in May — a dedicated account, walled",
+     "author_username": "delimix_",
+     "author_followers": 320
+    },
+    {
+     "author_id": "2038099371556823041",
+     "created_at": "2026-07-08T05:54:30.000Z",
+     "edit_history_tweet_ids": [
+      "2074733846864752797"
+     ],
+     "id": "2074733846864752797",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 131,
+      "impression_count": 7785,
+      "like_count": 92,
+      "quote_count": 0,
+      "reply_count": 4,
+      "retweet_count": 23
+     },
+     "text": "🚨 Anthropic just launched its first official AI certification\nAnd it's FREE !\n\nHere's everything you need to know 👇\n\n📌 What it is:\nThe Claude Certified Architect, Foundations (CCA) launched on March 12, 2026\nIt's a proctored, 60-question exam testing real production https://t.co/cJmcsGzzuv",
+     "author_username": "LearnWithBrij",
+     "author_followers": 3131
+    },
+    {
+     "author_id": "114783808",
+     "created_at": "2026-07-08T17:00:11.000Z",
+     "edit_history_tweet_ids": [
+      "2074901373187924119"
+     ],
+     "id": "2074901373187924119",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 880,
+      "like_count": 2,
+      "quote_count": 2,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "text": "If you track AI weekly, these 6 updates are the backlog.\n\nTime frame: June 27-July 8, 2026.\n\n1. xAI pushed Grok 4.5 toward public access, built on a 1.5T V9 base with Cursor data. \n\n2. OpenAI split GPT-5.6 into Sol, Terra, and Luna, with Sol priced at $5 input and $30 output per https://t.co/avRyMLrotw",
+     "author_username": "AlphaSignalAI",
+     "author_followers": 15787
+    },
+    {
+     "author_id": "1970695303851581445",
+     "created_at": "2026-07-11T01:52:51.000Z",
+     "edit_history_tweet_ids": [
+      "2075760197658951735"
+     ],
+     "id": "2075760197658951735",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 214,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "JULY 11, 2026 — THREE STORIES, ONE THEME: FROM BUILDING TO COMPETING\n\nThe AI industry spent 2023-2025 building infrastructure and partnerships. July 11 shows what happens when those partnerships end and the competition begins in earnest — at the IPO, product, and legal level",
+     "author_username": "AiToolsRecap",
+     "author_followers": 102
+    },
+    {
+     "author_id": "1951251242820444162",
+     "created_at": "2026-07-09T10:40:49.000Z",
+     "edit_history_tweet_ids": [
+      "2075168286887592227"
+     ],
+     "id": "2075168286887592227",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 737,
+      "like_count": 9,
+      "quote_count": 1,
+      "reply_count": 1,
+      "retweet_count": 6
+     },
+     "text": "🚨 A new AI certification opportunity is getting attention.\n\nAnthropic has launched Claude Certified Architect – Foundations, a certification focused on building real-world AI solutions with Claude.\n\nIt’s not just about chatting with AI. It covers practical skills like:\n\n• https://t.co/26y5iFfRh1",
+     "author_username": "AINestHub1",
+     "author_followers": 25617
+    },
+    {
+     "author_id": "186019544",
+     "created_at": "2026-07-13T05:38:04.000Z",
+     "edit_history_tweet_ids": [
+      "2076541650235711991"
+     ],
+     "id": "2076541650235711991",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 142,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "text": "Another chaotic week in AI. \nHere is the recap of everything you need to know. 👇\n\n1/ Apple officially sued OpenAI and former hardware chief Tang Tan for trade secret theft.\n\nApple alleges engineers stole sensitive hardware blueprints and unreleased product details right before",
+     "author_username": "sudeepsriv",
+     "author_followers": 532
+    },
+    {
+     "author_id": "1854818864418217984",
+     "created_at": "2026-07-11T18:43:29.000Z",
+     "edit_history_tweet_ids": [
+      "2076014530573087037"
+     ],
+     "id": "2076014530573087037",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 38,
+      "impression_count": 3854,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 4
+     },
+     "text": "Anthropic just released 13 free AI courses with certificates.\nFor entrepreneurs. For developers. For everyone else still figuring it out.\n\nThey cover everything from AI fundamentals to agents, \nMCP, Claude Code, APIs, and enterprise deployments.\n\nWhile most people are arguing https://t.co/FrUOB983Ey",
+     "author_username": "natan_mohart",
+     "author_followers": 605
+    },
+    {
+     "author_id": "246702792",
+     "created_at": "2026-07-11T18:18:15.000Z",
+     "edit_history_tweet_ids": [
+      "2076008180270965017"
+     ],
+     "id": "2076008180270965017",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 1473,
+      "like_count": 5,
+      "quote_count": 1,
+      "reply_count": 4,
+      "retweet_count": 1
+     },
+     "text": "Building Apple mobile and desktop apps with Codex / Claude Code? \n\nHere's my toolchain to build amazing apps. Computer use and the latest @OpenAI  models are a huge unlock here for autonomous coding and design. \n\nWhat makes this hard:\n\n1. Apple's WWDC sessions are not crawable https://t.co/j0IY9NOKDB",
+     "author_username": "Markojak",
+     "author_followers": 785
+    }
+   ]
+  }
+ ]
+}

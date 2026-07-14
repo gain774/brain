@@ -1,0 +1,22 @@
+{
+  "comment": "X API recent search queries. Improve these based on result quality — swap out low-signal queries, keep total <= 4 queries/day to respect rate limits.",
+  "max_results_per_query": 25,
+  "queries": [
+    {
+      "label": "agents_workflows_en",
+      "query": "(\"Claude Code\" OR \"AI agent\" OR agentic) (tips OR workflow OR \"how I\" OR guide OR setup) -is:retweet -is:reply lang:en"
+    },
+    {
+      "label": "monetization_en",
+      "query": "(\"AI agent\" OR \"with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\") -is:retweet -is:reply lang:en"
+    },
+    {
+      "label": "ai_japan_ja",
+      "query": "(AIエージェント OR \"Claude Code\" OR 生成AI) (活用 OR 使い方 OR 収益化 OR マネタイズ OR 自動化) -is:retweet -is:reply lang:ja"
+    },
+    {
+      "label": "tools_updates_en",
+      "query": "(MCP OR \"Claude Code\" OR OpenAI OR Anthropic OR Gemini) (launched OR released OR announcing OR \"new feature\" OR update) -is:retweet -is:reply lang:en"
+    }
+  ]
+}
