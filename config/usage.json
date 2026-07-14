@@ -3,36 +3,19 @@
  "ceiling_units": 10000000,
  "ceiling_calibrated": false,
  "weekly": {
-  "window_hours": 168,
+  "anchor": {
+   "weekday": 5,
+   "hour_jst": 17
+  },
   "ceiling_units": 60000000,
   "ceiling_calibrated": false,
-  "spend_target_pct": 85,
-  "tiers": [
-   {
-    "max_pct": 60,
-    "tier": 0,
-    "name": "制限なし",
-    "do": "5時間窓のTIERに従う"
-   },
-   {
-    "max_pct": 75,
-    "tier": 1,
-    "name": "週次セーブ",
-    "do": "実測検証・敵対的レビュー・夜間メニューをスキップ(週の残りを守る)"
-   },
-   {
-    "max_pct": 85,
-    "tier": 2,
-    "name": "週次最小",
-    "do": "x_research.py+最小ログ+コミットのみ"
-   },
-   {
-    "max_pct": 100,
-    "tier": 3,
-    "name": "週次スキップ",
-    "do": "recordのみして即終了。残りはユーザーの手動利用のために温存"
-   }
-  ]
+  "spend_target_pct": 95,
+  "hard_cap_pct": 95,
+  "baseline": {
+   "ts": 1784043872.016272,
+   "pct": 80.0,
+   "note": "2026-07-15 00:43JST ユーザー申告(別作業含め週次8割)"
+  }
  },
  "night": {
   "jst_hours": [

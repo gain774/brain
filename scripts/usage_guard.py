@@ -38,20 +38,12 @@ DEFAULT_CONFIG = {
     "ceiling_units": 20_000_000,
     "ceiling_calibrated": False,
     "weekly": {
-        "window_hours": 168,
-        "ceiling_units": 150_000_000,
+        "anchor": {"weekday": 5, "hour_jst": 17},  # 土曜17時JSTリセット(ユーザー観測)
+        "ceiling_units": 60_000_000,
         "ceiling_calibrated": False,
-        "spend_target_pct": 85,
-        "tiers": [
-            {"max_pct": 60, "tier": 0, "name": "制限なし",
-             "do": "5時間窓のTIERに従う"},
-            {"max_pct": 75, "tier": 1, "name": "週次セーブ",
-             "do": "実測検証・敵対的レビュー・夜間メニューをスキップ(週の残りを守る)"},
-            {"max_pct": 85, "tier": 2, "name": "週次最小",
-             "do": "x_research.py+最小ログ+コミットのみ"},
-            {"max_pct": 100, "tier": 3, "name": "週次スキップ",
-             "do": "recordのみして即終了。残りはユーザーの手動利用のために温存"},
-        ],
+        "spend_target_pct": 95,  # リセット時刻にここへ着地させる(ギリギリ攻める)
+        "hard_cap_pct": 95,      # これ以上は問答無用でスキップ
+        "baseline": None,        # {"ts": epoch, "pct": N} ユーザー申告の外部消費込み実測
     },
     "night": {
         "jst_hours": [0, 5],
@@ -119,6 +111,58 @@ def pick_tier(tiers, pct):
     return next(t for t in tiers if pct <= t["max_pct"] or t["max_pct"] >= 100)
 
 
+def weekly_window_start(now, anchor):
+    """Most recent anchor point (e.g. Saturday 17:00 JST) at or before now."""
+    dt = datetime.fromtimestamp(now, JST)
+    days_back = (dt.weekday() - anchor.get("weekday", 5)) % 7
+    cand = (dt - timedelta(days=days_back)).replace(
+        hour=anchor.get("hour_jst", 17), minute=0, second=0, microsecond=0)
+    if cand > dt:
+        cand -= timedelta(days=7)
+    return cand.timestamp()
+
+
+def weekly_state(ledger, wk, now, own, exclude_session):
+    """Return (pct, pace_target_pct, consumed, window_end_ts)."""
+    start = weekly_window_start(now, wk.get("anchor", {}))
+    end = start + 7 * 86400
+    ceiling = wk["ceiling_units"]
+    consumed = own + sum(e["units"] for e in ledger
+                         if e["ts"] >= start and e.get("session") != exclude_session)
+    base = wk.get("baseline")
+    base_ts = start
+    base_pct = 0.0
+    if base and start <= base["ts"] < end:
+        # 申告時点の実測pctから外部消費(台帳に載らない分)をオフセットとして復元
+        ledger_at_base = sum(e["units"] for e in ledger
+                             if start <= e["ts"] <= base["ts"]
+                             and e.get("session") != exclude_session)
+        external = max(0.0, base["pct"] / 100 * ceiling - ledger_at_base - own)
+        consumed += external
+        base_ts, base_pct = base["ts"], base["pct"]
+    pct = 100.0 * consumed / ceiling
+    # ペース目標: 基準点からリセット時刻にspend_targetへ直線着地
+    target = wk.get("spend_target_pct", 95)
+    frac = min(1.0, max(0.0, (now - base_ts) / max(1.0, end - base_ts)))
+    pace = base_pct + (target - base_pct) * frac
+    return pct, pace, consumed, end
+
+
+def weekly_tier_from_pace(pct, pace, hard_cap):
+    diff = pct - pace
+    if pct >= hard_cap or diff > 2:
+        return {"tier": 3, "name": "週次スキップ(ペース超過)",
+                "do": "recordのみして即終了。次スロットでペースが回復していれば再開される"}
+    if diff > -2:
+        return {"tier": 2, "name": "週次ペース維持(最小)",
+                "do": "x_research.py+最小ログ+コミットのみ"}
+    if diff > -8:
+        return {"tier": 1, "name": "週次セーブ",
+                "do": "実測検証・敵対的レビュー・夜間メニューはスキップ(ペースの範囲内で標準作業)"}
+    return {"tier": 0, "name": "制限なし",
+            "do": "ペースに余裕あり。5時間窓のTIERに従う"}
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
     cfg = load(CONFIG, DEFAULT_CONFIG)
@@ -142,9 +186,8 @@ def main():
         which = sys.argv[2] if len(sys.argv) > 2 else "5h"
         own, _ = own_session_units()
         if which == "weekly":
-            total = window_total(ledger, cfg["weekly"]["window_hours"], now,
-                                 exclude_session=sid) + own
-            cfg["weekly"]["ceiling_units"] = round(total)
+            _, _, consumed, _ = weekly_state(ledger, cfg["weekly"], now, own, None)
+            cfg["weekly"]["ceiling_units"] = round(consumed)
             cfg["weekly"]["ceiling_calibrated"] = True
         else:
             total = window_total(ledger, cfg["window_hours"], now,
@@ -161,9 +204,8 @@ def main():
     pct5 = 100.0 * total5 / cfg["ceiling_units"]
 
     wk = cfg.get("weekly", {})
-    totalw = window_total(ledger, wk.get("window_hours", 168), now,
-                          exclude_session=sid) + own
-    pctw = 100.0 * totalw / wk.get("ceiling_units", 150_000_000)
+    pctw, pace, consumedw, wend = weekly_state(ledger, wk, now, own, sid)
+    hard_cap = wk.get("hard_cap_pct", 95)
 
     hour = datetime.fromtimestamp(now, JST).hour
     night = cfg.get("night", {})
@@ -172,15 +214,19 @@ def main():
     mode = f"🌙夜間モード(JST {nh[0]}時〜{nh[1]}時)" if is_night else "☀️昼間モード"
 
     tier5 = pick_tier(night["tiers"] if is_night else cfg["tiers"], pct5)
-    tierw = pick_tier(wk["tiers"], pctw) if wk.get("tiers") else {"tier": 0}
+    tierw = weekly_tier_from_pace(pctw, pace, hard_cap)
     # 週次 > 5時間: 厳しい方を採用
     tier = tierw if tierw["tier"] > tier5["tier"] else tier5
     limited_by = "週次制限" if tierw["tier"] > tier5["tier"] else "5時間制限"
 
     calib5 = "校正済" if cfg.get("ceiling_calibrated") else "未校正"
     calibw = "校正済" if wk.get("ceiling_calibrated") else "未校正"
-    print(f"📅 週次(直近7日): {round(totalw):,} / {wk.get('ceiling_units', 0):,} units "
-          f"= {pctw:.1f}% ({calibw}) → 週次TIER {tierw['tier']}")
+    reset_dt = datetime.fromtimestamp(wend, JST)
+    hours_left = (wend - now) / 3600
+    print(f"📅 週次(リセット: {reset_dt:%m/%d %H時JST}・残り{hours_left:.0f}h): "
+          f"{round(consumedw):,} / {wk['ceiling_units']:,} units = {pctw:.1f}% "
+          f"({calibw}、外部消費オフセット込み)")
+    print(f"   ペース目標 {pace:.1f}%(差 {pctw - pace:+.1f}pt)→ 週次TIER {tierw['tier']}")
     print(f"{mode} 直近{cfg['window_hours']}時間: {round(total5):,} / "
           f"{cfg['ceiling_units']:,} units = {pct5:.1f}% ({calib5}) "
           f"→ TIER {tier5['tier']}")
@@ -188,11 +234,10 @@ def main():
           f"{tier['name']} — {tier['do']}")
     if is_night and tier["tier"] == 0:
         budget5 = cfg["ceiling_units"] * night.get("spend_target_pct", 90) / 100 - total5
-        budgetw = (wk.get("ceiling_units", 0)
-                   * wk.get("spend_target_pct", 85) / 100 - totalw)
+        budgetw = wk["ceiling_units"] * min(pace + 2, hard_cap) / 100 - consumedw
         budget = min(budget5, budgetw)
-        src = "週次" if budgetw < budget5 else "5時間"
-        print(f"💰 夜間の残り予算: 約{max(0, round(budget)):,} units({src}窓が上限) "
+        src = "週次ペース" if budgetw < budget5 else "5時間窓"
+        print(f"💰 夜間の残り予算: 約{max(0, round(budget)):,} units({src}が上限) "
               f"— この予算内で夜間メニューを実行。"
               f"参考: 標準的なフル実行1回 ≈ 4,000,000〜5,000,000 units")
     sys.exit(tier["tier"])
