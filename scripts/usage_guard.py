@@ -23,7 +23,10 @@ import json
 import os
 import sys
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+JST = timezone(timedelta(hours=9))
 
 ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "research/usage-log.json"
@@ -34,6 +37,18 @@ DEFAULT_CONFIG = {
     "window_hours": 5,
     "ceiling_units": 20_000_000,
     "ceiling_calibrated": False,
+    "night": {
+        "jst_hours": [0, 5],
+        "spend_target_pct": 90,
+        "tiers": [
+            {"max_pct": 90, "tier": 0, "name": "夜間フル実行",
+             "do": "全手順+BRAIN.md第2部の夜間メニューで予算(90%)を使い切る。残り予算に応じて深さを調整"},
+            {"max_pct": 95, "tier": 2, "name": "最小",
+             "do": "x_research.py実行と日次ログへの最小追記+コミットのみ"},
+            {"max_pct": 100, "tier": 3, "name": "スキップ",
+             "do": "recordのみして即終了"},
+        ],
+    },
     "tiers": [
         {"max_pct": 50, "tier": 0, "name": "フル実行",
          "do": "全手順(Xリサーチ+記事+評価+実測検証+knowledge整理+ループ+改善)"},
@@ -116,11 +131,24 @@ def main():
     own, _ = own_session_units()
     total = window_total(ledger, cfg, now, exclude_session=sid) + own
     pct = 100.0 * total / cfg["ceiling_units"]
-    tier = next(t for t in cfg["tiers"] if pct <= t["max_pct"] or t["max_pct"] >= 100)
+
+    hour = datetime.fromtimestamp(now, JST).hour
+    night = cfg.get("night", {})
+    nh = night.get("jst_hours", [0, 5])
+    is_night = nh[0] <= hour < nh[1] and "tiers" in night
+    tiers = night["tiers"] if is_night else cfg["tiers"]
+    mode = f"🌙夜間モード(JST {nh[0]}時〜{nh[1]}時)" if is_night else "☀️昼間モード"
+
+    tier = next(t for t in tiers if pct <= t["max_pct"] or t["max_pct"] >= 100)
     calib = "実測校正済み" if cfg.get("ceiling_calibrated") else "未校正(推定値)"
-    print(f"直近{cfg['window_hours']}時間の推定消費: {round(total):,} / "
+    print(f"{mode} / 直近{cfg['window_hours']}時間の推定消費: {round(total):,} / "
           f"{cfg['ceiling_units']:,} units = {pct:.1f}% ({calib})")
     print(f"→ TIER {tier['tier']}: {tier['name']} — {tier['do']}")
+    if is_night and tier["tier"] == 0:
+        budget = cfg["ceiling_units"] * night.get("spend_target_pct", 90) / 100 - total
+        print(f"💰 夜間の残り予算: 約{max(0, round(budget)):,} units "
+              f"(この予算内で追加リサーチ・実験・整理を使い切ってよい。"
+              f"参考: 標準的なフル実行1回 ≈ 4,000,000〜5,000,000 units)")
     sys.exit(tier["tier"])
 
 

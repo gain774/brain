@@ -2,6 +2,18 @@
  "window_hours": 5,
  "ceiling_units": 20000000,
  "ceiling_calibrated": false,
+ "night": {
+  "jst_hours": [0, 5],
+  "spend_target_pct": 90,
+  "tiers": [
+   {"max_pct": 90, "tier": 0, "name": "夜間フル実行",
+    "do": "全手順+BRAIN.md第2部の夜間メニューで予算(90%)を使い切る。残り予算に応じて深さを調整"},
+   {"max_pct": 95, "tier": 2, "name": "最小",
+    "do": "x_research.py実行と日次ログへの最小追記+コミットのみ"},
+   {"max_pct": 100, "tier": 3, "name": "スキップ",
+    "do": "recordのみして即終了"}
+  ]
+ },
  "tiers": [
   {"max_pct": 50, "tier": 0, "name": "フル実行",
    "do": "全手順(Xリサーチ+記事+評価+実測検証+knowledge整理+ループ+改善)"},
