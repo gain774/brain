@@ -1,0 +1,15 @@
+{
+ "window_hours": 5,
+ "ceiling_units": 20000000,
+ "ceiling_calibrated": false,
+ "tiers": [
+  {"max_pct": 50, "tier": 0, "name": "フル実行",
+   "do": "全手順(Xリサーチ+記事+評価+実測検証+knowledge整理+ループ+改善)"},
+  {"max_pct": 75, "tier": 1, "name": "標準",
+   "do": "Xリサーチ+記事+評価+記録+軽いknowledge更新。実測検証と敵対的レビューはスキップ"},
+  {"max_pct": 90, "tier": 2, "name": "最小",
+   "do": "x_research.py実行と日次ログへの最小追記+コミットのみ。分析・整理はしない"},
+  {"max_pct": 100, "tier": 3, "name": "スキップ",
+   "do": "何もせず即終了(記録もrecordのみ)。次回に持ち越す"}
+ ]
+}

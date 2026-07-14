@@ -9,7 +9,8 @@
 - **GPT-5.6ファミリー**(Sol/Terra/Luna): OpenAIの新フラッグシップ、Sol=STEM特化
 - **Gemini**: Omni Flash(動画編集$0.10/秒)、Nano Banana 2 Lite(4秒画像生成)、3.5 Pro 7月GA予定
 **根拠**: [llm-stats](https://llm-stats.com/llm-updates)、[felloai](https://felloai.com/best-ai-models/)、♥39 [週次まとめ](https://x.com/i/status/2076385739521364328)
-**検証日**: 2026-07-14
+⚠️出典がSEO系まとめサイト中心で一次情報(公式リリース)未確認。「Sonnet 5=Opus 4.8級」の性能同等主張と価格は次回、公式ソースで裏取りする(敵対的レビュー指摘 2026-07-14)
+**検証日**: 2026-07-14(裏取り待ち)
 
 ## K-T2: Anthropicの無料学習リソース
 **知見**: 無料コース13本(基礎/エージェント/MCP/Claude Code/API/エンタープライズ)+ 無料の「Claude Certified Architect」認定試験(60問・監督付き)。ユーザーのスキルアップ教材として最有力。
