@@ -187,3 +187,5 @@ lab/
 | 2026-07-16 | 週次制限が実際にリセットされたのに合わせ、anchorとbaseline(pct=0)を再設定。リセット直後にpct<5%はペース判定を免除するfloor_pctを追加し、即TIER3化する誤判定を修正。X APIのOAuthトークンをローカルキャッシュして毎回の再取得を廃止(クエリ数・頻度は不変のまま、1回あたりのHTTPリクエスト数を1件削減) | ユーザー指示 |
 | 2026-07-16 | `usage_guard.py calibrate`コマンドを追加。ユーザー実測(週次2%)から天井を逆算し60M→230.9M unitsに再校正(内部のweighted_units式が実測より約3.85倍過大評価と判明)。5時間窓を「19時リセット」実測に合わせたアンカー窓に変更(従来のローリング窓から) | ユーザー指示・実測データに基づく校正 |
 | 2026-07-16 | リサーチ対象を全世界に拡大し、影響力・知名度で選別しない方針を第1部に追加。有名人のAI活用解説・X記事も対象化。クエリを再設計(agents/monetization/how_people_use_ai/tools_updates=英語グローバル+日本語1、計5クエリ)。tools_updatesにnoise除外(-crypto等)を追加 | ユーザー指示 |
+| 2026-07-16 | 週次ペース制御にfront_load_floor(55%)導入で前半の無駄スキップを解消。使える全機能をcapabilities.mdに棚卸し、weekly_digest.py新設。公式情報最優先確認を手順化。自己進化の原則を明文化 | ユーザー指示 |
+| 2026-07-16 | サブエージェントを役割特化(signal-extractor/knowledge-auditor/fact-checker/adversarial-reviewer、全Sonnet)に分担化し`.claude/agents/`に定義。weekly-digestもSkill化。Sonnet委譲の有効性を実測(Opusの半額以下) | ユーザー指示 |

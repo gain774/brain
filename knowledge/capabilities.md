@@ -44,11 +44,23 @@
 - **AskUserQuestion**: 選択肢の確認。実装済み(随所)
 - **dataviz スキル**: チャート生成。候補: 評価スコアや収集トレンドの可視化
 
-## 5. スクリプト資産(自作)
+## 5. 自作資産(スクリプト・Skill・役割エージェント)
 
+### スクリプト
 - `scripts/x_research.py`: X API収集(dedup・トークンキャッシュ)
-- `scripts/usage_guard.py`: 利用率ガード(5時間/週次、calibrate)
-- `.claude/skills/daily-research/`: 日次ルーチンSkill
+- `scripts/usage_guard.py`: 利用率ガード(5時間/週次、calibrate、front_load_floor)
+- `scripts/weekly_digest.py`: 週次ダイジェスト生成
+
+### Skill(`.claude/skills/`)
+- `daily-research`: 日次ルーチン全体(公式確認→X収集→評価→検証→整理→ループ→push)
+- `weekly-digest`: 週次ダイジェスト生成(+承認済みなら配信)
+
+### 役割特化サブエージェント(`.claude/agents/`、全てSonnetで安価)
+パイプラインの各段階を専門エージェントに分担。メインは薄いオーケストレーターに徹する(K-A8/A9):
+- **signal-extractor**: 生データ→評価スコア付き完成markdown(抽出段階)
+- **knowledge-auditor**: knowledgeの鮮度・未確定・出典・重複の機械的棚卸し
+- **fact-checker**: 総合8以上/疑義主張の一次情報裏取り(WebSearch)
+- **adversarial-reviewer**: knowledge全体の敵対的レビュー(確証バイアス検出)
 
 ## 🚀 これらを使って作る新機能(優先度順・lab/queueと連動)
 
