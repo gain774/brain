@@ -1,22 +1,26 @@
 {
-  "comment": "X API recent search queries. Improve these based on result quality — swap out low-signal queries. Volume is uncapped (API max 100/query); cost control is done via since_id + seen-ID dedup in research/state.json, never by re-fetching.",
+  "comment": "X API recent search queries. 方針: 全世界のAI有益情報を対象。フォロワー数・影響力で絞らない(選別は内容の具体性・実用性で行う=x_research.pyは全件を記録し、評価はknowledge化の段階で内容ベースで実施)。noise除外はQ1/Q14の知見を反映。lang:enは「世界共通のAI議論言語」としての英語を広く捕捉する意図で、日本市場はai_japan_jaで別途カバー。他言語(韓/中/西等)を足す場合はクエリ追加=コスト増になるためユーザー承認の上で。",
   "max_results_per_query": 100,
   "queries": [
     {
-      "label": "agents_workflows_en",
-      "query": "(\"Claude Code\" OR \"AI agent\" OR agentic) (tips OR workflow OR \"how I\" OR guide OR setup) -is:retweet -is:reply lang:en"
+      "label": "agents_workflows_global",
+      "query": "(\"Claude Code\" OR \"AI agent\" OR agentic OR \"AI coding\" OR \"AI workflow\") (tips OR workflow OR \"how I\" OR guide OR setup OR playbook OR \"step by step\") -is:retweet -is:reply lang:en"
     },
     {
-      "label": "monetization_en",
-      "query": "(\"AI agent\" OR \"with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\") -is:retweet -is:reply lang:en"
+      "label": "monetization_global",
+      "query": "(\"AI agent\" OR \"using AI\" OR \"built with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\" OR revenue OR bootstrapped) -is:retweet -is:reply lang:en"
+    },
+    {
+      "label": "how_people_use_ai",
+      "query": "(\"how I use AI\" OR \"how I use Claude\" OR \"how I use ChatGPT\" OR \"my AI workflow\" OR \"AI stack\" OR \"uses AI to\" OR \"prompt I use\" OR \"AI routine\") -is:retweet -is:reply lang:en"
+    },
+    {
+      "label": "tools_updates_global",
+      "query": "(MCP OR \"Claude Code\" OR OpenAI OR Anthropic OR \"Gemini\" OR \"open source AI\") (launched OR released OR shipped OR announcing OR \"new feature\" OR update) -is:retweet -is:reply -crypto -airdrop -memecoin -stock lang:en"
     },
     {
       "label": "ai_japan_ja",
-      "query": "(AIエージェント OR \"Claude Code\" OR 生成AI) (活用 OR 使い方 OR 収益化 OR マネタイズ OR 自動化) -is:retweet -is:reply lang:ja"
-    },
-    {
-      "label": "tools_updates_en",
-      "query": "(MCP OR \"Claude Code\" OR OpenAI OR Anthropic OR Gemini) (launched OR released OR announcing OR \"new feature\" OR update) -is:retweet -is:reply lang:en"
+      "query": "(AIエージェント OR \"Claude Code\" OR 生成AI) (活用 OR 使い方 OR 収益化 OR マネタイズ OR 自動化 OR ワークフロー) -is:retweet -is:reply lang:ja"
     }
   ]
 }
