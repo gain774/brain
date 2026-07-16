@@ -1,7 +1,7 @@
 {
  "window_hours": 5,
- "ceiling_units": 10000000,
- "ceiling_calibrated": false,
+ "ceiling_units": 38490313,
+ "ceiling_calibrated": true,
  "weekly": {
   "anchor": {
    "weekday": 3,
@@ -75,5 +75,6 @@
  "five_hour_anchor": {
   "anchor_ts": 1784196000.0,
   "note": "2026-07-16 15:05JST ユーザー報告: 5時間制限は19時にリセットされる(実測)"
- }
+ },
+ "_5h_calibration_note": "週次校正係数3.849を適用(同一計算式のため)。10000000→38490313"
 }

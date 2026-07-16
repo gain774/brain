@@ -4,6 +4,7 @@
 
 | ファイル | 内容 | 最終更新 |
 |----------|------|----------|
-| [monetization.md](monetization.md) | AIマネタイズの知見 | 2026-07-14 |
-| [agent-workflows.md](agent-workflows.md) | エージェント活用・ワークフロー | 2026-07-14 |
-| [tools-and-updates.md](tools-and-updates.md) | ツール・新機能・組み合わせ | 2026-07-14 |
+| [claude-official.md](claude-official.md) | Claude/Anthropic公式情報(一次記録・最優先) | 2026-07-16 |
+| [monetization.md](monetization.md) | AIマネタイズの知見 | 2026-07-16 |
+| [agent-workflows.md](agent-workflows.md) | エージェント活用・ワークフロー | 2026-07-16 |
+| [tools-and-updates.md](tools-and-updates.md) | ツール・新機能・組み合わせ | 2026-07-16 |
