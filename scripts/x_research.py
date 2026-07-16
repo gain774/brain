@@ -28,6 +28,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE_PATH = ROOT / "research/state.json"
+TOKEN_CACHE = ROOT / "research/.x_token_cache.json"  # never committed (see .gitignore) — holds a credential
 API = "https://api.x.com"
 SEEN_RETENTION_DAYS = 45
 
@@ -39,7 +40,7 @@ def curl_json(args):
     return int(code or 0), (json.loads(body) if body.strip() else {})
 
 
-def get_bearer():
+def fetch_bearer():
     key, secret = os.environ["X_API_KEY"], os.environ["X_API_SECRET"]
     code, data = curl_json(["-u", f"{key}:{secret}",
                             "--data", "grant_type=client_credentials",
@@ -47,6 +48,24 @@ def get_bearer():
     if code != 200:
         sys.exit(f"token request failed: HTTP {code} {data}")
     return data["access_token"]
+
+
+def get_bearer():
+    """App-only bearer tokens don't expire, so cache locally and reuse across
+    runs instead of hitting the token endpoint every invocation. main()
+    invalidates the cache and calls fetch_bearer() again on a 401."""
+    if TOKEN_CACHE.exists():
+        try:
+            return json.loads(TOKEN_CACHE.read_text())["access_token"]
+        except (json.JSONDecodeError, KeyError):
+            pass
+    token = fetch_bearer()
+    TOKEN_CACHE.write_text(json.dumps({"access_token": token}))
+    return token
+
+
+def invalidate_bearer_cache():
+    TOKEN_CACHE.unlink(missing_ok=True)
 
 
 def search(bearer, query, max_results, since_id=None):
@@ -105,6 +124,11 @@ def main():
     for q in cfg["queries"]:
         since = state["since_id"].get(q["label"])
         code, data = search(bearer, q["query"], max_results, since)
+        if code == 401:
+            # cached token stale/invalid — refresh once and retry this query
+            invalidate_bearer_cache()
+            bearer = get_bearer()
+            code, data = search(bearer, q["query"], max_results, since)
         entry = {"label": q["label"], "query": q["query"], "http": code,
                  "since_id_used": since}
         if code == 200:

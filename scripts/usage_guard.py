@@ -164,7 +164,13 @@ def weekly_state(ledger, wk, now, live):
     return pct, pace, consumed, end
 
 
-def weekly_tier_from_pace(pct, pace, hard_cap):
+def weekly_tier_from_pace(pct, pace, hard_cap, floor_pct=5.0):
+    # リセット直後は経過時間がほぼ0のためpace目標も0%近辺になり、
+    # 1ターン分の消費だけで「ペース超過」と誤判定してしまう。
+    # pctがfloor未満のうちはペース判定そのものを免除する(残り予算に十分な余裕があるため)。
+    if pct < floor_pct:
+        return {"tier": 0, "name": "制限なし(リセット直後の猶予)",
+                "do": "ペース判定の対象外(pctがfloor未満)。5時間窓のTIERに従う"}
     diff = pct - pace
     if pct >= hard_cap or diff > 2:
         return {"tier": 3, "name": "週次スキップ(ペース超過)",
@@ -234,7 +240,7 @@ def main():
     mode = f"🌙夜間モード(JST {nh[0]}時〜{nh[1]}時)" if is_night else "☀️昼間モード"
 
     tier5 = pick_tier(night["tiers"] if is_night else cfg["tiers"], pct5)
-    tierw = weekly_tier_from_pace(pctw, pace, hard_cap)
+    tierw = weekly_tier_from_pace(pctw, pace, hard_cap, wk.get("floor_pct", 5.0))
     # 週次 > 5時間: 厳しい方を採用
     tier = tierw if tierw["tier"] > tier5["tier"] else tier5
     limited_by = "週次制限" if tierw["tier"] > tier5["tier"] else "5時間制限"
