@@ -62,6 +62,13 @@
 - **fact-checker**: 総合8以上/疑義主張の一次情報裏取り(WebSearch)
 - **adversarial-reviewer**: knowledge全体の敵対的レビュー(確証バイアス検出)
 
+## 📺 YouTubeリサーチ(2026-07-16 実測)
+
+- **可能**: `WebSearch(allowed_domains:["youtube.com"])` でAI動画のタイトル・チャンネル・投稿時期・**内容の短い要約**を取得できる(X API不要=無料)。「どんな動画が出て何を扱うか」の把握・記録には十分
+- **不可**: 動画本体の視聴、字幕・トランスクリプト全文の取得(youtube.com直アクセス/WebFetch/YouTube Data APIすべて403=ネットワーク許可リスト+APIキーなし)
+- **深掘りしたい場合の選択肢**: ①ユーザーがYouTube Data APIキーを環境変数で提供 ②有名動画は、その内容を解説したX投稿・ブログをWebSearchで拾う(間接) — いずれもコスト/手間との相談
+- **運用方針(候補)**: 週1回など低頻度で「AI系の注目動画」をWebSearchでスキャンし、タイトル+要約+URLをresearchに記録。フル導入はユーザー承認後
+
 ## 🚀 これらを使って作る新機能(優先度順・lab/queueと連動)
 
 1. **週次ダイジェストの自動生成**(docx or Artifact + 任意でGmail配信) — 週次でknowledgeのトップ知見をまとめる。外部送信は要ユーザー承認
