@@ -181,23 +181,29 @@ def weekly_state(ledger, wk, now, live):
     return pct, pace, consumed, end
 
 
-def weekly_tier_from_pace(pct, pace, hard_cap, floor_pct=5.0):
-    # リセット直後は経過時間がほぼ0のためpace目標も0%近辺になり、
-    # 1ターン分の消費だけで「ペース超過」と誤判定してしまう。
-    # pctがfloor未満のうちはペース判定そのものを免除する(残り予算に十分な余裕があるため)。
-    if pct < floor_pct:
-        return {"tier": 0, "name": "制限なし(リセット直後の猶予)",
-                "do": "ペース判定の対象外(pctがfloor未満)。5時間窓のTIERに従う"}
+def weekly_tier_from_pace(pct, pace, hard_cap, floor_pct=5.0, front_load_floor=55.0):
+    # 設計思想: 週次で本当に守るべきは「リセットまでに上限(hard_cap)を超えない」ことだけ。
+    # 週の前半で予算が大量に余っているのに95%着地の直線ペースに縛ってスキップさせるのは
+    # 「使わない無駄」でありユーザーの意図に反する(2026-07-16修正)。
+    # pctがfront_load_floor未満の間はペース判定を免除して素直に走り、以降でだけ着地ペースで絞る。
+    # 5時間窓の上限が別途バーストを防ぐ。floor_pctは後方互換のため残す(未使用)。
+    if pct >= hard_cap:
+        return {"tier": 3, "name": "週次スキップ(上限到達)",
+                "do": "recordのみして即終了。ユーザーの手動利用のため温存"}
+    if pct < front_load_floor:
+        return {"tier": 0, "name": f"制限なし(前半{front_load_floor:.0f}%まで素直に走る)",
+                "do": "週次予算に余裕十分。5時間窓のTIERに従う(=無駄なく使う)"}
+    # 後半(front_load_floor以降): 着地ペースで段階的に絞る
     diff = pct - pace
-    if pct >= hard_cap or diff > 2:
-        return {"tier": 3, "name": "週次スキップ(ペース超過)",
-                "do": "recordのみして即終了。次スロットでペースが回復していれば再開される"}
-    if diff > -2:
+    if diff > 4:
+        return {"tier": 3, "name": "週次スキップ(後半ペース超過)",
+                "do": "recordのみして即終了。次スロットでペースが回復していれば再開"}
+    if diff > 0:
         return {"tier": 2, "name": "週次ペース維持(最小)",
                 "do": "x_research.py+最小ログ+コミットのみ"}
-    if diff > -8:
+    if diff > -10:
         return {"tier": 1, "name": "週次セーブ",
-                "do": "実測検証・敵対的レビュー・夜間メニューはスキップ(ペースの範囲内で標準作業)"}
+                "do": "実測検証・敵対的レビュー・夜間メニューはスキップ(標準作業)"}
     return {"tier": 0, "name": "制限なし",
             "do": "ペースに余裕あり。5時間窓のTIERに従う"}
 
@@ -300,7 +306,8 @@ def main():
     mode = f"🌙夜間モード(JST {nh[0]}時〜{nh[1]}時)" if is_night else "☀️昼間モード"
 
     tier5 = pick_tier(night["tiers"] if is_night else cfg["tiers"], pct5)
-    tierw = weekly_tier_from_pace(pctw, pace, hard_cap, wk.get("floor_pct", 5.0))
+    tierw = weekly_tier_from_pace(pctw, pace, hard_cap, wk.get("floor_pct", 5.0),
+                                  wk.get("front_load_floor", 55.0))
     # 週次 > 5時間: 厳しい方を採用
     tier = tierw if tierw["tier"] > tier5["tier"] else tier5
     limited_by = "週次制限" if tierw["tier"] > tier5["tier"] else "5時間制限"

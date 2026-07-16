@@ -17,6 +17,8 @@
 - **C. daily-research Skillの実運用検証** — Routineプロンプトを「daily-research Skillを実行」に短縮しても全手順が正しく回るか。優先度: 中(次回Routineで自然に検証される)
 - **D. 週次ダイジェストの配信手段** — `scripts/weekly_digest.py`が生成するダイジェストを、Gmail配信 or Artifact公開 or docx化のどれで届けるか実測。外部送信は要ユーザー承認。優先度: 中
 - **E. 知見ダッシュボードのArtifact化** — 評価スコア分布・収集トレンド・knowledge件数をdatavizスキルで可視化しArtifact公開。優先度: 低〜中
+- **F. `/doctor`相当のコンテキスト棚卸し** — 公式`/doctor`で使われていないSkill/MCP/設定やCLAUDE.md重複を検出し削る。BRAIN.md肥大の点検も(K-A8, Q17)。優先度: 高(コスト直結)
+- **G. モデル使い分けでサブエージェントのコスト削減**(lab Bと統合) — 敵対的レビュー・データ抽出をSonnet 5委譲。優先度: 中
 
 ## 検証不能(環境)— 条件が整えば実施
 

@@ -16,7 +16,8 @@
    "pct": 2.0,
    "note": "calibrateコマンドで再校正(窓内ledger実測4,618,838units基準)"
   },
-  "floor_pct": 5.0
+  "floor_pct": 5.0,
+  "front_load_floor": 55.0
  },
  "night": {
   "jst_hours": [
