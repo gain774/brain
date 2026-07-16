@@ -62,11 +62,11 @@
 - **fact-checker**: 総合8以上/疑義主張の一次情報裏取り(WebSearch)
 - **adversarial-reviewer**: knowledge全体の敵対的レビュー(確証バイアス検出)
 
-## 📺 YouTubeリサーチ(2026-07-16 実測)
+## 📺 YouTubeリサーチ(2026-07-17 更新: youtube.com許可後の再実測)
 
-- **可能**: `WebSearch(allowed_domains:["youtube.com"])` でAI動画のタイトル・チャンネル・投稿時期・**内容の短い要約**を取得できる(X API不要=無料)。「どんな動画が出て何を扱うか」の把握・記録には十分
-- **不可**: 動画本体の視聴、字幕・トランスクリプト全文の取得(youtube.com直アクセス/WebFetch/YouTube Data APIすべて403=ネットワーク許可リスト+APIキーなし)
-- **深掘りしたい場合の選択肢**: ①ユーザーがYouTube Data APIキーを環境変数で提供 ②有名動画は、その内容を解説したX投稿・ブログをWebSearchで拾う(間接) — いずれもコスト/手間との相談
+- **可能**: ①WebSearchで動画のタイトル・テーマ要約 ②**oEmbed**(`youtube.com/oembed`)でURL→タイトル・チャンネル名の自動取得(bot検知の対象外、`yt_transcript.py`に組込済) ③ユーザー提供の文字起こし→video-analyzer解析(video-ingestパイプライン)
+- **不可(2026-07-17実測)**: 字幕・watchページの自動取得。ネットワーク許可後も**YouTubeのbot検知(データセンターIPブロック、"Sign in to confirm you're not a bot")**が第二の壁。watchページ・InnerTube API(ANDROID/IOS/TVHTML5/WEB/MWEB全クライアント)・実ブラウザ(Playwright+プロキシ)の全てで確認
+- **残る自動化ルート**: **YouTube Data API(公式)**はデータセンターIPからでも動く設計。`googleapis.com`の許可+`YOUTUBE_API_KEY`(無料枠1日1万unit)で概要欄・統計の自動取得が可能。**字幕は公式APIでも他人の動画は取得不可**のため、文字起こしはユーザーのコピペ方式が確定(video-ingest)
 - **運用方針(実装済み 2026-07-17)**: `video-ingest`パイプラインを構築。①ユーザーが「文字起こしを表示」のテキストを渡す(チャット or `inbox/videos/`) → **video-analyzer**エージェント(Sonnet)が構造化解析(ツール・手順・原文プロンプト・独自ノウハウ・要検証主張・評価スコア) → `research/videos/`に保存 → knowledge/labへ反映 ②登録チャンネル(`config/video_channels.json`、現在: Shin Coding Tutorial)の新着を週1でWebSearchスキャン(無料)し、深掘り候補をユーザーに提示
 
 ## 🚀 これらを使って作る新機能(優先度順・lab/queueと連動)

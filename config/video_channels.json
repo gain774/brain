@@ -2,7 +2,7 @@
   "comment": "週1回、WebSearch(youtube.com限定)で新着動画をスキャンする登録チャンネル。ユーザーの指定で追加。スキャンは無料(X API不使用)。",
   "channels": [
     {
-      "name": "Shin Coding Tutorial",
+      "name": "プログラミングチュートリアル (Shin Coding Tutorial)",
       "channel_url": "https://www.youtube.com/channel/UCNTxclE0N4qsUuirssL_D8w",
       "topic": "AI駆動開発・バイブコーディングでのアプリ開発チュートリアル(bolt.new/Claude/Cursor等)",
       "added": "2026-07-17",
