@@ -4,11 +4,11 @@
   "queries": [
     {
       "label": "agents_workflows_global",
-      "query": "(\"Claude Code\" OR \"AI agent\" OR agentic OR \"AI coding\" OR \"AI workflow\") (tips OR workflow OR \"how I\" OR guide OR setup OR playbook OR \"step by step\") -is:retweet -is:reply lang:en"
+      "query": "(\"Claude Code\" OR \"AI agent\" OR agentic OR \"AI coding\" OR \"AI workflow\") (tips OR workflow OR \"how I\" OR guide OR setup OR playbook OR \"step by step\") -is:retweet -is:reply lang:en -crypto -airdrop -memecoin"
     },
     {
       "label": "monetization_global",
-      "query": "(\"AI agent\" OR \"using AI\" OR \"built with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\" OR revenue OR bootstrapped) -is:retweet -is:reply lang:en"
+      "query": "(\"AI agent\" OR \"using AI\" OR \"built with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\" OR revenue OR bootstrapped) -is:retweet -is:reply lang:en -crypto -airdrop -memecoin"
     },
     {
       "label": "how_people_use_ai",

@@ -35,7 +35,10 @@
 - **検証(継続観察)**: Skillは登録確認済み(この永続セッションから呼べる)。ただし「実際にRoutineがSkill経由で正しく回るか」「サブエージェント並列化・Sonnet5委譲が実際にコスト削減になるか」はlab候補A/B/Cとして次回以降に実測する。**自己進化は一度の実装で終わりでなく、毎回のループで公式新機能を取り込み続けることが本質**。この項目は「継続観察」として残し、次回以降も公式チェック→応用検討→実測のサイクルを回す。
 - **教訓**: 「自分で進化しろ」という指示は、放置や気合いでなく「進化のための固定的な手順(公式チェック→応用検討→lab実測→反映)」を仕組みとして埋め込むことで初めて継続する。
 
-## Q14 [open] tools_updates_enクエリに株式・芸能ニュースが混入し続けている
+## Q14 [answered→効果観察] tools_updates_enクエリに株式・芸能ニュースが混入し続けている
+- 追記(2026-07-17): クエリ再設計時にtools_updatesへ`-crypto -airdrop -memecoin -stock`を追加済みだったが、signal-extractorのノイズ報告でagents/monetization系にもcryptoノイズが継続確認されたため、両クエリにも`-crypto -airdrop -memecoin`を追加。次の数回でノイズ率の変化を観察する。"token"はAI用語と衝突するため除外語にしない。
+
+## (旧記載)
 - 立てた日: 2026-07-16
 - 背景: バックログ処理(7/15-16分)で、tools_updates_enクエリに無関係な株式・仮想通貨・芸能ニュース(Melania Trump、Steve Lacy等)が継続的に混入していることを確認。Q1(monetization_enのスパム)とは別の問題で、クエリの検索語("launched OR released OR announcing"等)が汎用的すぎて金融ニュースにもヒットしてしまっている可能性。
 - 次のアクション: config/queries.jsonのtools_updates_enクエリに `-stock -crypto -\$` 等の除外語を追加するか、AI関連キーワードをAND条件で絞り込む(現状はOR中心)。次回のknowledge整理時に、除外後のノイズ率を比較して判断する。
