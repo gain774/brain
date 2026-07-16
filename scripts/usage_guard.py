@@ -113,8 +113,25 @@ def load(path, default):
 
 
 def window_total(ledger, hours, now):
+    """Naive rolling window (last N hours). Used when no real anchor is known."""
     horizon = now - hours * 3600
     return sum(e["units"] for e in ledger if e["ts"] >= horizon)
+
+
+def anchored_window_start(now, anchor_ts, period_hours):
+    """Start of the currently-active fixed-length window, given any ONE known
+    real reset instant (anchor_ts, can be past or future) and the period.
+    Recurs every period_hours from that anchor — used once the user reports
+    an observed real reset time, so our window boundary matches Anthropic's
+    actual boundary instead of a naive rolling window."""
+    period = period_hours * 3600
+    n = (now - anchor_ts) // period
+    return anchor_ts + n * period
+
+
+def window_total_anchored(ledger, now, anchor_ts, period_hours):
+    start = anchored_window_start(now, anchor_ts, period_hours)
+    return sum(e["units"] for e in ledger if e["ts"] >= start), start
 
 
 def live_delta(sid, own_full, baselines):
@@ -206,6 +223,37 @@ def main():
               f"(session-lifetime cumulative: {round(own_full):,}, transcript: {path})")
         return
 
+    if cmd == "calibrate":
+        # ユーザーが実際にClaude側で見えているpct(5hまたはweekly)を報告してきたとき用。
+        # baseline方式(外部消費の"加算")と違い、これは自分の重み付けunits式が
+        # 実際の計測とどれだけズレているかを直接ceiling_unitsの再計算で吸収する。
+        which = sys.argv[2] if len(sys.argv) > 2 else "weekly"
+        observed_pct = float(sys.argv[3])
+        own_full, _ = own_session_units()
+        live = live_delta(sid, own_full, baselines)
+        if which == "weekly":
+            wk = cfg["weekly"]
+            start = weekly_window_start(now, wk.get("anchor", {}))
+            consumed = live + sum(e["units"] for e in ledger if e["ts"] >= start)
+            wk["ceiling_units"] = round(consumed / (observed_pct / 100))
+            wk["ceiling_calibrated"] = True
+            wk["baseline"] = {"ts": now, "pct": observed_pct,
+                              "note": f"calibrateコマンドで再校正(窓内ledger実測{round(consumed):,}units基準)"}
+        else:
+            fh = cfg.get("five_hour_anchor")
+            if fh and fh.get("anchor_ts"):
+                consumed, _ = window_total_anchored(ledger, now, fh["anchor_ts"], cfg["window_hours"])
+                consumed += live
+            else:
+                consumed = window_total(ledger, cfg["window_hours"], now) + live
+            cfg["ceiling_units"] = round(consumed / (observed_pct / 100))
+            cfg["ceiling_calibrated"] = True
+        CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
+        print(f"{which} ceiling calibrated to "
+              f"{round(cfg['weekly']['ceiling_units'] if which=='weekly' else cfg['ceiling_units']):,} "
+              f"units from observed {observed_pct}% (窓内ledger実測: {round(consumed):,})")
+        return
+
     if cmd == "limit-hit":
         which = sys.argv[2] if len(sys.argv) > 2 else "5h"
         own_full, _ = own_session_units()
@@ -216,7 +264,12 @@ def main():
             cfg["weekly"]["ceiling_calibrated"] = True
             total = consumed
         else:
-            total = window_total(ledger, cfg["window_hours"], now) + live
+            fh = cfg.get("five_hour_anchor")
+            if fh and fh.get("anchor_ts"):
+                raw5, _ = window_total_anchored(ledger, now, fh["anchor_ts"], cfg["window_hours"])
+                total = raw5 + live
+            else:
+                total = window_total(ledger, cfg["window_hours"], now) + live
             cfg["ceiling_units"] = round(total)
             cfg["ceiling_calibrated"] = True
         CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
@@ -226,7 +279,14 @@ def main():
     # check
     own_full, _ = own_session_units()
     live = live_delta(sid, own_full, baselines)
-    total5 = window_total(ledger, cfg["window_hours"], now) + live
+    fh = cfg.get("five_hour_anchor")
+    if fh and fh.get("anchor_ts"):
+        raw5, w5start = window_total_anchored(ledger, now, fh["anchor_ts"], cfg["window_hours"])
+        total5 = raw5 + live
+        five_hour_note = f"実測アンカー校正済(次リセット {datetime.fromtimestamp(w5start + cfg['window_hours']*3600, JST):%H:%M}JST)"
+    else:
+        total5 = window_total(ledger, cfg["window_hours"], now) + live
+        five_hour_note = "ローリング窓(実測アンカー未設定)"
     pct5 = 100.0 * total5 / cfg["ceiling_units"]
 
     wk = cfg.get("weekly", {})
@@ -253,7 +313,7 @@ def main():
           f"{round(consumedw):,} / {wk['ceiling_units']:,} units = {pctw:.1f}% "
           f"({calibw}、外部消費オフセット込み)")
     print(f"   ペース目標 {pace:.1f}%(差 {pctw - pace:+.1f}pt)→ 週次TIER {tierw['tier']}")
-    print(f"{mode} 直近{cfg['window_hours']}時間: {round(total5):,} / "
+    print(f"{mode} 直近{cfg['window_hours']}時間({five_hour_note}): {round(total5):,} / "
           f"{cfg['ceiling_units']:,} units = {pct5:.1f}% ({calib5}) "
           f"→ TIER {tier5['tier']}")
     print(f"→ 最終TIER {tier['tier']}({limited_by}が支配): "
