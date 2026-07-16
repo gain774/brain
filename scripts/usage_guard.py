@@ -327,7 +327,11 @@ def main():
           f"{tier['name']} — {tier['do']}")
     if is_night and tier["tier"] == 0:
         budget5 = cfg["ceiling_units"] * night.get("spend_target_pct", 90) / 100 - total5
-        budgetw = wk["ceiling_units"] * min(pace + 2, hard_cap) / 100 - consumedw
+        # 週次上限: front_load_floor未満なら「そのfloorまで」、以降は着地ペース(pace+2)まで。
+        # front_load_floor導入前の古い式(pace+2固定)だと前半に予算0と誤表示していた(2026-07-16修正)
+        fl = wk.get("front_load_floor", 55.0)
+        wk_cap_pct = max(fl, min(pace + 2, hard_cap)) if pctw < fl else min(pace + 2, hard_cap)
+        budgetw = wk["ceiling_units"] * wk_cap_pct / 100 - consumedw
         budget = min(budget5, budgetw)
         src = "週次ペース" if budgetw < budget5 else "5時間窓"
         print(f"💰 夜間の残り予算: 約{max(0, round(budget)):,} units({src}が上限) "

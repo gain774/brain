@@ -41,5 +41,10 @@
 **根拠**: [出典](https://x.com/i/status/2077398547704729906)
 **検証日**: 2026-07-16
 
+## K-T8: AnthropicのARRがOpenAIを逆転(2026年前半、留保つき)
+**知見**: AnthropicのARR(run-rate revenue)が**$47B**に達し、OpenAIの**$25B**(The Information、2026年2月末)を上回った。9B(2025末)→14→19→30→47Bの急成長。⚠️**必須の留保**: ①これはrun-rate(自己申告の月次×12)でありGAAP監査済み収益ではない ②OpenAI CROは会計処理(総額/純額)の相違で「$47Bは約$8B過大」と反論 ③ユーザー数・累計調達額の比較ではChatGPTが上。「Anthropicの方が大きい会社になった」という単純化は誤り。developer/enterprise向けClaude採用が収益源。
+**根拠**: [Anthropic公式](https://x.com/AnthropicAI/status/2060061348818518493)、[CNBC 2026-05-28](https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html)、[Series H](https://www.anthropic.com/news/series-h)、[The Information](https://www.theinformation.com/articles/openai-tops-25-billion-annualized-revenue-anthropic-narrows-gap)。fact-checkerエージェントで検証([日次ログ](../research/2026/2026-07-16.md))
+**検証日**: 2026-07-16(✅一次情報で確認。※2026-07-14に立てた「事実誤認の疑い」は誤りだったと判明。直感と逆でも事実は事実)
+
 ## ⚠️ 運用メモ: Anthropic利用枠の実例
 Xユーザーから「Anthropicがサブスク利用枠を実質縮小、2日で週次枠91%消費した」という報告あり。この脳自身の週次利用率ガード運用と直結する一次情報で、他ユーザーも同様の週次逼迫を経験している傍証となる。[出典](https://x.com/i/status/2077602197551161525)(2026-07-16)

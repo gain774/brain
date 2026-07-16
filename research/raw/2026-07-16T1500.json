@@ -1,0 +1,2049 @@
+{
+ "run": "2026-07-16T1500",
+ "queries": [
+  {
+   "label": "agents_workflows_global",
+   "query": "(\"Claude Code\" OR \"AI agent\" OR agentic OR \"AI coding\" OR \"AI workflow\") (tips OR workflow OR \"how I\" OR guide OR setup OR playbook OR \"step by step\") -is:retweet -is:reply lang:en",
+   "http": 200,
+   "since_id_used": "2077761787634594290",
+   "tweets": [
+    {
+     "author_id": "1784895532269228032",
+     "created_at": "2026-07-16T15:00:11.000Z",
+     "edit_history_tweet_ids": [
+      "2077770277803692296"
+     ],
+     "id": "2077770277803692296",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Another day, another AI tool built 100% in Claude Code.\n\nToday: Launch Kit Writer.\nPaste what your product does. Get your whole launch — Product Hunt, Show HN, a launch tweet, and a Reddit post — written native to each and ready to paste.\n\nOne prompt → a working tool + a",
+     "author_username": "tylerprattcom",
+     "author_followers": 232
+    },
+    {
+     "author_id": "1988383181276672002",
+     "created_at": "2026-07-16T15:00:04.000Z",
+     "edit_history_tweet_ids": [
+      "2077770248481071115"
+     ],
+     "id": "2077770248481071115",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Microsoft just made AI workflow automation $18/month accessible to every SMB operator. But embedding Copilot in Office is only half the battle. Your real edge is automating what happens *outside* those apps: lead follow-ups, booking https://t.co/fKxm3iOiF0",
+     "author_username": "beeliance",
+     "author_followers": 2
+    },
+    {
+     "author_id": "2172559130",
+     "created_at": "2026-07-16T15:00:01.000Z",
+     "edit_history_tweet_ids": [
+      "2077770235898159265"
+     ],
+     "id": "2077770235898159265",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "New walkthrough: see ShipHero MCP go from setup to real ops work.\n\nConnect to your AI agent, authorize secure read-only access, query live warehouse data, uncover inventory and PO issues, and generate a replenishment CSV.\n\nVisit https://t.co/uXUDYw1MDF to learn more. https://t.co/kdJ1Jj61VR",
+     "author_username": "weareshiphero",
+     "author_followers": 6224
+    },
+    {
+     "author_id": "2873116681",
+     "created_at": "2026-07-16T15:00:01.000Z",
+     "edit_history_tweet_ids": [
+      "2077770232647631139"
+     ],
+     "id": "2077770232647631139",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Agentic workflow at scale is exciting. But scale also means poor context compounds fast.\n\nOne under-specified work item = one bad PR. Ten of them triggered automatically = confident garbage at scale.\n\nThe difference isn't just the model. It's whether the agent has access to what",
+     "author_username": "natalie_chungx",
+     "author_followers": 37
+    },
+    {
+     "author_id": "17997195",
+     "created_at": "2026-07-16T14:59:10.000Z",
+     "edit_history_tweet_ids": [
+      "2077770018503397862"
+     ],
+     "id": "2077770018503397862",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "75% of Marketers Have Adopted AI, Yet Still Use It to Send Generic Campaigns. Only 16% are running anything agentic. Workflow adoption is even lower.\n\n https://t.co/HiZt0m86GE via @salesforce",
+     "author_username": "remarkmarketing",
+     "author_followers": 11432
+    },
+    {
+     "author_id": "1804260064804442112",
+     "created_at": "2026-07-16T14:58:46.000Z",
+     "edit_history_tweet_ids": [
+      "2077769920046084594"
+     ],
+     "id": "2077769920046084594",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "This guy in Canada built a system that runs his entire business from ONE dashboard 🤯\n\nHe connected Claude Code + Obsidian into a single command center — content planning, YouTube pipeline, weekly reviews, inbox briefs, even a “morning brief” that auto-generates every day.\n\nNo https://t.co/k0EgZfZtD5 https://t.co/YMc7Tdzs1S",
+     "author_username": "atlas11s",
+     "author_followers": 95
+    },
+    {
+     "author_id": "6452362",
+     "created_at": "2026-07-16T14:56:28.000Z",
+     "edit_history_tweet_ids": [
+      "2077769339978011120"
+     ],
+     "id": "2077769339978011120",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 49,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Soooo my @NousResearch Hermes agent Jasmine, a Hermes agent running on Windows 11 in a @Microsoft365 Business Tenant, has taken an interest in the outstanding issues with the Hermes repo. She queried @grok on the top issues got back a prioritized list and now is looking to https://t.co/cWnx5AFlTR",
+     "author_username": "MichaelGannotti",
+     "author_followers": 51518
+    },
+    {
+     "author_id": "2068994485053202432",
+     "created_at": "2026-07-16T14:56:11.000Z",
+     "edit_history_tweet_ids": [
+      "2077769269782126851"
+     ],
+     "id": "2077769269782126851",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 38,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Anthropic just dropped a full guide on Claude Code from the agentic loop to agent teams:\n\n00:00 - the 4-phase agentic loop\n5:05 - repeatable output every time - skills and plugins\n19:59 - the readme that changes everything - CLAUDE.md\n25:03 - Opus plans, Sonnet executes - plan https://t.co/i2BtlpMOk2 https://t.co/KLLI11JsJK",
+     "author_username": "0xRafy",
+     "author_followers": 76
+    },
+    {
+     "author_id": "1442297246112882696",
+     "created_at": "2026-07-16T14:55:05.000Z",
+     "edit_history_tweet_ids": [
+      "2077768993910170001"
+     ],
+     "id": "2077768993910170001",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "I've set a skill and a hook rule into my agentic workflow that forbids them from growing the codebase, LoC etc.\n\nIt's configured in a way that newlines and comments do not count, so only code is measured (using scc).\n\nThese SOB managed to reduce LoC by writing huge lines of code.",
+     "author_username": "tasarren",
+     "author_followers": 21
+    },
+    {
+     "author_id": "1476162962381422593",
+     "created_at": "2026-07-16T14:54:42.000Z",
+     "edit_history_tweet_ids": [
+      "2077768893926699345"
+     ],
+     "id": "2077768893926699345",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 61,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "i evaluated every AI coding plan on quality vs rate limits and the winner is 'CODEZ' - a hybrid plan of codex $20/mo + z ai $50/mo. Total $70/mo\n\n&gt; claude max: gets you the best model alive, but topples in 5/hr rolling window\n&gt; codex pro: has genuinely insane limits\n&gt; z ai glm https://t.co/BLN5zflIaE",
+     "author_username": "whynesspower",
+     "author_followers": 12313
+    },
+    {
+     "author_id": "25330485",
+     "created_at": "2026-07-16T14:54:12.000Z",
+     "edit_history_tweet_ids": [
+      "2077768768273674637"
+     ],
+     "id": "2077768768273674637",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "The state of agentic storefronts: How AI agents guide shoppers on frictionless, full-funnel journeys https://t.co/oWSjx49mzh https://t.co/zHQjtSGilN",
+     "author_username": "PingMobile",
+     "author_followers": 2432
+    },
+    {
+     "author_id": "269566390",
+     "created_at": "2026-07-16T14:54:07.000Z",
+     "edit_history_tweet_ids": [
+      "2077768750225371369"
+     ],
+     "id": "2077768750225371369",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 82,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Anthropic, Blackstone, and Goldman Sachs just launched Ode, a $1.5 billion AI services firm.\n\nForward deployed engineers embed inside enterprise companies, map their operations, and build custom AI agents and tools that run them.\n\nA buddy just asked me if this killed my AI https://t.co/MB5fXxHlSM https://t.co/EXODcBnLRC",
+     "author_username": "mfishbein",
+     "author_followers": 8507
+    },
+    {
+     "author_id": "617597709",
+     "created_at": "2026-07-16T14:50:57.000Z",
+     "edit_history_tweet_ids": [
+      "2077767952640680444"
+     ],
+     "id": "2077767952640680444",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "The AI hype train has brainwashed us into forgetting about peer to peer teaching. \n\nAfter all, we’ve got “the world’s knowledge at our fingertips in seconds,” who needs people, right?\n\nWrong.\n\nYes, we went through a wild time of “everybody’s launching a course” pre-ChatGPT 2022.",
+     "author_username": "austintgoodwin",
+     "author_followers": 1010
+    },
+    {
+     "author_id": "1447497488454373384",
+     "created_at": "2026-07-16T14:47:25.000Z",
+     "edit_history_tweet_ids": [
+      "2077766871583997972",
+      "2077767061405675759"
+     ],
+     "id": "2077767061405675759",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "I’m building a new way for working with @claudeai. At least this is how I prefer to work with Claude and you can try it for yourself as well, it’s free: https://t.co/KHdRuaKbgI\n\nWhy am I doing this when there’s already Claude Cowork? Good question, let me explain:\n\n1. I want to https://t.co/G1pKBJzoAX",
+     "author_username": "keremozman1",
+     "author_followers": 32
+    },
+    {
+     "author_id": "1919083148509356032",
+     "created_at": "2026-07-16T14:47:09.000Z",
+     "edit_history_tweet_ids": [
+      "2077766993982242975"
+     ],
+     "id": "2077766993982242975",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 16,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🧠🔥 THIS 26,300 STAR REPO TURNS CLAUDE CODE INTO A SECOND BRAIN THAT REMEMBERS 146,646 PAGES, RUNS 66 JOBS, AND WAKES UP SMARTER EVERY DAY.\n\nGarry Tan built GBrain because normal AI forgets every meeting, decision and project the moment the session ends.\n\nPause at the setup. https://t.co/ZV4ak2FgpR https://t.co/m22b6ki4pa",
+     "author_username": "KijAkubovs86334",
+     "author_followers": 92
+    },
+    {
+     "author_id": "771253131908816896",
+     "created_at": "2026-07-16T14:46:45.000Z",
+     "edit_history_tweet_ids": [
+      "2077766894140928439"
+     ],
+     "id": "2077766894140928439",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 21,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "been wrestling with linkedin attribution settings today, the hint text was vague enough that i kept second-guessing my own setup\n\nCreated with https://t.co/SJVlBnaH0o\nAn AI agent for product marketing.",
+     "author_username": "TheMantalBoy",
+     "author_followers": 128
+    },
+    {
+     "author_id": "1999623398973145088",
+     "created_at": "2026-07-16T14:45:23.000Z",
+     "edit_history_tweet_ids": [
+      "2077766549801250835"
+     ],
+     "id": "2077766549801250835",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "AI Engineering 005 - Feedfree Digest\n\nToday you will find several case studies in AI skills in the articles and tweets below.\n\nInstead of large concepts like loop engineering, sometimes we just need to focus on real world use cases applied to specialized fields in the tech",
+     "author_username": "un_contract",
+     "author_followers": 4
+    },
+    {
+     "author_id": "2021571317787488256",
+     "created_at": "2026-07-16T14:43:40.000Z",
+     "edit_history_tweet_ids": [
+      "2077766119239086336"
+     ],
+     "id": "2077766119239086336",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 43,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "someone pays $40 for an agent to rewrite one file three times.\n\nthat's not an intelligence problem.\nthat's a routing problem.\n\none free proxy sends claude code to nvidia nim, deepseek, openrouter, ollama.\n\nsame terminal. same workflow. bill gone.\n\nten repos turn one operator into https://t.co/b0TKbNxQuW https://t.co/wr8rHjGZD8",
+     "author_username": "yurshevv",
+     "author_followers": 767
+    },
+    {
+     "author_id": "2070458873602031616",
+     "created_at": "2026-07-16T14:42:07.000Z",
+     "edit_history_tweet_ids": [
+      "2077765727843750170"
+     ],
+     "id": "2077765727843750170",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 13,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Eric Schmidt (ex-Google CEO): “if you really want to make money, it’s actually easy. found an agentic AI company.”\n\nspoiler: the supply of builders is tiny. the demand is enormous.\n\nI gave away the exact 2026 playbook to build AI company running entirely by agents using loop https://t.co/PWZjuJG9Pj https://t.co/1wXp5GHeib",
+     "author_username": "0xcodard",
+     "author_followers": 16
+    },
+    {
+     "author_id": "1973948268704104448",
+     "created_at": "2026-07-16T14:41:53.000Z",
+     "edit_history_tweet_ids": [
+      "2077765668741492847"
+     ],
+     "id": "2077765668741492847",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "If your team is juggling repeat questions, manual updates, and slow replies, it may be time to explore an AI agent built around your workflow. #DexaAI #AIAutomation #SmallBusinessGrowth #AIForBusiness #WorkflowAutomation #BusinessEfficiency https://t.co/nFUJd0jrJ8",
+     "author_username": "ozokwelu49468",
+     "author_followers": 0
+    },
+    {
+     "author_id": "223619689",
+     "created_at": "2026-07-16T14:40:38.000Z",
+     "edit_history_tweet_ids": [
+      "2077765354885906451"
+     ],
+     "id": "2077765354885906451",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Supercharge your front desk with Bridge Operator Console! Elevate your receptionist workflow with predictive transfers, seamless presence, and the power of Agentic AI. Whether you’re on Microsoft Teams, RingCentral, Dialpad, or Cisco, we make every conne… https://t.co/Lmei3XhzBL https://t.co/c2tfk96B8I",
+     "author_username": "ndbridge",
+     "author_followers": 841
+    },
+    {
+     "author_id": "1104503291227136000",
+     "created_at": "2026-07-16T14:40:26.000Z",
+     "edit_history_tweet_ids": [
+      "2077765305464713607"
+     ],
+     "id": "2077765305464713607",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "📚 30 Essential Claude Terms Decoded\n\n(📌 BOOKMARK THIS—your ultimate cheat sheet for the entire Anthropic ecosystem!)\n\nStop guessing what the terms mean. Here is the definitive, no-nonsense glossary of everything Claude:\n\nPrompt: The input/text you send to the model.\n\nOpus: https://t.co/Sl3UZ65Fcg https://t.co/2719eZS0d2",
+     "author_username": "chrisvibe_ai",
+     "author_followers": 62
+    },
+    {
+     "author_id": "1405031034",
+     "created_at": "2026-07-16T14:36:26.000Z",
+     "edit_history_tweet_ids": [
+      "2077764298114511212"
+     ],
+     "id": "2077764298114511212",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1093,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "I opened two tabs in OpenCode Desktop.\n\nBy the time I looked up, two different AI models were already building two different things at the same time.\n\n→ One tab: a landing page, built by a free model.\n→ Second tab: an onboarding checklist page, built by a different free model. https://t.co/W1CIJPNmZl",
+     "author_username": "JulianGoldieSEO",
+     "author_followers": 171876
+    },
+    {
+     "author_id": "22353217",
+     "created_at": "2026-07-16T14:36:25.000Z",
+     "edit_history_tweet_ids": [
+      "2077764293425233997"
+     ],
+     "id": "2077764293425233997",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Just noticed how many subagents were spawned in Claude Code...\n\n\"Large Workflow\" indeed. 😅 https://t.co/d0tAPov6PZ",
+     "author_username": "RevenantPulse",
+     "author_followers": 92
+    },
+    {
+     "author_id": "7852322",
+     "created_at": "2026-07-16T14:35:21.000Z",
+     "edit_history_tweet_ids": [
+      "2077764024909848859"
+     ],
+     "id": "2077764024909848859",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 210,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "What better way to celebrate #NationalAIDay than by joining a project that helps make the path from idea to launch even more automated?\n\nSpaceship is now part of @stripe Stripe Projects 🚀\n\nBut what does it mean?\n\nAI can help create the code, but getting an idea online still https://t.co/aHQzb3afQP",
+     "author_username": "spaceship",
+     "author_followers": 7461
+    },
+    {
+     "author_id": "2014035920467464195",
+     "created_at": "2026-07-16T14:32:40.000Z",
+     "edit_history_tweet_ids": [
+      "2077763351178867016"
+     ],
+     "id": "2077763351178867016",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 34,
+      "like_count": 5,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "How I see the AI agent I come back to after every successful prediction: https://t.co/UkWT27asYe",
+     "author_username": "urchinspace",
+     "author_followers": 393
+    },
+    {
+     "author_id": "2027920795524337666",
+     "created_at": "2026-07-16T14:30:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077762679888818643"
+     ],
+     "id": "2077762679888818643",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Drop your stupid AI workflow.\nI will judge it unfairly.\nBonus points if it has：\n- three agents\n- one spreadsheet\n- a Chrome profile problem\n- a user saying “你自己看着办”\n- and absolutely no one remembering to check metrics https://t.co/qPxbeMMqs6",
+     "author_username": "EthanXx21",
+     "author_followers": 0
+    },
+    {
+     "author_id": "2298605364",
+     "created_at": "2026-07-16T14:29:54.000Z",
+     "edit_history_tweet_ids": [
+      "2077762654836490411"
+     ],
+     "id": "2077762654836490411",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "How I Automated Product Updates: From Git Commits to a Polished “What’s New” Feed\n\nBuilding an agentic AI pipeline that turns daily git commits into user-facing release notes.\n\nhttps://t.co/wM7ki5TyFr",
+     "author_username": "instanceofMA",
+     "author_followers": 319
+    },
+    {
+     "author_id": "2037386148637454336",
+     "created_at": "2026-07-16T14:29:43.000Z",
+     "edit_history_tweet_ids": [
+      "2077762608753688728"
+     ],
+     "id": "2077762608753688728",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 126,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Day 50 — Becoming AI Engineer\n\nToday was a lesson about why building complex AI systems too early can become a debugging nightmare.\n\nThe biggest realization:\n\nI was approaching AI system development with the wrong mindset.\n\nEarlier, I was confused about how to actually implement https://t.co/xjif4FETDD",
+     "author_username": "shivam74689",
+     "author_followers": 451
+    },
+    {
+     "author_id": "1245281052442136577",
+     "created_at": "2026-07-16T14:28:11.000Z",
+     "edit_history_tweet_ids": [
+      "2077762221145289186"
+     ],
+     "id": "2077762221145289186",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 7,
+      "impression_count": 398,
+      "like_count": 34,
+      "quote_count": 2,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "text": "The next phase of AI x crypto won't be about talking to models.\n\nIt will be about giving agents the ability to actually operate.\n\nThat's why the shift from browser-based tools to desktop agents is interesting.\n\n$VEX is exploring this direction by bringing an AI agent experience",
+     "author_username": "narrativeflow_",
+     "author_followers": 63554
+    }
+   ]
+  },
+  {
+   "label": "monetization_global",
+   "query": "(\"AI agent\" OR \"using AI\" OR \"built with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\" OR revenue OR bootstrapped) -is:retweet -is:reply lang:en",
+   "http": 200,
+   "since_id_used": "2077762192389071214",
+   "tweets": [
+    {
+     "author_id": "1517106385015623680",
+     "created_at": "2026-07-16T14:58:34.000Z",
+     "edit_history_tweet_ids": [
+      "2077769866938122649"
+     ],
+     "id": "2077769866938122649",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 6,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "day #4 of observing my open-loop to hit $5k MRR under 1 year, for fun. \n\nprimary agent: Claude Fable\nSubagents: Sonnet 5.0 + Codex via Cursor\n\nwas a bit sick today, didn't check this loop until now. it asked for my decision regarding certain features being pro, I just asked it to https://t.co/118ZialWga",
+     "author_username": "hshipit",
+     "author_followers": 3
+    },
+    {
+     "author_id": "1608636745",
+     "created_at": "2026-07-16T14:58:17.000Z",
+     "edit_history_tweet_ids": [
+      "2077769795697557832"
+     ],
+     "id": "2077769795697557832",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "&gt; start as SAAS company in 20xx\n&gt; double your productivity thanks to Claude\n&gt; burn tokens equivalent to the salaries of all your programmers\n&gt; joke how you are just a thin wrapper re-selling tokens to your clients\n&gt; nojokedetected.jpg\n&gt; fastforward 2 years\n&gt; be anthropic\n&gt; best",
+     "author_username": "RubenMoor",
+     "author_followers": 244
+    },
+    {
+     "author_id": "1445737335790850054",
+     "created_at": "2026-07-16T14:52:04.000Z",
+     "edit_history_tweet_ids": [
+      "2077768234833506587"
+     ],
+     "id": "2077768234833506587",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚀 Want to learn how to make money with AI?\n\nMy eBook is now available in English! 🇺🇸\n\n📘 Inside you'll find:\n✅ 8 detailed chapters\n✅ 100+ ChatGPT prompts\n✅ 20 proven strategies\n✅ 30-day action plan\nhttps://t.co/Y0Nr37rmFf\n#AI #ChatGPT #MakeMoneyOnline #ArtificialIntelligence https://t.co/5Qmc1j9AwI",
+     "author_username": "LbrawlT",
+     "author_followers": 0
+    },
+    {
+     "author_id": "1279509337329852418",
+     "created_at": "2026-07-16T14:50:48.000Z",
+     "edit_history_tweet_ids": [
+      "2077767914371817680"
+     ],
+     "id": "2077767914371817680",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 99,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "CLAUDE + OBSIDIAN = SECOND BRAIN THAT PRINTS PROFIT\n\nOne vault. Always compounding.\n\nClaude reads your sales data, research, and notes. Obsidian turns it into connected knowledge hubs. The system spots patterns, updates strategies, and feeds decisions 24/7.\n\nDaily ingest pulls https://t.co/bEOUnGRLR5 https://t.co/GwipQEWxrd",
+     "author_username": "rgk_degen",
+     "author_followers": 5335
+    },
+    {
+     "author_id": "1324285122556952577",
+     "created_at": "2026-07-16T14:41:46.000Z",
+     "edit_history_tweet_ids": [
+      "2077765345675563199",
+      "2077765641449468403"
+     ],
+     "id": "2077765641449468403",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Anthropic's annualized revenue run rate ($47B) reportedly passed OpenAI's disclosed $25–33B\n\ndespite having nowhere near ChatGPT's consumer reach. \n\nThat gap certainly comes from developers and enterprises building on Claude rather than millions of individual subscribers",
+     "author_username": "kate_doai",
+     "author_followers": 311
+    },
+    {
+     "author_id": "1324285122556952577",
+     "created_at": "2026-07-16T14:40:36.000Z",
+     "edit_history_tweet_ids": [
+      "2077765345675563199",
+      "2077765641449468403"
+     ],
+     "id": "2077765345675563199",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Anthropic reportedly overtakes OpenAI on revenue\n\nAnthropic's annualized revenue run rate ($47B) reportedly passed OpenAI's disclosed $25–33B, despite having nowhere near ChatGPT's consumer reach. That gap almost certainly comes from developers and enterprises building on Claude",
+     "author_username": "kate_doai",
+     "author_followers": 311
+    },
+    {
+     "author_id": "1154320847521406976",
+     "created_at": "2026-07-16T14:37:12.000Z",
+     "edit_history_tweet_ids": [
+      "2077764489995555204"
+     ],
+     "id": "2077764489995555204",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7793,
+      "like_count": 30,
+      "quote_count": 0,
+      "reply_count": 25,
+      "retweet_count": 7
+     },
+     "text": "$133,752 in new ARR. 30 days. Zero new hires.\n\nOutbound had no one running it. We gave it to Viktor.\n\nAuthority Makers is a marketing and UGC agency.\nThe pipeline existed. The strategy was solid.\nNobody had time to work it every day.\n\nWeek 1 we almost kept it manual. Felt too https://t.co/sahyaEQtsG",
+     "author_username": "Aria_Nawi",
+     "author_followers": 147107
+    },
+    {
+     "author_id": "1211578234350882818",
+     "created_at": "2026-07-16T14:36:39.000Z",
+     "edit_history_tweet_ids": [
+      "2077764353542312429"
+     ],
+     "id": "2077764353542312429",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 27,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Day 3 of building MagicBoxAI(https://t.co/8ZDupTNsZx)🚀\n\nToday wasn't about shipping new features. It was about making sure people can actually find them.\n\nA few weeks ago, I barely understood SEO.\n\nToday, I spent hours reading Google's documentation to understand how search https://t.co/DiROZ27IVd",
+     "author_username": "soul4tech",
+     "author_followers": 617
+    },
+    {
+     "author_id": "1551659651116171264",
+     "created_at": "2026-07-16T14:30:28.000Z",
+     "edit_history_tweet_ids": [
+      "2077762799099429138"
+     ],
+     "id": "2077762799099429138",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 73,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "CRYPTO BREAKING NEWS: Only the latest. No repeats 💙 \n • Ethereum flashes RSI warning as ETH/BTC tests breakout level.\n • Visa Says Stablecoins Will Power AI Agent Microcommerce.\n • Eos Energy (EOSE) Stock Surges on Record $807M Backlog and Highest-Ever Quarterly Revenue.\n • https://t.co/sANPgBlJaK",
+     "author_username": "Neome_com",
+     "author_followers": 2471
+    }
+   ]
+  },
+  {
+   "label": "how_people_use_ai",
+   "query": "(\"how I use AI\" OR \"how I use Claude\" OR \"how I use ChatGPT\" OR \"my AI workflow\" OR \"AI stack\" OR \"uses AI to\" OR \"prompt I use\" OR \"AI routine\") -is:retweet -is:reply lang:en",
+   "http": 200,
+   "since_id_used": "2077761653974696298",
+   "tweets": [
+    {
+     "author_id": "1741769339206774784",
+     "created_at": "2026-07-16T15:00:32.000Z",
+     "edit_history_tweet_ids": [
+      "2077770363170378036"
+     ],
+     "id": "2077770363170378036",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "This Week's Rialo Builder Hub Recap\n\nProject #1: Aura\n\nAura is an AI-powered content management and automated publishing platform designed for X users. Its goal is to reduce the amount of time Web3 builders founders and creators spend managing their presence on X.\n\nKey Features https://t.co/vXFqgalxYw",
+     "author_username": "Ckdah164630",
+     "author_followers": 420
+    },
+    {
+     "author_id": "2004944722671140866",
+     "created_at": "2026-07-16T14:56:45.000Z",
+     "edit_history_tweet_ids": [
+      "2077769410421399945"
+     ],
+     "id": "2077769410421399945",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "&gt;anti AI/data center post\n&gt;uses AI to create image \n\nAre we entertained? https://t.co/MaySxpibEi",
+     "author_username": "kithellegaming",
+     "author_followers": 50
+    },
+    {
+     "author_id": "1944760227041005568",
+     "created_at": "2026-07-16T14:53:43.000Z",
+     "edit_history_tweet_ids": [
+      "2077768648920555752"
+     ],
+     "id": "2077768648920555752",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "AI stack is very distributed. It’s application-based right now. Each application has its separate billing, separate gateway, can’t carry context, separate environments, separate memory. So I built my own Stack. Introducing Acentric https://t.co/iIhVMcY4O9",
+     "author_username": "ank1015",
+     "author_followers": 69
+    },
+    {
+     "author_id": "2054616291735203840",
+     "created_at": "2026-07-16T14:49:49.000Z",
+     "edit_history_tweet_ids": [
+      "2077767667017228758"
+     ],
+     "id": "2077767667017228758",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 9,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "just found an artist who openly uses ai to make orufrey art. ai orufrey art. end me.",
+     "author_username": "qifreystrap",
+     "author_followers": 69
+    },
+    {
+     "author_id": "552936387",
+     "created_at": "2026-07-16T14:47:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077766958150570166"
+     ],
+     "id": "2077766958150570166",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1586,
+      "like_count": 20,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 3
+     },
+     "text": "EVERYTHING YOU NEED TO KNOW TO REBUILD YOUR AI STACK AROUND FABLE 5 IN THREE WEEKS.\n\nYOU HAVE NO EXCUSES.\n\nWeek one: connect the vault. Week two: cut what's redundant. Week three: split the build tool.\n\nFully documented. https://t.co/LnOmLwrFQX",
+     "author_username": "DamiDefi",
+     "author_followers": 98506
+    },
+    {
+     "author_id": "910669517344399360",
+     "created_at": "2026-07-16T14:44:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077766204069159091"
+     ],
+     "id": "2077766204069159091",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 127,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Enterprise software is designed so the dumbest guy in the org can't break it\n\nYour AI stack should be held to the same bar\n\nIf it only works while the smart guy babysits it, it's not a real system",
+     "author_username": "lamxnt",
+     "author_followers": 10454
+    },
+    {
+     "author_id": "2046875025681039360",
+     "created_at": "2026-07-16T14:41:53.000Z",
+     "edit_history_tweet_ids": [
+      "2077765669882331409"
+     ],
+     "id": "2077765669882331409",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "$75,000 IN COMMISSION FROM ONE AI-GENERATED VIDEO. THE TOOLS COST $50-150 A MONTH. HERE'S THE EXACT BLUEPRINT.\n\nTikTok's algorithm doesn't know the model isn't real. It sees a video getting clicks, watch time, and purchases, and it pushes it. This operator found the most https://t.co/kGymtBXQI8 https://t.co/1yOj9lN7Fh",
+     "author_username": "ravexionex",
+     "author_followers": 66
+    },
+    {
+     "author_id": "1500685166121041921",
+     "created_at": "2026-07-16T14:40:17.000Z",
+     "edit_history_tweet_ids": [
+      "2077765269754126450"
+     ],
+     "id": "2077765269754126450",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "The one thing you need to start doing today is using simple online tools to mine smarter, not harder.\n\nCryptooDaily uses AI to optimize cloud mining for better efficiency, with easy setup and payments available in crypto like $XRP, $CRO, and $ADA. https://t.co/8gOuNhl1be",
+     "author_username": "Viki99539531",
+     "author_followers": 0
+    },
+    {
+     "author_id": "1798357108313772032",
+     "created_at": "2026-07-16T14:34:23.000Z",
+     "edit_history_tweet_ids": [
+      "2077763783414399054"
+     ],
+     "id": "2077763783414399054",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Everyone says they're using AI.\n\nWe're looking for founders who can show where it's creating real leverage.\n\nThis startup uses AI to streamline due diligence and automate development.\n\nhttps://t.co/8spo174vYd https://t.co/wSWfpY4V0n",
+     "author_username": "cr_capital_BOS",
+     "author_followers": 0
+    },
+    {
+     "author_id": "1652652961208889352",
+     "created_at": "2026-07-16T14:32:27.000Z",
+     "edit_history_tweet_ids": [
+      "2077758041718427659",
+      "2077763296149778587"
+     ],
+     "id": "2077763296149778587",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 31,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "@konnex_world - Turns robot labor into on-chain value. Autonomous agents contract, execute, earn, and trade intelligence — creating real economic GDP from machines.  The future isn’t just automated. It’s liquid.\nKonnex aims to be the economic backbone of the robotics renaissance,",
+     "author_username": "Tuyengialai97",
+     "author_followers": 3906
+    },
+    {
+     "author_id": "1577813130553483269",
+     "created_at": "2026-07-16T14:32:20.000Z",
+     "edit_history_tweet_ids": [
+      "2077763268119011647"
+     ],
+     "id": "2077763268119011647",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🇦🇲 / 🇬🇧•🇺🇲 / 🇫🇷\n📰 SANDIA NATIONAL LABORATORIES USES AI TO STABILIZE POWER GRIDS\n\nhttps://t.co/goM0fIXKU0",
+     "author_username": "HayotsRazmik",
+     "author_followers": 114
+    },
+    {
+     "author_id": "2068407564564660224",
+     "created_at": "2026-07-16T14:29:07.000Z",
+     "edit_history_tweet_ids": [
+      "2077762457075126380"
+     ],
+     "id": "2077762457075126380",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "a security-heavy Patch Tuesday cycle across Windows/SQL Server tied to rising AI-driven attack activity, and continued rapid build-out of the Copilot/Foundry AI stack across nearly every product line. Meanwhile, https://t.co/TrSqgETq2R",
+     "author_username": "namhnguyen365",
+     "author_followers": 2
+    }
+   ]
+  },
+  {
+   "label": "tools_updates_global",
+   "query": "(MCP OR \"Claude Code\" OR OpenAI OR Anthropic OR \"Gemini\" OR \"open source AI\") (launched OR released OR shipped OR announcing OR \"new feature\" OR update) -is:retweet -is:reply -crypto -airdrop -memecoin -stock lang:en",
+   "http": 200,
+   "since_id_used": "2077762071727354005",
+   "tweets": [
+    {
+     "author_id": "1614643517317582851",
+     "created_at": "2026-07-16T15:00:17.000Z",
+     "edit_history_tweet_ids": [
+      "2077770300914348034"
+     ],
+     "id": "2077770300914348034",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "OpenAI just shipped a plugin that lets you call Codex from inside Claude Code.\n\nDirect competitors, same terminal session.\n\nThe coding-agent market quietly flipped from \"pick a winner\" to \"route between rivals.\" The moat is now orchestration, permissions, and audit — not the",
+     "author_username": "Xi_baoyu",
+     "author_followers": 48
+    },
+    {
+     "author_id": "2033483521847853056",
+     "created_at": "2026-07-16T15:00:08.000Z",
+     "edit_history_tweet_ids": [
+      "2077770263685484560"
+     ],
+     "id": "2077770263685484560",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Agent memory is becoming something you buy, not build. AgentPrizm shipped a REST API and an MCP server: confidence-weighted facts, validity windows, contradiction handling, verifiable delete. Free tier is 10k memories. Recall was never the hard part. The… https://t.co/FftTlcvKtV",
+     "author_username": "ChuckTheAI",
+     "author_followers": 28
+    },
+    {
+     "author_id": "3305445385",
+     "created_at": "2026-07-16T15:00:02.000Z",
+     "edit_history_tweet_ids": [
+      "2077770237433307153"
+     ],
+     "id": "2077770237433307153",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "⚡ ChatGPT Just Got Easier to Navigate\n\n🧭 Lost in a long ChatGPT chat? The new Table of Contents feature helps you scan longer conversations and jump back to the section you need. A small update with a big productivity payoff.  \n\n#ChatGPT #OpenAI  @OpenAI @ChatGPTapp #TechTips https://t.co/mhBXs2iplC",
+     "author_username": "OneCoolTip",
+     "author_followers": 43
+    },
+    {
+     "author_id": "879664345",
+     "created_at": "2026-07-16T15:00:01.000Z",
+     "edit_history_tweet_ids": [
+      "2077770232354246974"
+     ],
+     "id": "2077770232354246974",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 100,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "mcpwn has a new home 🏠\n\nWe’ve officially launched https://t.co/TkfuHZGXky as the central hub for everything related to the project.\n\nmcpwn is built to give your LLM a fully functional security toolbox, and the new website contains all the resources to make that happen.\n\n🔗 https://t.co/9HbdOl2wyh",
+     "author_username": "ParrotSec",
+     "author_followers": 24445
+    },
+    {
+     "author_id": "62873899",
+     "created_at": "2026-07-16T14:59:26.000Z",
+     "edit_history_tweet_ids": [
+      "2077770085650088387"
+     ],
+     "id": "2077770085650088387",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "We're seeing AI assistants become a standard interface for store management - and we're building for it.\n\nAt @tychesoftwares, we're exposing our WooCommerce plugins' data and settings through MCP Abilities, starting with Order Delivery Date, Booking, and Abandoned Cart Pro",
+     "author_username": "tovishalck",
+     "author_followers": 1315
+    },
+    {
+     "author_id": "2062985833322332160",
+     "created_at": "2026-07-16T14:58:56.000Z",
+     "edit_history_tweet_ids": [
+      "2077769960017863068"
+     ],
+     "id": "2077769960017863068",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 REACT BITS ISN'T THE ONLY LIBRARY GIVING AWAY $100K WORTH OF ANIMATIONS FOR FREE — HERE ARE THE OTHER THREE 🎨\n\nReact Bits already broke containment: a full catalog of drop-in text effects, backgrounds, and cursor interactions, sortable by category, with a Pro tier for the https://t.co/1KSq39j3Vh",
+     "author_username": "JarvisQuanz",
+     "author_followers": 4
+    },
+    {
+     "author_id": "84816756",
+     "created_at": "2026-07-16T14:57:45.000Z",
+     "edit_history_tweet_ids": [
+      "2077769662855807150"
+     ],
+     "id": "2077769662855807150",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 71,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "KIMI K3 HAS OFFICIALLY BEEN RELEASED 🚨🤖🔥\n\nKimi K3 by Moonshot AI is now live and you can use it right now. The Chinese AI race is heating up like never before.\n\nHere are the 3 modes available:\n🏆 K3 Max — Chat &amp; Agent, flagship all-rounder\n🐝 K3 Swarm Max — Massive search, https://t.co/CDUecgVgRD",
+     "author_username": "Pawankalhans",
+     "author_followers": 104
+    },
+    {
+     "author_id": "2196283764",
+     "created_at": "2026-07-16T14:57:26.000Z",
+     "edit_history_tweet_ids": [
+      "2077769581679276055"
+     ],
+     "id": "2077769581679276055",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 90,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "In the 90s, building a browser was the frontier of technology.\n\nNetscape's IPO set off the dot-com boom. Microsoft landed in federal court trying to win the browser war. Some of the best engineers of a generation spent their careers on rendering engines.\n\nThirty years later, a",
+     "author_username": "j4jeswin",
+     "author_followers": 5852
+    },
+    {
+     "author_id": "1997063921006678016",
+     "created_at": "2026-07-16T14:55:35.000Z",
+     "edit_history_tweet_ids": [
+      "2077769118711771232"
+     ],
+     "id": "2077769118711771232",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 14,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Claude Code can now KILL YOUR BAD IDEAS\n\nMost side projects don't die from bad code. They die because nobody wanted them.  \n\nSo I shipped the Preuve AI MCP server: your agent checks demand before you build.\n\n50+ live sources, a clear go or no-go, right from Claude Code, Cursor or https://t.co/kQp6rJ04ky",
+     "author_username": "VincentBuilds",
+     "author_followers": 504
+    },
+    {
+     "author_id": "2065992156670836737",
+     "created_at": "2026-07-16T14:53:41.000Z",
+     "edit_history_tweet_ids": [
+      "2077768641559597364"
+     ],
+     "id": "2077768641559597364",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "OpenAI released its first hardware product Wednesday, a $230 programmable keyboard called Codex Micro built for developers using the company's Codex AI coding platform.\n\nThe device, co-designed with keyboard maker Work Louder and officially named \"kbd-1.0-codex-micro,\" features",
+     "author_username": "GMitchellDaily",
+     "author_followers": 3
+    },
+    {
+     "author_id": "1805869240467009536",
+     "created_at": "2026-07-16T14:50:05.000Z",
+     "edit_history_tweet_ids": [
+      "2077767732406190351"
+     ],
+     "id": "2077767732406190351",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 21,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Kimi 3 isn't out yet.\nThe 'closing the gap with Opus 4.8' headline already shipped two products: hype for Moonshot, and a crown for Anthropic.\n\nBeing the bar everyone chases is the leader's real product. https://t.co/ezPdx2M34Z",
+     "author_username": "artovista",
+     "author_followers": 86
+    },
+    {
+     "author_id": "1550797001641566208",
+     "created_at": "2026-07-16T14:48:15.000Z",
+     "edit_history_tweet_ids": [
+      "2077767274245837079"
+     ],
+     "id": "2077767274245837079",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 178,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "⌕ recent update\n\nNetflix • Spotify • Canva • Scribd • Zoom • Apple Music • WeTV • VIU • GetContact • Gemini • Wink • Bstation〔AJ5824〕\n\n📎 ORDER HERE\n╭ Web : https://t.co/OXWHz8d49X\n╰ WA : https://t.co/yImK7TQU2r\n\n#bealanja #zonauang #trusted UV56 https://t.co/UFaC2K5F8u",
+     "author_username": "yurimianji",
+     "author_followers": 33
+    },
+    {
+     "author_id": "1184608483641044993",
+     "created_at": "2026-07-16T14:47:40.000Z",
+     "edit_history_tweet_ids": [
+      "2077767126975176707"
+     ],
+     "id": "2077767126975176707",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 84,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Hello!\n\nToday we completed testing the latest improvements to the app’s server infrastructure and NDF engine. The new version of the web Dashboard will be released on Monday, along with, hopefully, the updated Android and iOS apps featuring new tools designed to support intraday",
+     "author_username": "GEXfocus",
+     "author_followers": 4710
+    },
+    {
+     "author_id": "1953661742",
+     "created_at": "2026-07-16T14:45:07.000Z",
+     "edit_history_tweet_ids": [
+      "2077766485569593531"
+     ],
+     "id": "2077766485569593531",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Has OpenAI released GPT-6 yet?\nOpenAI's GPT-5.6 launched in July 2026 but faces trust issues and growing competition from open-source models like Inkling, creating trading risks\n\nhttps://t.co/9EdKoHh6RQ\n\n#OpenAI #GPT5 #BigTech #Polymarket",
+     "author_username": "polypredictionx",
+     "author_followers": 1363
+    },
+    {
+     "author_id": "101690754",
+     "created_at": "2026-07-16T14:45:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077766455341580723"
+     ],
+     "id": "2077766455341580723",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Today's in AI \n\n🚀 Former OpenAI CTO Mira Murati just launched her startup's first AI model.\n\nInkling is:\n• Open-weight\n• Built for enterprises\n• Designed to be downloaded, modified, and deployed\n\nIt's another sign that the U.S. is embracing open AI models to compete with",
+     "author_username": "bruteforcearete",
+     "author_followers": 1036
+    },
+    {
+     "author_id": "2003205503284051969",
+     "created_at": "2026-07-16T14:44:56.000Z",
+     "edit_history_tweet_ids": [
+      "2077766439256134141"
+     ],
+     "id": "2077766439256134141",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Seriously impressed with Grok Build and 4.5. \n\nI cut over my unattended implementation loop for a SaaS app (currently in alpha with 1 partner-customer) we are building to Grok last night, with 26 tickets queued: bug fixes, feature updates, UI/UX polish, and 5+ tickets requiring",
+     "author_username": "FoundryLabsTom",
+     "author_followers": 27
+    },
+    {
+     "author_id": "1993812538421858310",
+     "created_at": "2026-07-16T14:39:06.000Z",
+     "edit_history_tweet_ids": [
+      "2077764971572642258"
+     ],
+     "id": "2077764971572642258",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "⌨️ OpenAI Unveils Codex Micro Mechanical Keyboard for Controlling AI Coding Agents\n\n1. In a surprising foray into consumer hardware, OpenAI has launched a $230 physical keyboard dubbed the Codex Micro.\n2. Designed in collaboration with Work Louder, the RGB macropad features 13",
+     "author_username": "bobbi_news",
+     "author_followers": 28
+    },
+    {
+     "author_id": "1603551009854423040",
+     "created_at": "2026-07-16T14:38:51.000Z",
+     "edit_history_tweet_ids": [
+      "2077764908872052800"
+     ],
+     "id": "2077764908872052800",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 320,
+      "like_count": 4,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "LLM simulations will be everywhere, from social environments to understand human behaviour to research and business cases. World models are getting better, agents are now more autonomous, and while they are still stateless, memory and skills are enabling them to learn new things https://t.co/KdVIYeq1DY https://t.co/hijrq4MoTH",
+     "author_username": "muratcan",
+     "author_followers": 21966
+    },
+    {
+     "author_id": "1417813817434677255",
+     "created_at": "2026-07-16T14:38:14.000Z",
+     "edit_history_tweet_ids": [
+      "2077764750201794731"
+     ],
+     "id": "2077764750201794731",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 10,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Every skill you bolt onto Claude Code costs context, even when it never runs.\n\nAnthropic's new /doctor update flags unused skills, MCP servers, and plugins against their context cost.\n\nLean setups think clearer. Keep the few skills that earn their seat and cut the rest. https://t.co/bxmZ8xm74h",
+     "author_username": "PragatiKunwer",
+     "author_followers": 1395
+    },
+    {
+     "author_id": "261632769",
+     "created_at": "2026-07-16T14:38:03.000Z",
+     "edit_history_tweet_ids": [
+      "2077764707251781937"
+     ],
+     "id": "2077764707251781937",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "I asked Codex to audit every local Codex + Claude Code log from my last 7 days.\n\nApparently, I didn’t have a productive week. I had a small software company living inside my laptop.\n\n10 project workspaces\n557 prompts from me\n1,603 background agent/worker/reviewer runs\n337 Git",
+     "author_username": "VladClaudes",
+     "author_followers": 96
+    },
+    {
+     "author_id": "526750145",
+     "created_at": "2026-07-16T14:36:52.000Z",
+     "edit_history_tweet_ids": [
+      "2077764407728247064"
+     ],
+     "id": "2077764407728247064",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 14,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "▎ Give your AI hands on YouTube 🔴\n▎\n▎ My open-source MCP server lets Claude search videos, read transcripts, and scout channels — 103k+ downloads on npm.\n▎\n▎ Just shipped v1.0.2: transcript fixes, CI, and a new site.\n▎\n▎ One command: npx -y zubeid-youtube-mcp-server\n▎",
+     "author_username": "ZUBEID1",
+     "author_followers": 1369
+    },
+    {
+     "author_id": "214073",
+     "created_at": "2026-07-16T14:36:49.000Z",
+     "edit_history_tweet_ids": [
+      "2077764397070745960"
+     ],
+     "id": "2077764397070745960",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 59,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "I didn't just wake up one day to build an AI software factory.\n\nLike everyone else I started with one coding agent CLI. Claude Code. \n\nI used it to write some code, realised it could run BASH commands, configure servers, troubleshoot. \nConvert document formats. Not really coding.",
+     "author_username": "makash",
+     "author_followers": 6262
+    },
+    {
+     "author_id": "2180752333",
+     "created_at": "2026-07-16T14:36:07.000Z",
+     "edit_history_tweet_ids": [
+      "2077764219554951621"
+     ],
+     "id": "2077764219554951621",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 38,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Today, we're introducing the Enterprise MCP Registry, a governed system of record for every MCP server across your business.\n\nAs CPO Bhagat Nainani puts it, the Enterprise MCP Registry \"provides that foundation, allowing customers to scale AI safely while focusing their https://t.co/EFJKAQgRR2",
+     "author_username": "Workato",
+     "author_followers": 3660
+    },
+    {
+     "author_id": "1575603609290518528",
+     "created_at": "2026-07-16T14:35:06.000Z",
+     "edit_history_tweet_ids": [
+      "2077763962930622863"
+     ],
+     "id": "2077763962930622863",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 Minara Update: Now Live on OKX AI\n\nMinara is now officially live on OKX AI as Agent 4858, bringing AI powered strategy development to the next level.\n\nWith this integration, AI agents can now Generate trading strategies from plain language prompts and Backtest them against https://t.co/BmtaHWrd85",
+     "author_username": "Auwal14Auwal",
+     "author_followers": 520
+    },
+    {
+     "author_id": "1893754622860578816",
+     "created_at": "2026-07-16T14:33:54.000Z",
+     "edit_history_tweet_ids": [
+      "2077763663339872526"
+     ],
+     "id": "2077763663339872526",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Thinking Machines Lab (founded by ex-OpenAI CTO Mira Murati) released Inkling, its first open-weight model. 975B total params, ~41B active per task, trained on 45T tokens across text/image/audio/video. Outputs text and code only for now. Designed as a fine-tuning starting point",
+     "author_username": "AItoolsNow",
+     "author_followers": 12
+    },
+    {
+     "author_id": "1675806073809166336",
+     "created_at": "2026-07-16T14:32:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077763182983274568"
+     ],
+     "id": "2077763182983274568",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Long Claude Code sessions eating RAM? Update to 2.1.207.\n\nIt fixes several memory leaks. The big one: MCP stdio server stderr accumulating up to 64 MB per server. Every chatty MCP server was quietly costing you memory.\n\nLSP documents staying open indefinitely got fixed too.",
+     "author_username": "4Ndr3w10000",
+     "author_followers": 37
+    },
+    {
+     "author_id": "859850213015597056",
+     "created_at": "2026-07-16T14:31:01.000Z",
+     "edit_history_tweet_ids": [
+      "2077762936974852154"
+     ],
+     "id": "2077762936974852154",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 285,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "text": "Clay just moved its entire engine into the terminal. The 12 GTM skills we run in it are below. Free.\n\nLast week Clay shipped a CLI and an agent plugin. You can search your data, trigger workflows, and build enrichments from Claude Code, Codex, or Cursor, without ever opening the https://t.co/ridM3HMFVE",
+     "author_username": "itsalexvacca",
+     "author_followers": 35950
+    },
+    {
+     "author_id": "1965424170319388672",
+     "created_at": "2026-07-16T14:30:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077762679364530415"
+     ],
+     "id": "2077762679364530415",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "27,000 GitHub stars. Thousands of engineers using it daily. Still not enough to keep the company alive.\n\nVibe Kanban launched in July 2025 solving a very specific problem: what do you do while you wait for an AI coding agent to finish thinking? Bloop's answer was to stop treating",
+     "author_username": "ossphere_dev",
+     "author_followers": 38
+    },
+    {
+     "author_id": "1974377077345247232",
+     "created_at": "2026-07-16T14:28:40.000Z",
+     "edit_history_tweet_ids": [
+      "2077762343119794311"
+     ],
+     "id": "2077762343119794311",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 37,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 $LEE  LEE ENTERPRISES LAUNCHES AI SEARCH VISIBILITY PLATFORM\n\nThe way people discover businesses is changing.\n\nTraditional SEO is no longer enough.\n\nAmplified Digital $LEE has launched Amplified AI Visibility — a new service helping companies optimize their presence across https://t.co/y2ZrjYX85R",
+     "author_username": "EmmanuelInvest",
+     "author_followers": 2559
+    }
+   ]
+  },
+  {
+   "label": "ai_japan_ja",
+   "query": "(AIエージェント OR \"Claude Code\" OR 生成AI) (活用 OR 使い方 OR 収益化 OR マネタイズ OR 自動化 OR ワークフロー) -is:retweet -is:reply lang:ja",
+   "http": 200,
+   "since_id_used": "2077762110155841933",
+   "tweets": [
+    {
+     "author_id": "2071014857361756160",
+     "created_at": "2026-07-16T15:00:09.000Z",
+     "edit_history_tweet_ids": [
+      "2077770265564770649"
+     ],
+     "id": "2077770265564770649",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "ノーコードツールを使えば、プログラミング知識がなくてもAIエージェント開発が可能に💡\n\nMake・Zapierなどで複数のAIツールを連携させるだけで、自動化されたワークフローが実現できます🤖\n\nあなたのアイデアをビジネス化するチャンスです✨\n\n#AI #ノーコード #SaaS",
+     "author_username": "aitool_kevin",
+     "author_followers": 1
+    },
+    {
+     "author_id": "2062015525937614848",
+     "created_at": "2026-07-16T15:00:01.000Z",
+     "edit_history_tweet_ids": [
+      "2077770234782519680"
+     ],
+     "id": "2077770234782519680",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "画像生成、Google AI Studioが最近いい感じです。\nGeminiベース？で使いやすく、かなりのことができます。\n日本語も、指の数も、ストーリーも、何も手を加えなくて一発で、満足いく画像が出現。すごいなぁ\n\n#生成AI #画像生成 #GoogleAI #AI活用",
+     "author_username": "mickeysanda",
+     "author_followers": 1
+    },
+    {
+     "author_id": "214620700",
+     "created_at": "2026-07-16T14:58:11.000Z",
+     "edit_history_tweet_ids": [
+      "2077769770473271459"
+     ],
+     "id": "2077769770473271459",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 201,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "https://t.co/TdTejegv4D\n【7/16話題】DTCCが証券トークン化サービスで初の本番取引、ストライプとアドベントがペイパルに買収提案か、セキュリタイズがキャンターと提携など（音声ニュース）\nWebX STUDIO【仮想通貨 ブロックチェーン総合番組】 #AI要約\n\n暗号資産とブロックチェーンの最新ニュース",
+     "author_username": "k_koga555",
+     "author_followers": 1331
+    },
+    {
+     "author_id": "56715656",
+     "created_at": "2026-07-16T14:57:25.000Z",
+     "edit_history_tweet_ids": [
+      "2077769581238870106"
+     ],
+     "id": "2077769581238870106",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "いいね\nClaude Codeが化けた。今使っている3つのプラグイン+標準機能の活用法 https://t.co/fMcgRh1M6r",
+     "author_username": "madakko",
+     "author_followers": 65
+    },
+    {
+     "author_id": "1634801752695533568",
+     "created_at": "2026-07-16T14:55:40.000Z",
+     "edit_history_tweet_ids": [
+      "2077769140857982985"
+     ],
+     "id": "2077769140857982985",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 733,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Googleが公開した「ビジネスリーダーのためのAIエージェント実践ガイド」が有益。日本語33ページで、AIエージェント導入を技術者向けじゃなく経営層向けに書いてる\nㅤ\n中身はこの流れ：\n・エージェントを活用する職場の実現\n・エージェントのビジネスケース（投資対効果の作り方） https://t.co/yKyecMVNCv",
+     "author_username": "SuguruKun_ai",
+     "author_followers": 104819
+    },
+    {
+     "author_id": "1880224821126262785",
+     "created_at": "2026-07-16T14:51:13.000Z",
+     "edit_history_tweet_ids": [
+      "2077768019250679826"
+     ],
+     "id": "2077768019250679826",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "AIをフル活用すると、仕事は爆速になる。\nでも、働く時間は減らない。\n\n早く終わったぶん、次の仕事が増える。\n少し空いたら、今度は英語の勉強。\n\n結局、楽になったというより——\n同じ時間に詰め込める量が増えただけ。 🫠\n\nこれが、AIを本職で使い倒している側のリアルです。\n\nAI makes work https://t.co/9TuTATToKe",
+     "author_username": "takao1821277",
+     "author_followers": 966
+    },
+    {
+     "author_id": "2261614453",
+     "created_at": "2026-07-16T14:51:09.000Z",
+     "edit_history_tweet_ids": [
+      "2077768002158960741"
+     ],
+     "id": "2077768002158960741",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "AIの能力をもっと引き出した使い方をしたいんだけど、なんか中途半端だなあ、と感じる今日この頃。AIエージェントを使いこなせる日が来るのだろうか…と、相談してみたらなかなか興味深い答えがきたので、もう少し触ってみます🤣",
+     "author_username": "Rosslyn_sharo",
+     "author_followers": 1534
+    },
+    {
+     "author_id": "1560176350488834048",
+     "created_at": "2026-07-16T14:49:17.000Z",
+     "edit_history_tweet_ids": [
+      "2077767531868385463"
+     ],
+     "id": "2077767531868385463",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🎙️第9回を公開しました！\n\n「AIが出した候補、どこを見て選ぶ？」\n\nAIに3案出してもらったのに、\n「全部よさそうで決められない…」\nそんな経験はありませんか？\n今回は、通販サイトで似たコーヒーを前に迷った日常から、AIの候補を選ぶ考え方へつなげます。\nポイントは5つの比較軸。\n\n✔️ 用途\n✔️ 材料",
+     "author_username": "da7Nm2a9mKItBLA",
+     "author_followers": 245
+    },
+    {
+     "author_id": "76259078",
+     "created_at": "2026-07-16T14:49:02.000Z",
+     "edit_history_tweet_ids": [
+      "2077767469251624974"
+     ],
+     "id": "2077767469251624974",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "生成AIに仕事奪われた人って、結局、大したことやってなかったんよ…俺の会社でも生成AIがどんどん活用されてるけど、結局人間が必要なのでクビになる奴なんて居ない。生成AIを理由にしてるだけの無能なんじゃねぇのか？",
+     "author_username": "kasutera_tan",
+     "author_followers": 1267
+    },
+    {
+     "author_id": "1426234890756837376",
+     "created_at": "2026-07-16T14:48:57.000Z",
+     "edit_history_tweet_ids": [
+      "2077767447042748468"
+     ],
+     "id": "2077767447042748468",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "自社事業としてAIエージェントを活用したキャリアプラットフォーム「Traco（トラコ）」を開発していまして、こういう方とぜひお話ししたいです！\n\n・事業会社で採用・人事を担当されている方\n・採用責任者・CHROの方\n・人材紹介・RPO・採用支援に携わっている方\n・HR Techに携わっている方 https://t.co/lb0cJmBUZO",
+     "author_username": "gakutarou_pmf",
+     "author_followers": 2547
+    },
+    {
+     "author_id": "1966270055588782080",
+     "created_at": "2026-07-16T14:48:29.000Z",
+     "edit_history_tweet_ids": [
+      "2077767330705317944"
+     ],
+     "id": "2077767330705317944",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "AI活用ではメインタスクに目が向きがちですが、\n修正報告などの中間業務にも役立ちます\n\nテキストで修正依頼を受けたら、\nAIエージェントがGitの差分から変更箇所を特定し、Before / Afterの画面キャプチャと修正内容のコメントを1枚に整理\n\n報告資料になるだけでなく、自分の確認にも使えて便利です https://t.co/D4K7h6pSya",
+     "author_username": "tyto_lab",
+     "author_followers": 9
+    },
+    {
+     "author_id": "1722339174743941120",
+     "created_at": "2026-07-16T14:45:00.000Z",
+     "edit_history_tweet_ids": [
+      "2077766454037139799"
+     ],
+     "id": "2077766454037139799",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "PROJECT30 Day18\n\n今日のAI役員会を終えて、\n\n改めて感じたことがあります。\n\n一人で考えていると、\n\n「これでいい。」\n\nと思ってしまう。\n\nでも、\n\nAI役員会では、\n\n誰かが必ず別の視点をくれます。\n\nその一言で、\n\n商品の伝え方も。\n\n意思決定も。\n\n未来も変わることがあります。\n\nだから私は、 https://t.co/PNAfplGBfr",
+     "author_username": "chimukunkun",
+     "author_followers": 554
+    },
+    {
+     "author_id": "2075367067562483712",
+     "created_at": "2026-07-16T14:41:30.000Z",
+     "edit_history_tweet_ids": [
+      "2077765572008476869"
+     ],
+     "id": "2077765572008476869",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "はじめまして、ましゃです。長年SEとして働きながら、仕事でのAI活用をきっかけにClaude CodeでAI駆動開発を始めました。 試したこと・つまずいたことをそのままnoteに書いています。よければフォローしてください。 https://t.co/5hJZDAP4Tf",
+     "author_username": "masha_0131",
+     "author_followers": 11
+    },
+    {
+     "author_id": "1990949655426088960",
+     "created_at": "2026-07-16T14:38:54.000Z",
+     "edit_history_tweet_ids": [
+      "2077764920985219405"
+     ],
+     "id": "2077764920985219405",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "【🗞️知っておきたいキャリアの新常識】\n\n生成AIの普及で事務職が減る一方、専門スキルを持つ職人の価値が爆上がりしています。\n📍米国の最新事例：会計士から配管工へ転職し、収入が3倍に増えた「ブルーカラー・ビリオネア」という言葉も話題に。\nこれからの時代に強いのは「専門技術 ×",
+     "author_username": "yumekatari_ouen",
+     "author_followers": 80
+    },
+    {
+     "author_id": "18115386",
+     "created_at": "2026-07-16T14:38:37.000Z",
+     "edit_history_tweet_ids": [
+      "2077764847199191188"
+     ],
+     "id": "2077764847199191188",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 26,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "生成AI使わなくても自動化できないこともないけど労力。という話なのはそう。",
+     "author_username": "juners",
+     "author_followers": 4284
+    },
+    {
+     "author_id": "1585012252239089664",
+     "created_at": "2026-07-16T14:36:07.000Z",
+     "edit_history_tweet_ids": [
+      "2077764219789860953"
+     ],
+     "id": "2077764219789860953",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 55,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "塾運営の業務ツール構成を整理しました。\n\n1. コミュニケーション\nチャット：Slack\nメール：Gmail\n全体お知らせ：Notion→Slack通知\n\n2. Notion業務基盤\nタスク管理：Notion DB\nMTG議事録：Notion AI Meeting\n文書：Notionドキュメント\nフォーム：Notion Form\n定期実行：Notionカスタムエージェント https://t.co/0SjtVxKQQ4",
+     "author_username": "byethankyou2",
+     "author_followers": 425
+    },
+    {
+     "author_id": "366912381",
+     "created_at": "2026-07-16T14:33:45.000Z",
+     "edit_history_tweet_ids": [
+      "2077763623196438601"
+     ],
+     "id": "2077763623196438601",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "エヌエヌ生命保険株式会社：中小企業の生成AI活用は「二極化」 https://t.co/YbTGePmd4O @PRTIMES_JPより \n中小企業経営者5,673名を対象とした生成AI活用調査により、生成AIの活用の広がりが見える一方で、業務導入は「未検討層が41.2％」と二極化の傾向が明らかに",
+     "author_username": "hiro01t",
+     "author_followers": 16
+    },
+    {
+     "author_id": "2052795525779611648",
+     "created_at": "2026-07-16T14:33:03.000Z",
+     "edit_history_tweet_ids": [
+      "2077763448403054815"
+     ],
+     "id": "2077763448403054815",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 98,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "生成AIで他者の作品学習させて自作発言してる奴は嫌いだけど、生成AI自体はこれから色々と有効活用出来る便利なものだと思ってる。",
+     "author_username": "ROM_leader",
+     "author_followers": 535
+    },
+    {
+     "author_id": "2058530818688212994",
+     "created_at": "2026-07-16T14:33:01.000Z",
+     "edit_history_tweet_ids": [
+      "2077763437866680787"
+     ],
+     "id": "2077763437866680787",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "税務・申告業務の完全ガイド。\n確定申告、法人税、消費税、インボイス制度の基本から、AI（Claude Code／Codex）を活用した経費集計や書類保存の自動化までを解説。\n個人事業主から中小企業まで、定型業務の効率化と税務リスク低減に役立つ実践ノウハウを紹介します。",
+     "author_username": "JapanTaxHub",
+     "author_followers": 40
+    },
+    {
+     "author_id": "217490416",
+     "created_at": "2026-07-16T14:28:48.000Z",
+     "edit_history_tweet_ids": [
+      "2077762377639133352"
+     ],
+     "id": "2077762377639133352",
+     "lang": "ja",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 17,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "うちの職場、まあ仕事でいくつかのAIエージェントを共有で活用してるわけなんだが、その中でなぜかたまたま私しか使ってないのがあって\n\n気付いたらAIが\n・質問への回答にオチをつける\n・こちらのボケにツッコミを入れてくる\n・なんかツッコミ待ちしてる\n\nようになったんだが……育て方間違えた……？",
+     "author_username": "Ikki_Crystal",
+     "author_followers": 511
+    }
+   ]
+  }
+ ]
+}
