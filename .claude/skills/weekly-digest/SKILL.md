@@ -22,6 +22,9 @@ description: 共有脳の週次ダイジェストを生成する。knowledge/lab
 - **Artifact公開**: dataviz+Artifactでダッシュボード化(digests の数値を可視化)
 ※フォーマット未指定なら生成のみで止め、配信はしない。
 
+## 週次の追加タスク: 登録チャンネルの新着スキャン(無料)
+`config/video_channels.json` の各チャンネルについて、WebSearch(`allowed_domains:["youtube.com"]`、チャンネル名+search_hintで検索)で新着動画を確認。新しいものがあればタイトル+URL+テーマをダイジェストに載せ、「深掘りしたい動画があれば文字起こしをください(video-ingestで取り込みます)」とユーザーに一言添える。
+
 ## 注意
 - ダイジェストは「集めたデータのまとめ」なのでX API・重い思考をほぼ使わない(低コスト)
 - 専用Routineは作らず、日曜の日次ルーチンに相乗りさせる(固定コストを増やさない)
