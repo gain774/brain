@@ -2,15 +2,15 @@
 
 > 行動につながるものだけ。各項目: 知見 / 根拠(出典) / 最終検証日
 
-## K-T1: 現在のモデル選択の目安(2026-07時点)
+## K-T1: 現在のモデル選択の目安(2026-07-17更新)
 **知見**:
-- **Claude Sonnet 5**: エージェント用途のコスパ最良(Opus 4.8級、導入価格$2/$10 per 1M、8/31まで)
-- **Claude Fable 5**: 最上位。全有料プランで7/19までアクセス延長中
-- **GPT-5.6ファミリー**(Sol/Terra/Luna): OpenAIの新フラッグシップ、Sol=STEM特化
-- **Gemini**: Omni Flash(動画編集$0.10/秒)、Nano Banana 2 Lite(4秒画像生成)、3.5 Pro 7月GA予定
-**根拠**: [llm-stats](https://llm-stats.com/llm-updates)、[felloai](https://felloai.com/best-ai-models/)、♥39 [週次まとめ](https://x.com/i/status/2076385739521364328)
-⚠️出典がSEO系まとめサイト中心で一次情報(公式リリース)未確認。「Sonnet 5=Opus 4.8級」の性能同等主張と価格は次回、公式ソースで裏取りする(敵対的レビュー指摘 2026-07-14)
-**検証日**: 2026-07-14(裏取り待ち)
+- **Claude Sonnet 5**: Pro/Team/Enterpriseの新デフォルト。1Mコンテキスト、adaptive thinkingデフォルトON(✅公式で裏取り済 2026-07-16、旧⚠️は解消)。エージェント用途のコスパ最良
+- **Claude Fable 5 / Opus 4.8**: Anthropic最上位帯。Opus 4.7 fast modeは7/24削除予定
+- **GPT-5.6ファミリー**(Sol/Terra/Luna)正式公開。「SolはAgents' Last Exam 53.6点、Fable 5比+13.1ptで約1/4コスト」の投稿あり(単一ベンチ・未検証)
+- **Kimi K3**(Moonshot、2.8Tパラメータ・オープンウェイト): Artificial Analysis指数57でOpus 4.8/GPT-5.6と同等圏。オープンモデルがフロンティアに並んだ節目(複数独立ソース一致)
+- **Gemini 3.5 Pro**: コーディング性能未達で3度目の延期(英日複数ソース)
+**根拠**: [公式リリースノート](https://platform.claude.com/docs/en/release-notes/overview)、[Kimi K3](https://x.com/i/status/2077832874183860404)、[GPT-5.6](https://x.com/i/status/2077828431249625561)、[Gemini延期](https://x.com/i/status/2077823951141564892)
+**検証日**: 2026-07-17
 
 ## K-T2: Anthropicの無料学習リソース
 **知見**: 無料コース13本(基礎/エージェント/MCP/Claude Code/API/エンタープライズ)+ 無料の「Claude Certified Architect」認定試験(60問・監督付き)。ユーザーのスキルアップ教材として最有力。
