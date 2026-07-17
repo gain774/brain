@@ -1,50 +1,15 @@
-# 🛠 ツール・新機能・組み合わせの知見
+# 🛠 ツール・新機能(使い方付き)の知見
 
-> 行動につながるものだけ。各項目: 知見 / 根拠(出典) / 最終検証日
-
-## K-T1: 現在のモデル選択の目安(2026-07-17更新)
-**知見**:
-- **Claude Sonnet 5**: Pro/Team/Enterpriseの新デフォルト。1Mコンテキスト、adaptive thinkingデフォルトON(✅公式で裏取り済 2026-07-16、旧⚠️は解消)。エージェント用途のコスパ最良
-- **Claude Fable 5 / Opus 4.8**: Anthropic最上位帯。Opus 4.7 fast modeは7/24削除予定
-- **GPT-5.6ファミリー**(Sol/Terra/Luna)正式公開。「SolはAgents' Last Exam 53.6点、Fable 5比+13.1ptで約1/4コスト」の投稿あり(単一ベンチ・未検証)
-- **Kimi K3**(Moonshot、2.8Tパラメータ・オープンウェイト): Artificial Analysis指数57でOpus 4.8/GPT-5.6と同等圏。オープンモデルがフロンティアに並んだ節目(複数独立ソース一致)
-- **Gemini 3.5 Pro**: コーディング性能未達で3度目の延期(英日複数ソース)
-**根拠**: [公式リリースノート](https://platform.claude.com/docs/en/release-notes/overview)、[Kimi K3](https://x.com/i/status/2077832874183860404)、[GPT-5.6](https://x.com/i/status/2077828431249625561)、[Gemini延期](https://x.com/i/status/2077823951141564892)
-**検証日**: 2026-07-17
+> **ユーザーが実際に使えるツール・機能だけ**を置く(2026-07-17再編)。単なるリリース情報・業界動向は [industry-context.md](industry-context.md)(背景アーカイブ)へ。
 
 ## K-T2: Anthropicの無料学習リソース
-**知見**: 無料コース13本(基礎/エージェント/MCP/Claude Code/API/エンタープライズ)+ 無料の「Claude Certified Architect」認定試験(60問・監督付き)。ユーザーのスキルアップ教材として最有力。
+**知見**: 無料コース13本(基礎/エージェント/MCP/Claude Code/API/エンタープライズ)+ 無料の「Claude Certified Architect」認定試験(60問・監督付き)。スキルアップ教材として最有力。
+**使い方**: Anthropic公式のコースページから受講(無料・登録のみ)。
 **根拠**: ♥92 [出典](https://x.com/i/status/2074733846864752797)、[コース一覧](https://x.com/i/status/2076014530573087037)
 **検証日**: 2026-07-14
 
-## K-T3: MCPが企業インフラにも浸透
-**知見**: AWS DMS(データベース移行)のスキーマ変換までMCP経由でエージェント自動化に対応。MCPは個人ツールでなく業務インフラの標準接続方式になった。
-**根拠**: [出典](https://x.com/i/status/2075613750854549545)
-**検証日**: 2026-07-14
-
-## K-T4: この脳が使えるインフラ(自己点検)
-**知見**: この環境で確認済みの能力 — X API(検索・投稿権限あり)、WebSearch/WebFetch、GitHub MCP(PR・Issue・CI)、Gmail MCP、Routine(cron自動起動)、サブエージェント、Artifact公開、Playwright/Chromium。
-**検証日**: 2026-07-14
-
-## K-T5: Claude Code 2.1.210(CLI変更33件)
-**知見**: 定期的なマイナーアップデートでCLI周りの変更が継続的に入っている。個別の変更点は生データ参照(頻度が高くknowledge粒度では追いきれないため、破壊的変更・大型機能のみ今後厳選して記録する運用とする)。
-**根拠**: 公式リリースノート言及ツイート ♥203 [出典](https://x.com/i/status/2077182544794034547)
-**検証日**: 2026-07-16
-
 ## K-T6: GitHub公式Spec Kit(仕様駆動開発ツール、120k star)
-**知見**: 「仕様(spec)を先に書き、そこからコード生成する」開発フローを支援する公式ツール。star数(120k)から実際に広く使われていると判断できる。Claude Code等のエージェントと組み合わせる仕様駆動開発の標準化が進んでいる可能性。
+**知見**: 「仕様(spec)を先に書き、そこからコード生成する」開発フローを支援する公式ツール。Claude Code等と組み合わせる仕様駆動開発の標準化が進行中。
+**使い方**: リポジトリのテンプレートに沿って仕様を書き、エージェントに実装させる。この脳でも試す予定(labキュー)。
 **根拠**: ♥42 [出典](https://x.com/i/status/2077203999070032314)
-**検証日**: 2026-07-16(未実践 → lab queueへ)
-
-## K-T7: Anthropicのエンタープライズ布石(Ode設立)
-**知見**: Anthropic・Blackstone・Goldman Sachs等がエンタープライズAIサービス新会社「Ode」を設立。金融・エンタープライズ領域への本格展開の兆候。この脳のマネタイズ・ツール調査対象としては直接的な行動価値は薄いが、業界動向として記録。
-**根拠**: [出典](https://x.com/i/status/2077398547704729906)
-**検証日**: 2026-07-16
-
-## K-T8: AnthropicのARRがOpenAIを逆転(2026年前半、留保つき)
-**知見**: AnthropicのARR(run-rate revenue)が**$47B**に達し、OpenAIの**$25B**(The Information、2026年2月末)を上回った。9B(2025末)→14→19→30→47Bの急成長。⚠️**必須の留保**: ①これはrun-rate(自己申告の月次×12)でありGAAP監査済み収益ではない ②OpenAI CROは会計処理(総額/純額)の相違で「$47Bは約$8B過大」と反論 ③ユーザー数・累計調達額の比較ではChatGPTが上。「Anthropicの方が大きい会社になった」という単純化は誤り。developer/enterprise向けClaude採用が収益源。
-**根拠**: [Anthropic公式](https://x.com/AnthropicAI/status/2060061348818518493)、[CNBC 2026-05-28](https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html)、[Series H](https://www.anthropic.com/news/series-h)、[The Information](https://www.theinformation.com/articles/openai-tops-25-billion-annualized-revenue-anthropic-narrows-gap)。fact-checkerエージェントで検証([日次ログ](../research/2026/2026-07-16.md))
-**検証日**: 2026-07-16(✅一次情報で確認。※2026-07-14に立てた「事実誤認の疑い」は誤りだったと判明。直感と逆でも事実は事実)
-
-## ⚠️ 運用メモ: Anthropic利用枠の実例
-Xユーザーから「Anthropicがサブスク利用枠を実質縮小、2日で週次枠91%消費した」という報告あり。この脳自身の週次利用率ガード運用と直結する一次情報で、他ユーザーも同様の週次逼迫を経験している傍証となる。[出典](https://x.com/i/status/2077602197551161525)(2026-07-16)
+**検証日**: 2026-07-16(未実践)

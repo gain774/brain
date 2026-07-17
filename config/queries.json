@@ -1,5 +1,5 @@
 {
-  "comment": "X API recent search queries. 方針: 全世界のAI有益情報を対象。フォロワー数・影響力で絞らない(選別は内容の具体性・実用性で行う=x_research.pyは全件を記録し、評価はknowledge化の段階で内容ベースで実施)。noise除外はQ1/Q14の知見を反映。lang:enは「世界共通のAI議論言語」としての英語を広く捕捉する意図で、日本市場はai_japan_jaで別途カバー。他言語(韓/中/西等)を足す場合はクエリ追加=コスト増になるためユーザー承認の上で。",
+  "comment": "X API検索クエリ。方針(2026-07-17ユーザー指定): 『真似して使える実践情報』だけが目的 — 稼ぐ手順/アプリ開発手順/Tips・プロンプト/新ツールの使い方。業界ニュース・モデルリリース・ベンチは対象外。フォロワー数で絞らない。コスト管理はsince_id+dedup。",
   "max_results_per_query": 100,
   "queries": [
     {
@@ -15,8 +15,8 @@
       "query": "(\"how I use AI\" OR \"how I use Claude\" OR \"how I use ChatGPT\" OR \"my AI workflow\" OR \"AI stack\" OR \"uses AI to\" OR \"prompt I use\" OR \"AI routine\") -is:retweet -is:reply lang:en"
     },
     {
-      "label": "tools_updates_global",
-      "query": "(MCP OR \"Claude Code\" OR OpenAI OR Anthropic OR \"Gemini\" OR \"open source AI\") (launched OR released OR shipped OR announcing OR \"new feature\" OR update) -is:retweet -is:reply -crypto -airdrop -memecoin -stock lang:en"
+      "label": "tools_howto_global",
+      "query": "(\"Claude Code\" OR Cursor OR MCP OR \"AI tool\" OR \"AI app\") (\"how to\" OR tutorial OR walkthrough OR \"step by step\" OR \"here's how\" OR template OR prompt) -is:retweet -is:reply -crypto -airdrop -memecoin -stock -DEXScreener lang:en"
     },
     {
       "label": "ai_japan_ja",
