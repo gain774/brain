@@ -1,0 +1,1923 @@
+{
+ "run": "2026-07-17T1647",
+ "queries": [
+  {
+   "label": "agents_workflows_global",
+   "query": "(\"Claude Code\" OR \"AI agent\" OR agentic OR \"AI coding\" OR \"AI workflow\") (tips OR workflow OR \"how I\" OR guide OR setup OR playbook OR \"step by step\") -is:retweet -is:reply lang:en -crypto -airdrop -memecoin",
+   "http": 200,
+   "since_id_used": "2078006622451085343",
+   "tweets": [
+    {
+     "author_id": "1744692286980825088",
+     "created_at": "2026-07-17T16:47:05.000Z",
+     "edit_history_tweet_ids": [
+      "2078159564600701093"
+     ],
+     "id": "2078159564600701093",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 9,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "One thing I like about @MultichainZ_ is that they don't just launch features, they also show people how to use them.\n\nIf you've been curious about deploying \nyour first AI agent but didn't know where to start, this walkthrough makes the process much easier to follow.\n\nSometimes a https://t.co/KYUtHaxt35",
+     "author_username": "muhitonx",
+     "author_followers": 11711
+    },
+    {
+     "author_id": "1261173216455712768",
+     "created_at": "2026-07-17T16:46:06.000Z",
+     "edit_history_tweet_ids": [
+      "2078159319020056973"
+     ],
+     "id": "2078159319020056973",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 10,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "done consuming all these \"ai workflow\" videos.\nthere's no perfect ai workflow.\n\njust cook and figure it out. https://t.co/LByzY91Y65",
+     "author_username": "adityawaslost",
+     "author_followers": 1989
+    },
+    {
+     "author_id": "1796438317724008448",
+     "created_at": "2026-07-17T16:46:00.000Z",
+     "edit_history_tweet_ids": [
+      "2078159293841600581"
+     ],
+     "id": "2078159293841600581",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Bullish on $HISS @HissFinance  🐍\n\nBuilt by @MeltedMindz — a hands-on builder in the agent + DeFi space who’s been shipping real infrastructure (AI liquidity agents, agent-native app factories, and tokenized systems).\n\nOn top of that, Robinhood Chain just went live with tokenized https://t.co/2SsIs2kyda",
+     "author_username": "hasibamazai",
+     "author_followers": 102
+    },
+    {
+     "author_id": "2070342468923752448",
+     "created_at": "2026-07-17T16:44:05.000Z",
+     "edit_history_tweet_ids": [
+      "2078158810473168977"
+     ],
+     "id": "2078158810473168977",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 14,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Handing our landing page over to Kimi 3 today. Curious how it stacks up against Claude Code and Codex for real updates.\n\nThis is why we built Reachpad to be model-agnostic. Swap harnesses without leaving your browser.\n\nWhat's your CLI setup? Do you mix and match? https://t.co/Zw8H7WKO2Z",
+     "author_username": "reachpad",
+     "author_followers": 22
+    },
+    {
+     "author_id": "1384412628605353986",
+     "created_at": "2026-07-17T16:43:27.000Z",
+     "edit_history_tweet_ids": [
+      "2078158653325033517"
+     ],
+     "id": "2078158653325033517",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "𝗜 𝗱𝗼𝗻'𝘁 𝘁𝗵𝗶𝗻𝗸 𝘁𝗵𝗲 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝗰𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲 𝗶𝗻 𝗔𝗜 𝗰𝗼𝗺𝗺𝗲𝗿𝗰𝗲 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗶𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲.\n\nI think it'll be disagreement\n\nthat might sound strange.\n\nevery conversation today is about what AI agents are becoming capable of\n\n⁍ they can https://t.co/XKXsQo7MM6",
+     "author_username": "Iamsamsnipes",
+     "author_followers": 996
+    },
+    {
+     "author_id": "394772514",
+     "created_at": "2026-07-17T16:41:47.000Z",
+     "edit_history_tweet_ids": [
+      "2078158230010601878"
+     ],
+     "id": "2078158230010601878",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "What turns AI from a tool that answers questions into something that does real work?\n\nIn this clip from our recent Operationalising AI Agents webinar, John Briggs explains the anatomy of an AI agent:\n\n🧠 An LLM provides the intelligence\n🛠️ Tools connect it to systems such as your https://t.co/QpQSUShdnI",
+     "author_username": "Screendragon",
+     "author_followers": 4111
+    },
+    {
+     "author_id": "2034394433882591232",
+     "created_at": "2026-07-17T16:38:55.000Z",
+     "edit_history_tweet_ids": [
+      "2078157510016454690"
+     ],
+     "id": "2078157510016454690",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "I let an AI agent \"clean up\" my CRM.\n\nThree days later, it quietly deleted 80 contacts that were never supposed to be touched.\n\nI’d only been using the tool for a few months, but I assumed I knew how deleted records were handled. I was wrong. Restoring everything took two",
+     "author_username": "Lintilla369",
+     "author_followers": 142
+    },
+    {
+     "author_id": "2052949858252939264",
+     "created_at": "2026-07-17T16:32:30.000Z",
+     "edit_history_tweet_ids": [
+      "2078155894937039187"
+     ],
+     "id": "2078155894937039187",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 72,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "text": "RAG just got replaced by... screenshots.\n\nPixelRAG is a 100% open-source retrieval system that skips HTML parsing completely.\n\ninstead of scraping a page into text and embedding chunks, it screenshots the page, embeds the pixels with a vision model, and searches 8.28M wikipedia https://t.co/qukgt5RJL5",
+     "author_username": "thesupermanmx",
+     "author_followers": 1226
+    },
+    {
+     "author_id": "1458050975596531717",
+     "created_at": "2026-07-17T16:31:50.000Z",
+     "edit_history_tweet_ids": [
+      "2078155728976576593"
+     ],
+     "id": "2078155728976576593",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 30,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Cursor Mobile is here — and it changes how we think about coding.\n\nThe iOS app (public beta) lets you spin up AI coding agents from your phone, or interact with agents started on desktop. No code editor needed. Just a chat interface that launches cloud-hosted agents.\n\nAnthropic's https://t.co/CEUgzHcZ3G",
+     "author_username": "TeksCreate",
+     "author_followers": 135
+    },
+    {
+     "author_id": "1513783156163317765",
+     "created_at": "2026-07-17T16:31:00.000Z",
+     "edit_history_tweet_ids": [
+      "2078155517709500659"
+     ],
+     "id": "2078155517709500659",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 41,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "text": "IT'S SO OVER!!! Creative agencies are absolutely cooked.\n\nI just connected Claude Code to Higgsfield and generated:\n\n→ Product photos\n→ Instagram ads\n→ Launch videos\n\nAll in MINUTES.\n\nMost people are still paying $5k/month for this while opening Canva like it's 2022.\n\nComment https://t.co/Md1Fa8zw0k",
+     "author_username": "Mohiniuni",
+     "author_followers": 7033
+    },
+    {
+     "author_id": "1940902894930481153",
+     "created_at": "2026-07-17T16:30:08.000Z",
+     "edit_history_tweet_ids": [
+      "2078155197260431436",
+      "2078155302365471118"
+     ],
+     "id": "2078155302365471118",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 135,
+      "like_count": 4,
+      "quote_count": 1,
+      "reply_count": 4,
+      "retweet_count": 3
+     },
+     "text": "what is zambo?\n\nAn MCP server that gives your AI 50+ tools it doesn't have natively.\n\nInstalls in Claude, Cursor, Windsurf, or Cline in under a minute. no auth, no setup, free tier included.\n\ntools include:\n\n- Live web search (real-time, not training data)\n- Image &amp; GIF https://t.co/gwQiqoVhXS https://t.co/b3JbBwYU6w",
+     "author_username": "zambodotdev",
+     "author_followers": 418
+    },
+    {
+     "author_id": "1176846368427642880",
+     "created_at": "2026-07-17T16:30:06.000Z",
+     "edit_history_tweet_ids": [
+      "2078155292475371980"
+     ],
+     "id": "2078155292475371980",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 23,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "I have recorded 5 very long YT training on Agenting GTM &amp; GTM Engineering given my experience in consulting billion dollar companies and training 120+ GTMEs\n\nYou can watch them for free here:\n\n1) GTM Engineering With Claude AI For Beginners (Full Course)\n\nhttps://t.co/UgbrVvtBfH",
+     "author_username": "MichaelSaruggia",
+     "author_followers": 1062
+    },
+    {
+     "author_id": "1042797252765528064",
+     "created_at": "2026-07-17T16:30:00.000Z",
+     "edit_history_tweet_ids": [
+      "2078155266596675951"
+     ],
+     "id": "2078155266596675951",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 122,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Vibe coding won't build a great AI product.\n\nUnderstanding engineering will.\n\nYou don't need a CS degree. You need strong fundamentals.\n\n&gt;&gt; Engineering\n\n- System Design 101 (ByteByteGo)\nhttps://t.co/VzKFIxax8H\n\n- HTTP &amp; Networking (MDN)\nhttps://t.co/oxBFl6lBNH\n\n- Node.js https://t.co/3uQKfYK6Cm",
+     "author_username": "suraj_sharma14",
+     "author_followers": 8080
+    },
+    {
+     "author_id": "194006102",
+     "created_at": "2026-07-17T16:29:18.000Z",
+     "edit_history_tweet_ids": [
+      "2078155090729599375"
+     ],
+     "id": "2078155090729599375",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1140,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 2
+     },
+     "text": "As frontier models become open and affordable, durable value moves to the scaffolding around them – the data, the orchestration, the workflow.\n\nInstead of being locked into a vertical platform, developers can now bring intelligence to the harness of their choice.\n\nThis changes https://t.co/YE01GYZvgv",
+     "author_username": "jmorgan",
+     "author_followers": 6051
+    },
+    {
+     "author_id": "1922357347881779200",
+     "created_at": "2026-07-17T16:28:00.000Z",
+     "edit_history_tweet_ids": [
+      "2078154764223967745"
+     ],
+     "id": "2078154764223967745",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 101,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Let's talk Kimi K3, the largest open-weight AI model ever shipped: 2.8 trillion parameters, a 1-million-token context window, and benchmark scores that trail only Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol overall, while beating Claude Opus 4.8 and GPT-5.5 on coding and",
+     "author_username": "exponentialluke",
+     "author_followers": 1531
+    },
+    {
+     "author_id": "1395477249651003394",
+     "created_at": "2026-07-17T16:24:30.000Z",
+     "edit_history_tweet_ids": [
+      "2078153881016484245"
+     ],
+     "id": "2078153881016484245",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 31,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Imagine having an AI agent that doesn’t just answer questions,  it gets things done.\n\nWith the new AgentPay update from BonfireStellar, your AI agents can help automate your digital workflow:\n\n• Schedule and publish posts to your X account at specific times\n• Create threads and",
+     "author_username": "Bonfirestellar",
+     "author_followers": 4828
+    },
+    {
+     "author_id": "16904662",
+     "created_at": "2026-07-17T16:23:56.000Z",
+     "edit_history_tweet_ids": [
+      "2078153739740012809"
+     ],
+     "id": "2078153739740012809",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 214,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "text": "every time something broke in my agent setup, i'd fix it once and forget to fix the pattern underneath.\n\nso i built agent-improvement-loop.\n\nit's a self-improvement loop for AI agents. runs daily, mines your Claude Code and Codex sessions, finds the friction you keep hitting, and https://t.co/ni7Y0RMAgO",
+     "author_username": "cathrynlavery",
+     "author_followers": 15661
+    },
+    {
+     "author_id": "535887744",
+     "created_at": "2026-07-17T16:23:49.000Z",
+     "edit_history_tweet_ids": [
+      "2078153712493850987"
+     ],
+     "id": "2078153712493850987",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 22,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Every time I build a new AI workflow, I ask myself one question:\n\nAm I creating leverage for me, or an asset for the business?\n\nThe best AI isn't tied to one person.\n\nIt's a system the company owns, improves, and compounds over time.\n\nThat's when AI becomes a business asset.\n\nHow https://t.co/AposLmXBkA",
+     "author_username": "profithuntercfo",
+     "author_followers": 2148
+    },
+    {
+     "author_id": "1608745792214294528",
+     "created_at": "2026-07-17T16:22:50.000Z",
+     "edit_history_tweet_ids": [
+      "2078153464748671306"
+     ],
+     "id": "2078153464748671306",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 14,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "This guy builds a PC, eats noodles.\nThe result? A white canister mini-PC with AI inside. No setup required. No problem.\nWhat this canister PC actually is:\n→ Compact tower case — white, clean, industrial\n→ Side-mounted 120mm fan (adequate airflow for 24/7 AI workloads)\n→ USB https://t.co/ZcbyXLJMMO https://t.co/XhjVcVucrG",
+     "author_username": "CryptoPOWERKIT",
+     "author_followers": 45
+    },
+    {
+     "author_id": "9571572",
+     "created_at": "2026-07-17T16:21:21.000Z",
+     "edit_history_tweet_ids": [
+      "2078153088721154142"
+     ],
+     "id": "2078153088721154142",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 33,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Meet Preflight 🛫\n\nDevTools for AI coding. Free, open-source observability for Claude Code (and other AI coding agents). Runs 100% locally, no New Relic account needed.\n\n- Live-tail of all activity\n- Subagent and workflow tracking\n- Per-model cost breakdown\n- Throttle detection, https://t.co/FpM18U1czi",
+     "author_username": "adjohn",
+     "author_followers": 2497
+    },
+    {
+     "author_id": "1280587925336530948",
+     "created_at": "2026-07-17T16:20:51.000Z",
+     "edit_history_tweet_ids": [
+      "2078152963374063639"
+     ],
+     "id": "2078152963374063639",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1292,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "text": "$AMD| @MikeLongTerm was right again😏✅\n\nI got lots of hates in the last 2-3 days. They are pointing out a false narrative that biggest quant traders are spreading on chinese models, so their clients bought @AMD cheaply as the biggest Agentic AI winner. What they didnt tell u, https://t.co/1XMckd9mVC https://t.co/4x1DUNYBEi",
+     "author_username": "MikeLongTerm",
+     "author_followers": 25960
+    },
+    {
+     "author_id": "1750274050625015808",
+     "created_at": "2026-07-17T16:20:10.000Z",
+     "edit_history_tweet_ids": [
+      "2078152793118900301"
+     ],
+     "id": "2078152793118900301",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 7,
+      "impression_count": 100,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "The playbook everyone reposts says stop prompting your agent and build a loop. The benchmark drop this week settles which model belongs inside it. Artificial Analysis ran Kimi K3 and on agentic work it is at the very top\n\nAutomationBench-AA, the Zapier workflow eval: 1st place, https://t.co/GceYCzitA9 https://t.co/rwEtk9D9YI",
+     "author_username": "kardinall",
+     "author_followers": 1827
+    },
+    {
+     "author_id": "1422744617296941057",
+     "created_at": "2026-07-17T16:17:35.000Z",
+     "edit_history_tweet_ids": [
+      "2078152140464517168"
+     ],
+     "id": "2078152140464517168",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 51,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 OpenAI launches its first hardware product\n\nOpenAI has unveiled Codex Micro, a $230 programmable AI macropad built with Work Louder for developers using Codex.\n\n&gt;13 mechanical keys\n&gt;Live AI agent status lights\n&gt;Joystick &amp; rotary dial\n&gt;ChatGPT desktop integration\n&gt;Custom https://t.co/AQ50mdmQfu",
+     "author_username": "PlusPointIndia",
+     "author_followers": 2837
+    },
+    {
+     "author_id": "146108201",
+     "created_at": "2026-07-17T16:16:41.000Z",
+     "edit_history_tweet_ids": [
+      "2078151914274111729"
+     ],
+     "id": "2078151914274111729",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 14,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Google’s AI budget may climb even higher — because capacity, not demand, is the bottleneck\n\nWhat this means\nAlphabet’s Google isn’t spending more on AI because customers vanished — it’s spending because it can’t build compute fast enough for the ones already waiting. Capex was",
+     "author_username": "Tesla_Optimus_K",
+     "author_followers": 3897
+    },
+    {
+     "author_id": "1996286302602526720",
+     "created_at": "2026-07-17T16:16:08.000Z",
+     "edit_history_tweet_ids": [
+      "2078151776428019741"
+     ],
+     "id": "2078151776428019741",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Most people think they need the best AI model.\nIn reality, they need a better system.\nClear goals. Better prompts. The right context. A repeatable workflow.\nThat's how AI becomes a productivity tool instead of a distraction.\nWhat's one AI workflow that's saved you the most time?",
+     "author_username": "khal87322",
+     "author_followers": 2
+    },
+    {
+     "author_id": "49569032",
+     "created_at": "2026-07-17T16:15:53.000Z",
+     "edit_history_tweet_ids": [
+      "2078151712326512960"
+     ],
+     "id": "2078151712326512960",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 32,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "text": "THE CLAUDE CODE TEAM WROTE THE FIELD GUIDE ON HANDING YOUR OWN WORK OFF TO LOOPS\n\na loop is an agent repeating cycles until a stop condition is met\n\nthere are 4. each one hands off one more piece of the job than the last:\n\n&gt; turn-based - you hand off the check\nClaude verifies its https://t.co/zUkAyl8YQV https://t.co/83i3RHCm7Q",
+     "author_username": "AnnatarXBT",
+     "author_followers": 432
+    },
+    {
+     "author_id": "16300726",
+     "created_at": "2026-07-17T16:15:28.000Z",
+     "edit_history_tweet_ids": [
+      "2078151608769356144"
+     ],
+     "id": "2078151608769356144",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 46,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "What happens to “U.S. AI” as “China AI” rises?\n\nKimi K3 reinforces the pattern that began with DeepSeek R1: Chinese labs are no longer competing only on price. They are approaching the frontier—and surpassing U.S. models on some workloads—while offering increasingly capable https://t.co/iJBERB6eic",
+     "author_username": "edwardtsai",
+     "author_followers": 251
+    },
+    {
+     "author_id": "181125948",
+     "created_at": "2026-07-17T16:13:46.000Z",
+     "edit_history_tweet_ids": [
+      "2078151182787506388"
+     ],
+     "id": "2078151182787506388",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Was feeling choked with Claude Code harness. \nShifting to https://t.co/oP8veEkJG1 (https://t.co/EUqCt0sWJs version). Any suggestion/tips for a https://t.co/oP8veEkJG1 harness noobie?",
+     "author_username": "AskPK123",
+     "author_followers": 204
+    },
+    {
+     "author_id": "1914625782896582657",
+     "created_at": "2026-07-17T16:12:05.000Z",
+     "edit_history_tweet_ids": [
+      "2078150758269382856"
+     ],
+     "id": "2078150758269382856",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 41,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🚨 Anthropic has an official prompt library for Claude Code—and it's 100% FREE.\n\nMost people still write prompts from scratch every day...\n\nYou don't have to.\n\nIt's a ready-to-use collection of prompts, organized by task and role:\n\n✅ Planning\n✅ Debugging\n✅ Code Reviews\n✅ https://t.co/ms65a51PFO",
+     "author_username": "Hyde_ai3",
+     "author_followers": 2009
+    },
+    {
+     "author_id": "432632941",
+     "created_at": "2026-07-17T16:10:58.000Z",
+     "edit_history_tweet_ids": [
+      "2078150477427175442"
+     ],
+     "id": "2078150477427175442",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 53,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "text": "honest question for the Claude Code users :\n\nwhich MCP server actually changed how you build? not the one you set up and forgot. the one you'd cry without now.\n\ndrop it below, i'm rebuilding my default setup this week.",
+     "author_username": "jayjanyani",
+     "author_followers": 983
+    },
+    {
+     "author_id": "776540297669074944",
+     "created_at": "2026-07-17T16:07:03.000Z",
+     "edit_history_tweet_ids": [
+      "2078149492356821376"
+     ],
+     "id": "2078149492356821376",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 6,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Security teams are drowning in alerts, not because they are not capable, but because the volume has outpaced what any manual workflow can handle. Agentic MDR services close that gap by combining intelligent AI agents with experienced analysts who stay in control of the decisions",
+     "author_username": "BitLyft",
+     "author_followers": 310
+    },
+    {
+     "author_id": "2015669211402502144",
+     "created_at": "2026-07-17T16:04:52.000Z",
+     "edit_history_tweet_ids": [
+      "2078148941724696937"
+     ],
+     "id": "2078148941724696937",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Complete Claude Code Guide: 12 Features That Every Developer Should Master.\n\nComment 'Claude' below and I'll DM you the details. https://t.co/9d5ZjwRsR2",
+     "author_username": "AkbarShaik_",
+     "author_followers": 5
+    },
+    {
+     "author_id": "1603900380638765056",
+     "created_at": "2026-07-17T16:01:54.000Z",
+     "edit_history_tweet_ids": [
+      "2078148195146711158"
+     ],
+     "id": "2078148195146711158",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Friday Challenge: Build a \"Self-Healing\" AI Workflow. 🛠️\n\nCreate an automation where a secondary agent detects failures in the first and fixes them in real-time. Reliability is the bridge between a demo and a product. \n\nShow us your logic! #AIAutomation",
+     "author_username": "Light_Leonardo",
+     "author_followers": 7
+    },
+    {
+     "author_id": "1632236560232992770",
+     "created_at": "2026-07-17T16:00:32.000Z",
+     "edit_history_tweet_ids": [
+      "2078147851637473431"
+     ],
+     "id": "2078147851637473431",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 17,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Using Claude Code for bug bounty? Don’t feed it private reports.\n\nSafer workflow:\n• use only your disclosed reports\n• strip program/user data\n• turn recurring methods into checklists\n• manually verify every finding\n\nPractice corpus: https://t.co/ENQ8nmvFkz",
+     "author_username": "0xal0ke",
+     "author_followers": 27
+    },
+    {
+     "author_id": "2007262178282483715",
+     "created_at": "2026-07-17T16:00:01.000Z",
+     "edit_history_tweet_ids": [
+      "2078147722368958782"
+     ],
+     "id": "2078147722368958782",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Stop. If AI felt useless, you used it like a search bar, not a system.\n\nUse this flow: choose one task -&gt; give AI the input -&gt; make it produce one output -&gt; review the result.\n\nPayoff: You get a useful AI workflow you can...\n\nComment TOKEN and I'll send you The AI Content Stack.",
+     "author_username": "EasyBAutomation",
+     "author_followers": 0
+    },
+    {
+     "author_id": "2797777938",
+     "created_at": "2026-07-17T15:59:10.000Z",
+     "edit_history_tweet_ids": [
+      "2078147508178468881"
+     ],
+     "id": "2078147508178468881",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 173,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "OpenAI Just Released Its First Hardware Product\n\nOpenAI has officially entered the hardware space with the launch of Codex Micro, a $230 desktop control pad built specifically for managing the Codex AI coding agent.\n\nThe device was developed in collaboration with Work Louder, a https://t.co/KHlZwW4X8L",
+     "author_username": "Awesome_O_AI",
+     "author_followers": 150422
+    },
+    {
+     "author_id": "998783847927111680",
+     "created_at": "2026-07-17T15:58:40.000Z",
+     "edit_history_tweet_ids": [
+      "2078147379744616948"
+     ],
+     "id": "2078147379744616948",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 241,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 6,
+      "retweet_count": 0
+     },
+     "text": "You can hit a 4%+ reply rate on cold email if you have Claude Code, a laptop, an internet connection, and 60 mins a day.\n\nLike and reply 'COLDEMAIL' and I'll send you my beginner-to-advanced guide for FREE.\n\nMust follow me to get this killer guide in your DM.\n\nFREE for the next https://t.co/E6roeIWjLP",
+     "author_username": "yanndine",
+     "author_followers": 8405
+    },
+    {
+     "author_id": "1898155654290063365",
+     "created_at": "2026-07-17T15:57:03.000Z",
+     "edit_history_tweet_ids": [
+      "2078146973299859512"
+     ],
+     "id": "2078146973299859512",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 348,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Screw it. I want to pay it forward.\n\nI'm giving away our entire GTM resource library, 100+ lead mags covering Claude Code workflows, LinkedIn systems, cold email, agents, and every skill and setup behind them.\n\nLike and comment \"CONNIE\" and I'll send you access 100% FREE.\n\nMust https://t.co/tDoGHNUvb5",
+     "author_username": "AlfieJCarter",
+     "author_followers": 29072
+    },
+    {
+     "author_id": "33353061",
+     "created_at": "2026-07-17T15:56:36.000Z",
+     "edit_history_tweet_ids": [
+      "2078146862306017687"
+     ],
+     "id": "2078146862306017687",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 750,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Not sure if any of this is a good idea or not, but here's my  \"stack\" for AI-assisted SaaS building:\n1/ I use both the Claude Code and Codex native apps. I like both for slightly different reasons. In particular, Codex's preview browser with annotation markup is really helpful. https://t.co/TlRHJeIlC4",
+     "author_username": "tylertringas",
+     "author_followers": 30620
+    },
+    {
+     "author_id": "2063652556685942784",
+     "created_at": "2026-07-17T15:56:15.000Z",
+     "edit_history_tweet_ids": [
+      "2078146775215427671"
+     ],
+     "id": "2078146775215427671",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 30,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "A free hour from Anthropic on Loop Engineering with Fable 5 — and most people scroll right past it.\nEverything about Claude Code and agentic loops, explained cleaner than any paid course.\nSave it. Watch it. Then watch it again with my guide open — it hits completely different the https://t.co/oPqPGgUDBF",
+     "author_username": "MarioWeb3omg",
+     "author_followers": 18
+    },
+    {
+     "author_id": "1481505450378276866",
+     "created_at": "2026-07-17T15:55:33.000Z",
+     "edit_history_tweet_ids": [
+      "2078146596303245584"
+     ],
+     "id": "2078146596303245584",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "screw it. i want to give it away.\n\nhere's the exact Claude Code GTM setup we run across outbound, research, content, and pipeline generation.\n\n50+ skills. 58 agents. 6 core workflows. the safety protocols keeping agentic sessions inside budget and inside guardrails. the CLAUDE.md https://t.co/iPsI74Cmhp",
+     "author_username": "aiken_10",
+     "author_followers": 1109
+    },
+    {
+     "author_id": "1446918442989277185",
+     "created_at": "2026-07-17T15:54:53.000Z",
+     "edit_history_tweet_ids": [
+      "2078146430921839048"
+     ],
+     "id": "2078146430921839048",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 22,
+      "impression_count": 416,
+      "like_count": 28,
+      "quote_count": 0,
+      "reply_count": 13,
+      "retweet_count": 0
+     },
+     "text": "ONE PROMPT JUST REPLACED A $3,000/MONTH SEO AGENCY\n\nElie Steinbock built an AI agent that climbs to the top of Google on its own. Once a month. On autopilot.\n\nHe calls it loop engineering: you hand it a task, a metric, and a stop condition, and it iterates on its own, growing on https://t.co/slLGfxf7j2 https://t.co/dSOAYyCgy0",
+     "author_username": "shmidtqq",
+     "author_followers": 9803
+    },
+    {
+     "author_id": "1163365561797156864",
+     "created_at": "2026-07-17T15:54:35.000Z",
+     "edit_history_tweet_ids": [
+      "2078146352706392502"
+     ],
+     "id": "2078146352706392502",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 20,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Spoke to staff software engineer at Boeing the other day.  According to her, they have implemented exactly 0 coding agents into their workflow.  Everything still done by hand.  She, herself, has never used Claude code or codex either professionally or in personal life.  Still",
+     "author_username": "kipkillion",
+     "author_followers": 161
+    },
+    {
+     "author_id": "1481505450378276866",
+     "created_at": "2026-07-17T15:54:26.000Z",
+     "edit_history_tweet_ids": [
+      "2078146317054820515"
+     ],
+     "id": "2078146317054820515",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "R.I.P. manual LinkedIn outreach. Claude Code is your free B2B outreach team now.\n\nI compiled every agent, every skill, and every install command we use to run lead scoring, outreach, sequencing, and reply handling into one playbook.\nThey're the same 5 parallel agents and 40",
+     "author_username": "aiken_10",
+     "author_followers": 1109
+    },
+    {
+     "author_id": "2047516499867525120",
+     "created_at": "2026-07-17T15:54:19.000Z",
+     "edit_history_tweet_ids": [
+      "2078146287778533443"
+     ],
+     "id": "2078146287778533443",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 27,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Kimi K3 has been introduced for long-horizon agentic coding, with faster decoding across million-token contexts. That could make complex development work easier to sustain and scale.\n\nBut model capability is only one part of the workflow. Even the strongest model still depends on https://t.co/R4oMC0SMX5",
+     "author_username": "ALwith_ai",
+     "author_followers": 13
+    },
+    {
+     "author_id": "1950877451392802816",
+     "created_at": "2026-07-17T15:53:15.000Z",
+     "edit_history_tweet_ids": [
+      "2078146018814677236"
+     ],
+     "id": "2078146018814677236",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 54,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "You can book 12 calls a week if you have Claude Code, a laptop, an internet connection, and 60 mins a day.\n\nLike and reply 'AGENTS' and I'll send you my beginner-to-advanced guide for FREE.\n\nMust follow me to get this killer guide in your DM.\n\nFREE for the next 48 hours only.",
+     "author_username": "jack_9947",
+     "author_followers": 2508
+    },
+    {
+     "author_id": "2076539079899144192",
+     "created_at": "2026-07-17T15:51:45.000Z",
+     "edit_history_tweet_ids": [
+      "2078145639272345738"
+     ],
+     "id": "2078145639272345738",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 118,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "If all AI coding tools disappeared tomorrow, how much would your workflow change? (0–100%)",
+     "author_username": "secretpuntch",
+     "author_followers": 315
+    },
+    {
+     "author_id": "2029092746947117057",
+     "created_at": "2026-07-17T15:50:00.000Z",
+     "edit_history_tweet_ids": [
+      "2078145199511847362"
+     ],
+     "id": "2078145199511847362",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 4,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "The best AI workflow automation software keeps working when you step away.\n\nSchedule a voice task once, and Owlfy can prepare your inbox and calendar brief on time—locally on your device.\n\nSet it. Step away. Wake up ready.\n\nSet your first scheduled Owlfy task. https://t.co/wgHz0faU90",
+     "author_username": "Owlfy_ai",
+     "author_followers": 23
+    },
+    {
+     "author_id": "2051403956727734274",
+     "created_at": "2026-07-17T15:49:32.000Z",
+     "edit_history_tweet_ids": [
+      "2078145081400557715"
+     ],
+     "id": "2078145081400557715",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 341,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 5
+     },
+     "text": "Mark Cuban just sketched the fastest path to wealth for anyone under 30 in the next 5 years...\n\nHis bet?\n\nSmall and mid-sized companies are about to rely on AI agents the way they rely on email.\n\nAnd almost none of the owners will have the faintest idea how to design, deploy, or https://t.co/8dZ9OXuqRT",
+     "author_username": "AiEvolutio58513",
+     "author_followers": 5098
+    },
+    {
+     "author_id": "216939636",
+     "created_at": "2026-07-17T15:47:30.000Z",
+     "edit_history_tweet_ids": [
+      "2078144569594761591"
+     ],
+     "id": "2078144569594761591",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 75,
+      "impression_count": 18095,
+      "like_count": 116,
+      "quote_count": 1,
+      "reply_count": 25,
+      "retweet_count": 14
+     },
+     "text": "New course: Build LLM applications that respond to user requests quickly by running on hardware designed for fast inference. This short course was built with  @Cerebras and taught by @zhennydez, @duerr_seb, and  @MilksandMatcha.\n\nWhen a model generates text, much of the time is https://t.co/JLAvqtpY92",
+     "author_username": "AndrewYNg",
+     "author_followers": 1699693
+    },
+    {
+     "author_id": "886202022743199744",
+     "created_at": "2026-07-17T15:45:17.000Z",
+     "edit_history_tweet_ids": [
+      "2078144011945005167"
+     ],
+     "id": "2078144011945005167",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 44,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "FABLE 5 CAN 20X CLAUDE CODE WORK WHEN SONNET OR OPUS HANDLES THE CHEAP EXPLORATION FIRST\n\nMost people burn the best model on the wrong layer:\n\nideas, tiny scripts, toy builds, overkill effort settings, and then asking the same model to grade its own output.\n\nThat is how your https://t.co/eJX6WHaSis https://t.co/zNgzHBO8kI",
+     "author_username": "yaolei11",
+     "author_followers": 12
+    },
+    {
+     "author_id": "825023631835152384",
+     "created_at": "2026-07-17T15:43:42.000Z",
+     "edit_history_tweet_ids": [
+      "2078143614069395587"
+     ],
+     "id": "2078143614069395587",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Agentic AI is becoming a digital coworker, and leaders need a new playbook for managing work, risk, and outcomes. \n\nThis edition covers what’s working, what’s changing, and some top AI Agent use cases.\n \nRead now! 👇\n\n#AgenticAI #AIInnovation #Finance https://t.co/qxTJyPfK1O",
+     "author_username": "AccelirateInc",
+     "author_followers": 306
+    },
+    {
+     "author_id": "224122386",
+     "created_at": "2026-07-17T15:42:41.000Z",
+     "edit_history_tweet_ids": [
+      "2078143359991128320"
+     ],
+     "id": "2078143359991128320",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 23,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "⚡ Claude Code or GitHub Copilot? Which AI coding assistant is the better choice for developers?\n\nAI coding tools are transforming software development by helping developers write code faster, debug more efficiently, and automate repetitive tasks. But with several powerful",
+     "author_username": "trainingbiz",
+     "author_followers": 1128
+    },
+    {
+     "author_id": "1690039220369567744",
+     "created_at": "2026-07-17T15:42:38.000Z",
+     "edit_history_tweet_ids": [
+      "2078143348133831035"
+     ],
+     "id": "2078143348133831035",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "OpenAl Just Dropped Its First Hardware For Vibe Coders And It Controls Al Agents\nFor years, keyboards were designed for typing.\n\nOpenAl thinks the next generation of keyboards should be designed for managing Al agents.\n\nMeet Codex Micro.\n\nA compact hardware controller built in",
+     "author_username": "jaykrishAGI",
+     "author_followers": 1019
+    },
+    {
+     "author_id": "1564999603493019648",
+     "created_at": "2026-07-17T15:39:15.000Z",
+     "edit_history_tweet_ids": [
+      "2078142496492888573"
+     ],
+     "id": "2078142496492888573",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "day 1 of #100daysofcode \n- agentic ai: setup, apis and client libraries, calling LLMs https://t.co/SIkOjw8f6p",
+     "author_username": "willow687338101",
+     "author_followers": 3
+    },
+    {
+     "author_id": "1842267450651602944",
+     "created_at": "2026-07-17T15:37:21.000Z",
+     "edit_history_tweet_ids": [
+      "2078142017104654756"
+     ],
+     "id": "2078142017104654756",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 129,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "@HyperFrames_ is underrated as a full editor workflow using agents like codex and Claude code https://t.co/srKrly2F2u",
+     "author_username": "Rames_Jusso",
+     "author_followers": 855
+    },
+    {
+     "author_id": "2061921049009164288",
+     "created_at": "2026-07-17T15:35:51.000Z",
+     "edit_history_tweet_ids": [
+      "2078141639940268165"
+     ],
+     "id": "2078141639940268165",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 48,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Build fast. Just don’t hand your keys to the robot.\n\nYou point agents at your codebase to move faster. They need API keys, database passwords, tokens for every service your product touches. Those credentials usually sit in plaintext config, read on startup. Every workflow https://t.co/euBGxT1560",
+     "author_username": "Codezero_io",
+     "author_followers": 1
+    },
+    {
+     "author_id": "1017516460900601857",
+     "created_at": "2026-07-17T15:35:23.000Z",
+     "edit_history_tweet_ids": [
+      "2078141521006575706"
+     ],
+     "id": "2078141521006575706",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1225,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Cadence Design Systems, Inc.\n(Nasdaq: $CDNS)\n\nCadence and Rapidus have formed a partnership focused on using agentic AI to accelerate advanced system-on-chip design.\n\nThe companies believe their integrated workflow could deliver up to twice the design turnaround speed for certain",
+     "author_username": "Boldstocksbabe",
+     "author_followers": 67402
+    },
+    {
+     "author_id": "19410158",
+     "created_at": "2026-07-17T15:34:45.000Z",
+     "edit_history_tweet_ids": [
+      "2078141363422363819"
+     ],
+     "id": "2078141363422363819",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 12,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "My agentic engineering workflow is seriously nudging me towards emacs. Started with zellij, but turns out it's not enough. Long time coming I guess. https://t.co/iWbZXJn9ke",
+     "author_username": "abeldantas",
+     "author_followers": 794
+    },
+    {
+     "author_id": "2000275633763667968",
+     "created_at": "2026-07-17T15:34:44.000Z",
+     "edit_history_tweet_ids": [
+      "2078141357806223433"
+     ],
+     "id": "2078141357806223433",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 21,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "text": "Great news for the people of Punjab! Meet Punjab Beli 🌾🤖 — an agentic AI assistant built to make civic services accessible to every citizen in Punjab, Pakistan.\nThe Punjab Govt is announcing incredible subsidies daily, but navigating and applying for them should be an https://t.co/7Oo8cMnMZS",
+     "author_username": "AlphaCodeAI",
+     "author_followers": 121
+    },
+    {
+     "author_id": "458109833",
+     "created_at": "2026-07-17T15:33:42.000Z",
+     "edit_history_tweet_ids": [
+      "2078141098065797341"
+     ],
+     "id": "2078141098065797341",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8812,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "🧩 Conquering the Edge-Case Bottleneck: The Secret to Scalable AI Systems\n\nBuilding an AI workflow that works 80% of the time is easy. The real challenge is handling the final 20%—the unexpected data formats, rate limits, and network errors that cause traditional systems to",
+     "author_username": "Rubycryptoz",
+     "author_followers": 14617
+    },
+    {
+     "author_id": "1583539250800254976",
+     "created_at": "2026-07-17T15:32:15.000Z",
+     "edit_history_tweet_ids": [
+      "2078140732280365285"
+     ],
+     "id": "2078140732280365285",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 150,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "👉🏻Rather than paying for each model on different platforms, here's a guide for @AskVenice of how can you use their AI movie studio. \n\nI generated another 2 videos with same prompt (from Venice Agentic Chat) with Seedance2.0 and Grok Imagine1.5 ( skip to 2.50sn for results)\n\n🤖If https://t.co/bxsd0bRJi3 https://t.co/2c1YRHrbDl",
+     "author_username": "degenbtcf",
+     "author_followers": 1280
+    },
+    {
+     "author_id": "17576354",
+     "created_at": "2026-07-17T15:32:12.000Z",
+     "edit_history_tweet_ids": [
+      "2078140721044009207"
+     ],
+     "id": "2078140721044009207",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 25,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "text": "AI or automation?\n\nAshley Fidler of MoxiWorks explains when not to use AI.\n\nSimple rule? Use workflow automation.\n\nSave agentic AI for flexible decisions.\n\n👉 https://t.co/UPYfrVk1NJ\n\n#AIProductivity #WorkflowAutomation #SafeAI https://t.co/rW2ZPGftxW",
+     "author_username": "KevHawkins",
+     "author_followers": 731
+    },
+    {
+     "author_id": "127408177",
+     "created_at": "2026-07-17T15:31:37.000Z",
+     "edit_history_tweet_ids": [
+      "2078140574981673344"
+     ],
+     "id": "2078140574981673344",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 67,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 5
+     },
+     "text": "🚨 $VSEE  AI HEALTHCARE ALERT 🚨\n\nVSee unveiled what it calls the world’s first autonomous AI telehealth robot—built to navigate hospital corridors using LiDAR and support virtual rounding, telestroke, tele-ICU and after-hours care.\n\nThe VSee AI Workflow Engine also gives health https://t.co/hACUY6qxZM",
+     "author_username": "Stock_HighAlert",
+     "author_followers": 8705
+    },
+    {
+     "author_id": "1281035114072473613",
+     "created_at": "2026-07-17T15:27:40.000Z",
+     "edit_history_tweet_ids": [
+      "2078138565427708275",
+      "2078139580638007739"
+     ],
+     "id": "2078139580638007739",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3242,
+      "like_count": 47,
+      "quote_count": 9,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "While most AI assistants focus on conversations, OpenYabby focuses on execution\n\nHere’s what impressed me about how it works:\n\nYou simply say what you want, like “Build me a dark mode portfolio with a blog section.” From there, Yabby creates the project, assigns a lead AI agent, https://t.co/vYtMflvmbH",
+     "author_username": "BIGHEM_",
+     "author_followers": 2354
+    },
+    {
+     "author_id": "75146351",
+     "created_at": "2026-07-17T15:25:21.000Z",
+     "edit_history_tweet_ids": [
+      "2078138997113544898"
+     ],
+     "id": "2078138997113544898",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 20,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Stop bloating your workflow with redundant AI tools! 🛑 If your model already has native connectors for Notion, Slack, or Drive, you're just adding unnecessary friction. Learn which MCP servers to delete and why native features like Claude Code outperform the 'stealth trial' comp https://t.co/FtdUMAPsIu",
+     "author_username": "HernandezFreddy",
+     "author_followers": 83
+    },
+    {
+     "author_id": "135746708",
+     "created_at": "2026-07-17T15:24:49.000Z",
+     "edit_history_tweet_ids": [
+      "2078138863143239789"
+     ],
+     "id": "2078138863143239789",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 30,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution\n\nHarris Borman, Herman Wandabwa, Fusun Yu, Sandeepa Kannangara, Justin Liu, Anna Leontjeva, Ritchie Ng\nhttps://t.co/uruzQx9W1v [𝚌𝚜.𝚂𝙴 𝚌𝚜.𝙰𝙸] https://t.co/B4d083AF9m",
+     "author_username": "ComputerPapers",
+     "author_followers": 2524
+    },
+    {
+     "author_id": "10947452",
+     "created_at": "2026-07-17T15:20:31.000Z",
+     "edit_history_tweet_ids": [
+      "2078137779851010272"
+     ],
+     "id": "2078137779851010272",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 1017,
+      "like_count": 25,
+      "quote_count": 1,
+      "reply_count": 4,
+      "retweet_count": 1
+     },
+     "text": "Every serious AI strategy eventually arrives at the same problem: the company was designed for people who could fill in the gaps.\n\nAI is forcing companies to expose the operating knowledge people have always supplied without being asked: what a customer promise actually commits https://t.co/35p1dW87S2",
+     "author_username": "danieldines",
+     "author_followers": 6668
+    },
+    {
+     "author_id": "2066869096008798208",
+     "created_at": "2026-07-17T15:19:45.000Z",
+     "edit_history_tweet_ids": [
+      "2078137588234277115"
+     ],
+     "id": "2078137588234277115",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "**Summer 2026 - State of the Art in the Agentic AI Era **\n\n- Recursive self-improvement is no longer theoretical — AI systems that improve AI systems are here . \n\n- The best engineers barely touch a PC to build anymore. With near-unlimited tokens and cloud compute, you can run an https://t.co/OBIUBFGnRA",
+     "author_username": "Nabil_Kechiche",
+     "author_followers": 0
+    },
+    {
+     "author_id": "2057831227835441152",
+     "created_at": "2026-07-17T15:18:20.000Z",
+     "edit_history_tweet_ids": [
+      "2078137229944242623"
+     ],
+     "id": "2078137229944242623",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Google just released a free 1-hour course that teaches the core skills every AI engineer needs in 2026:\n\n• 00:00 – Context engineering\n• 10:00 – Building, deploying, and running AI agents\n• 31:52 – Agentic loops &amp; long-running AI agents\n• 43:22 – Building MCP from the ground https://t.co/vXzRk5Dcp6",
+     "author_username": "xsugiez",
+     "author_followers": 5
+    },
+    {
+     "author_id": "1851766957",
+     "created_at": "2026-07-17T15:18:15.000Z",
+     "edit_history_tweet_ids": [
+      "2078137211539632237"
+     ],
+     "id": "2078137211539632237",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 9,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "𝗔𝗜𝗡𝗙𝗧 𝗚𝗜𝗩𝗘𝗦 𝗬𝗢𝗨 𝗧𝗛𝗘 𝗙𝗥𝗘𝗘𝗗𝗢𝗠 𝗧𝗢 𝗖𝗛𝗢𝗢𝗦𝗘\n\nThe best AI workflow isn't built around a single model.\n\nIt's built around selecting the right intelligence for the right task.\n\nA complex coding challenge may require one model, while creative writing, https://t.co/Mox525AAXH",
+     "author_username": "tuTransform",
+     "author_followers": 12937
+    },
+    {
+     "author_id": "442390892",
+     "created_at": "2026-07-17T15:17:45.000Z",
+     "edit_history_tweet_ids": [
+      "2078137083282256307"
+     ],
+     "id": "2078137083282256307",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 9924,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🛠️ STRUCTURING THE INDUSTRIAL AI WORKFLOW: AUTOMATION WITHOUT BOUNDARIES\n\nFor modern enterprises, the true value of artificial intelligence is not unlocked through isolated chat windows; it is achieved by embedding deep learning logic directly into automated, industrial-grade https://t.co/V90TCARD0R",
+     "author_username": "Richdegen67",
+     "author_followers": 8352
+    },
+    {
+     "author_id": "64828308",
+     "created_at": "2026-07-17T15:16:14.000Z",
+     "edit_history_tweet_ids": [
+      "2078136704691478980"
+     ],
+     "id": "2078136704691478980",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 10,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "OpenClaw replaced its setup wizard with an AI agent.\n\nWhen I installed the latest OpenClaw, I thought setup was already done because it drops you into what looks like the normal agent UI. It even auto-selected Codex as the backend without asking.\n\nMore importantly, why is setup https://t.co/zxw0t4dJFt",
+     "author_username": "rudnkh",
+     "author_followers": 2615
+    },
+    {
+     "author_id": "2006425992886366216",
+     "created_at": "2026-07-17T15:16:12.000Z",
+     "edit_history_tweet_ids": [
+      "2078136692813533224"
+     ],
+     "id": "2078136692813533224",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Your AI Stack. Finally Organized.\nAI tools are powerful—but constantly switching between them isn't.\n\nQorpus brings your favorite AI assistants into one clean workspace, making it easier to compare ideas, validate information, and stay focused.\n\nInstead of managing multiple tabs, https://t.co/imczB6G8uL",
+     "author_username": "QorpusAI",
+     "author_followers": 1
+    },
+    {
+     "author_id": "1126286964",
+     "created_at": "2026-07-17T15:15:02.000Z",
+     "edit_history_tweet_ids": [
+      "2078136401279713747"
+     ],
+     "id": "2078136401279713747",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 42,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Automated pentesting follows rules written in advance and stops where they end. Autonomous pentesting puts a reasoning AI agent in the decision layer and starts from a signal, not a schedule. Full comparison plus a decision guide on when to run each: https://t.co/rapUF2nPxg https://t.co/Vt7Ogfn8kX",
+     "author_username": "PicusSecurity",
+     "author_followers": 2929
+    },
+    {
+     "author_id": "381264102",
+     "created_at": "2026-07-17T15:15:01.000Z",
+     "edit_history_tweet_ids": [
+      "2078136398352429451"
+     ],
+     "id": "2078136398352429451",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1317,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "McKinsey's 2025 State of AI survey found that fewer than 10% of organizations have scaled AI agents in any individual business function.\n\nMost are not using agents at all.\n\nA small group of companies has reached production scale with agents. The rest of the market is still https://t.co/pkiTkrp00F",
+     "author_username": "socialcapital",
+     "author_followers": 176338
+    },
+    {
+     "author_id": "1600800102070755331",
+     "created_at": "2026-07-17T15:14:39.000Z",
+     "edit_history_tweet_ids": [
+      "2078136303036555408"
+     ],
+     "id": "2078136303036555408",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 15,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "Just get the AI workflow live and tweak it from there. Much easier than being perfect in planning.",
+     "author_username": "RyneOgren",
+     "author_followers": 442
+    },
+    {
+     "author_id": "2074974063303217153",
+     "created_at": "2026-07-17T15:14:34.000Z",
+     "edit_history_tweet_ids": [
+      "2078136282031468626"
+     ],
+     "id": "2078136282031468626",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 6,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "6 hours a day? Now imagine the person who built this system barely opens Gmail manually anymore.\n\nThis guy built an AI agent that:\n- reads incoming emails,\n- detects priority,\n- sorts messages into categories,\n- creates draft replies,\n- and only notifies him about the emails that https://t.co/7rBUQwZNfW https://t.co/1XNbEXu2Re",
+     "author_username": "FenixFlow_ai",
+     "author_followers": 3
+    },
+    {
+     "author_id": "1441480006451044355",
+     "created_at": "2026-07-17T15:14:29.000Z",
+     "edit_history_tweet_ids": [
+      "2078136262234669427"
+     ],
+     "id": "2078136262234669427",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 4478,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 7,
+      "retweet_count": 8
+     },
+     "text": "You're paying for Claude and using 10% of its brain.\n\nThe 4-file system that fix it (with setup prompts):\n\nStep 1: Install Claude Code.\n\nRead my full setup guide first.\nEverything below sits on top of it.\n\nGet started \nhttps://t.co/B84V1LZWSw\n\nStep 2: Build CONTEXT (~/CLAUDE.md) https://t.co/2UuIAJsyHH https://t.co/Z91h7TX02x",
+     "author_username": "charliejhills",
+     "author_followers": 12553
+    },
+    {
+     "author_id": "750437851171549184",
+     "created_at": "2026-07-17T15:14:04.000Z",
+     "edit_history_tweet_ids": [
+      "2078136155946504533"
+     ],
+     "id": "2078136155946504533",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 61,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "CAN YOU BELIEVE CLAUDE F5 BUILT THIS?\n\nA full design-studio site. Kinetic typography, animated sections, a whole brand system — the kind of thing agencies quote $15K for.\n\nHere’s what’s on screen:\n\n→ Bold kinetic type flying through DESIGN / MOTION / BRAND / VISION\n→ Live https://t.co/LizTGQDrx5 https://t.co/9J32eIUe7Q",
+     "author_username": "nikskld",
+     "author_followers": 99
+    },
+    {
+     "author_id": "1395851729523068928",
+     "created_at": "2026-07-17T15:11:57.000Z",
+     "edit_history_tweet_ids": [
+      "2078135622712144334"
+     ],
+     "id": "2078135622712144334",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 119,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "text": "Your AI agent should not trade where fees eat the strategy.\n\nEterna MCP gives agents access to a 0.035% taker fee on Eterna.\n\nLow fees.\nFast setup.\nAgent-ready trading.\n\nBuilt for automated execution.\n\nTrust the Signal. https://t.co/DrhKhVVoWt",
+     "author_username": "Eterna_Hybrid",
+     "author_followers": 7280
+    },
+    {
+     "author_id": "1851766957",
+     "created_at": "2026-07-17T15:11:34.000Z",
+     "edit_history_tweet_ids": [
+      "2078135529158197287"
+     ],
+     "id": "2078135529158197287",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 20,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "𝗔𝗜𝗡𝗙𝗧 𝗡𝗢𝗩𝗔: 𝗧𝗛𝗘 𝗙𝗔𝗦𝗧𝗘𝗦𝗧 𝗪𝗔𝗬 𝗧𝗢 𝗟𝗔𝗨𝗡𝗖𝗛 𝗔𝗡 𝗔𝗜 𝗔𝗚𝗘𝗡𝗧\n\nBuilding an AI agent has traditionally required technical expertise, infrastructure, and significant development time.\n\nAINFT Nova changes that by making AI agent creation more accessible. https://t.co/mA5LhZT9K5",
+     "author_username": "tuTransform",
+     "author_followers": 12937
+    },
+    {
+     "author_id": "2070946412851060736",
+     "created_at": "2026-07-17T15:11:27.000Z",
+     "edit_history_tweet_ids": [
+      "2078135496958722065"
+     ],
+     "id": "2078135496958722065",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Just built this smart form automation in n8n 🔥\n\n→ Form submission\n→ Conditional logic (CRM or Google Sheet)\n→ Google Gemini AI Agent\n→ Auto notify via Gmail + Slack\n\nAI-powered workflow that saves hours! \n\n#n8n #Automation #GoogleGemini #AI https://t.co/7up4gOGj4R",
+     "author_username": "RamimXkhan",
+     "author_followers": 0
+    },
+    {
+     "author_id": "223619689",
+     "created_at": "2026-07-17T15:11:05.000Z",
+     "edit_history_tweet_ids": [
+      "2078135408106377645"
+     ],
+     "id": "2078135408106377645",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 7,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Ready to elevate your front-desk experience? Bridge Operator Console brings seamless harmony to your workflow. With Agentic AI, predictive transfers, and deep integration across RingCentral and Microsoft Teams, your receptionists can focus on what truly … https://t.co/Lmei3XhzBL https://t.co/5bOWeJeXzJ",
+     "author_username": "ndbridge",
+     "author_followers": 841
+    },
+    {
+     "author_id": "1851766957",
+     "created_at": "2026-07-17T15:06:09.000Z",
+     "edit_history_tweet_ids": [
+      "2078134165543731412"
+     ],
+     "id": "2078134165543731412",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 13,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "𝗔𝗜𝗡𝗙𝗧 𝗜𝗦 𝗥𝗘𝗗𝗘𝗙𝗜𝗡𝗜𝗡𝗚 𝗔𝗜 𝗢𝗥𝗖𝗛𝗘𝗦𝗧𝗥𝗔𝗧𝗜𝗢𝗡\n\nThe next phase of AI isn't about accessing more models—it's about orchestrating them intelligently.\n\nComplex tasks often require reasoning, research, coding, data analysis, and content generation. Instead of https://t.co/8APUCsRt0Z",
+     "author_username": "tuTransform",
+     "author_followers": 12937
+    },
+    {
+     "author_id": "212412903",
+     "created_at": "2026-07-17T15:05:11.000Z",
+     "edit_history_tweet_ids": [
+      "2078133922433532237"
+     ],
+     "id": "2078133922433532237",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 10,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "text": "Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents\n\nAadesh Bagmar, Pushkar Saraf\nhttps://t.co/jNrjc8hjep [𝚌𝚜.𝙲𝚁 𝚌𝚜.𝙷𝙲 𝚌𝚜.𝚂𝙴] https://t.co/CNfUZngGk3",
+     "author_username": "FSFG",
+     "author_followers": 611
+    },
+    {
+     "author_id": "1791512174914830336",
+     "created_at": "2026-07-17T15:02:59.000Z",
+     "edit_history_tweet_ids": [
+      "2078133369041281438"
+     ],
+     "id": "2078133369041281438",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "A simple AI workflow for learning anything:\nAsk AI to explain a topic simply\nAsk for real-world examples\nAsk it to create a quiz.\nAsk it to identify your mistakes.\nRepeat until mastery.\nLearning is no longer limited by access to information.\nWhat topic are you currently learning?",
+     "author_username": "fsjug13203",
+     "author_followers": 35
+    },
+    {
+     "author_id": "1851766957",
+     "created_at": "2026-07-17T15:02:36.000Z",
+     "edit_history_tweet_ids": [
+      "2078133271611785566"
+     ],
+     "id": "2078133271611785566",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "𝗪𝗛𝗬 𝗟𝗜𝗠𝗜𝗧 𝗬𝗢𝗨𝗥𝗦𝗘𝗟𝗙 𝗧𝗢 𝗢𝗡𝗘 𝗔𝗜 𝗠𝗢𝗗𝗘𝗟 𝗪𝗛𝗘𝗡 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗖𝗛𝗢𝗢𝗦𝗘 𝗧𝗛𝗘 𝗕𝗘𝗦𝗧 𝗢𝗡𝗘 𝗙𝗢𝗥 𝗧𝗛𝗘 𝗝𝗢𝗕?\n\nDifferent AI models excel at different tasks.\n\nSome are better at writing, others at coding, reasoning, research, or creative https://t.co/LIngoVehkC",
+     "author_username": "tuTransform",
+     "author_followers": 12937
+    },
+    {
+     "author_id": "1851766957",
+     "created_at": "2026-07-17T15:01:11.000Z",
+     "edit_history_tweet_ids": [
+      "2078132913892102268"
+     ],
+     "id": "2078132913892102268",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "𝗔𝗜𝗡𝗙𝗧 𝗜𝗦 𝗧𝗨𝗥𝗡𝗜𝗡𝗚 𝗔𝗜 𝗔𝗚𝗘𝗡𝗧𝗦 𝗜𝗡𝗧𝗢 𝗖𝗢𝗟𝗟𝗔𝗕𝗢𝗥𝗔𝗧𝗜𝗩𝗘 𝗗𝗜𝗚𝗜𝗧𝗔𝗟 𝗧𝗘𝗔𝗠𝗠𝗔𝗧𝗘𝗦\n\nA single AI agent can be highly capable, but some tasks require expertise from multiple agents working together.\n\nImagine one agent gathering market data, https://t.co/E7GGoIGuL1",
+     "author_username": "tuTransform",
+     "author_followers": 12937
+    },
+    {
+     "author_id": "1784895532269228032",
+     "created_at": "2026-07-17T15:00:23.000Z",
+     "edit_history_tweet_ids": [
+      "2078132712540643770"
+     ],
+     "id": "2078132712540643770",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 27,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Another day, another AI tool built 100% in Claude Code.\n\nToday: Client Onboarding Kit.\nPaste your offer and one new client. Get a complete, on-brand welcome packet — ready to send in 60 seconds.\n\nOne prompt → a working tool + a populated dashboard. No setup, no glue code.\n\nThe",
+     "author_username": "tylerprattcom",
+     "author_followers": 232
+    },
+    {
+     "author_id": "128700677",
+     "created_at": "2026-07-17T15:00:05.000Z",
+     "edit_history_tweet_ids": [
+      "2078132639425302716"
+     ],
+     "id": "2078132639425302716",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1301,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "🎙️ Recorded at #MicrosoftBuild, we welcome Sarah Bird, @Microsoft’s Chief Product Officer for Responsible AI, to chat about how we can build and use AI responsibly, why most irresponsible AI comes from experimentation without thought of impact, and how Microsoft is researching https://t.co/XUlHDWY2zL",
+     "author_username": "StackOverflow",
+     "author_followers": 256237
+    },
+    {
+     "author_id": "1042797252765528064",
+     "created_at": "2026-07-17T15:00:02.000Z",
+     "edit_history_tweet_ids": [
+      "2078132627656106154"
+     ],
+     "id": "2078132627656106154",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 201,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "People are making AI way harder than it needs to be.\n\nIf you want to get really good at building with AI, do this instead:\n\nKeep Claude Code or Codex open every time you're at your computer.\n\nNot when you're coding.\n\nNot when you're \"learning AI.\"\n\nEvery single day.\n\nThen, before",
+     "author_username": "suraj_sharma14",
+     "author_followers": 8080
+    },
+    {
+     "author_id": "204933679",
+     "created_at": "2026-07-17T15:00:00.000Z",
+     "edit_history_tweet_ids": [
+      "2078132618437218678"
+     ],
+     "id": "2078132618437218678",
+     "lang": "en",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 19,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "Most \"Level 4 autonomous network\" demos have one thing in common: a single agent, one domain, clean data, controlled environment. But that's not the network you're actually running.\n\nOur new guide on agentic AI for network operators makes the case that the real risk isn't an https://t.co/3TGWpZTJQT",
+     "author_username": "1FinityInc",
+     "author_followers": 1410
+    }
+   ]
+  },
+  {
+   "label": "monetization_global",
+   "query": "(\"AI agent\" OR \"using AI\" OR \"built with AI\" OR ChatGPT OR Claude) (monetize OR \"make money\" OR MRR OR \"paying customers\" OR revenue OR bootstrapped) -is:retweet -is:reply lang:en -crypto -airdrop -memecoin",
+   "http": 403,
+   "since_id_used": "2078002682128650244",
+   "error": {
+    "detail": "Your monthly spend cap has been reached.",
+    "status": 403,
+    "title": "Forbidden",
+    "type": "https://api.x.com/2/problems/spend-cap-reached"
+   }
+  },
+  {
+   "label": "how_people_use_ai",
+   "query": "(\"how I use AI\" OR \"how I use Claude\" OR \"how I use ChatGPT\" OR \"my AI workflow\" OR \"AI stack\" OR \"uses AI to\" OR \"prompt I use\" OR \"AI routine\") -is:retweet -is:reply lang:en",
+   "http": 403,
+   "since_id_used": "2078005783871299590",
+   "error": {
+    "detail": "Your monthly spend cap has been reached.",
+    "status": 403,
+    "title": "Forbidden",
+    "type": "https://api.x.com/2/problems/spend-cap-reached"
+   }
+  },
+  {
+   "label": "tools_howto_global",
+   "query": "(\"Claude Code\" OR Cursor OR MCP OR \"AI tool\" OR \"AI app\") (\"how to\" OR tutorial OR walkthrough OR \"step by step\" OR \"here's how\" OR template OR prompt) -is:retweet -is:reply -crypto -airdrop -memecoin -stock -DEXScreener lang:en",
+   "http": 403,
+   "since_id_used": "2078006184955834426",
+   "error": {
+    "detail": "Your monthly spend cap has been reached.",
+    "status": 403,
+    "title": "Forbidden",
+    "type": "https://api.x.com/2/problems/spend-cap-reached"
+   }
+  },
+  {
+   "label": "ai_japan_ja",
+   "query": "(AIエージェント OR \"Claude Code\" OR 生成AI) (活用 OR 使い方 OR 収益化 OR マネタイズ OR 自動化 OR ワークフロー) -is:retweet -is:reply lang:ja",
+   "http": 403,
+   "since_id_used": "2078006456713118054",
+   "error": {
+    "detail": "Your monthly spend cap has been reached.",
+    "status": 403,
+    "title": "Forbidden",
+    "type": "https://api.x.com/2/problems/spend-cap-reached"
+   }
+  }
+ ]
+}
