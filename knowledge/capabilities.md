@@ -69,6 +69,13 @@
 - **残る自動化ルート**: **YouTube Data API(公式)**はデータセンターIPからでも動く設計。`googleapis.com`の許可+`YOUTUBE_API_KEY`(無料枠1日1万unit)で概要欄・統計の自動取得が可能。**字幕は公式APIでも他人の動画は取得不可**のため、文字起こしはユーザーのコピペ方式が確定(video-ingest)
 - **運用方針(実装済み 2026-07-17)**: `video-ingest`パイプラインを構築。①ユーザーが「文字起こしを表示」のテキストを渡す(チャット or `inbox/videos/`) → **video-analyzer**エージェント(Sonnet)が構造化解析(ツール・手順・原文プロンプト・独自ノウハウ・要検証主張・評価スコア) → `research/videos/`に保存 → knowledge/labへ反映 ②登録チャンネル(`config/video_channels.json`、現在: Shin Coding Tutorial)の新着を週1でWebSearchスキャン(無料)し、深掘り候補をユーザーに提示
 
+## 🔒 利用制限データの在り処(2026-07-17 実測・結論)
+
+**本物の利用制限データはこの環境から取得不可能**(調査済み、再調査するな=枠の無駄):
+- 真実の source: Anthropicサーバー側。毎API応答のHTTPヘッダ `anthropic-ratelimit-unified-5h-*` / `-7d-*`(limit/remaining/reset)で届き、Claudeアプリがそれを表示。ローカルconfigには保存されない
+- 取得不可の理由: ①OAuthトークンはFD4に隔離されbashから読めない(Bad file descriptor)②ANTHROPIC_API_KEYは環境になし ③ハーネスのAPI応答ヘッダは私に渡らない
+- 帰結: `usage_guard.py`は本物が取れないための代用推定。実数とズレる。**唯一の校正手段=ユーザーがアプリの実数%を教えてくれたら `usage_guard.py calibrate 5h <%>`**
+
 ## 🚀 これらを使って作る新機能(優先度順・lab/queueと連動)
 
 1. **週次ダイジェストの自動生成**(docx or Artifact + 任意でGmail配信) — 週次でknowledgeのトップ知見をまとめる。外部送信は要ユーザー承認
