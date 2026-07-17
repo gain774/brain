@@ -218,6 +218,17 @@ def main():
     sid = os.environ.get("CLAUDE_CODE_SESSION_ID", "unknown")
     baselines = load(BASELINES, {})
 
+    if cmd == "next-reset":
+        # Routineが「次にいつ起動すべきか」を知るための出力。5時間の浮動ウィンドウが
+        # 空く目安(=窓内最古の活動+5h)のRFC3339(UTC)を1行で出す。固定時刻に依存しない。
+        recent = [e["ts"] for e in ledger if e["ts"] >= now - cfg["window_hours"] * 3600]
+        win_start = min(recent) if recent else now
+        reset = win_start + cfg["window_hours"] * 3600
+        if reset <= now:
+            reset = now + 300
+        print(datetime.fromtimestamp(reset, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+        return
+
     if cmd == "record":
         own_full, path = own_session_units()
         delta = live_delta(sid, own_full, baselines)
@@ -246,12 +257,7 @@ def main():
             wk["baseline"] = {"ts": now, "pct": observed_pct,
                               "note": f"calibrateコマンドで再校正(窓内ledger実測{round(consumed):,}units基準)"}
         else:
-            fh = cfg.get("five_hour_anchor")
-            if fh and fh.get("anchor_ts"):
-                consumed, _ = window_total_anchored(ledger, now, fh["anchor_ts"], cfg["window_hours"])
-                consumed += live
-            else:
-                consumed = window_total(ledger, cfg["window_hours"], now) + live
+            consumed = window_total(ledger, cfg["window_hours"], now) + live
             cfg["ceiling_units"] = round(consumed / (observed_pct / 100))
             cfg["ceiling_calibrated"] = True
         CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
@@ -270,12 +276,7 @@ def main():
             cfg["weekly"]["ceiling_calibrated"] = True
             total = consumed
         else:
-            fh = cfg.get("five_hour_anchor")
-            if fh and fh.get("anchor_ts"):
-                raw5, _ = window_total_anchored(ledger, now, fh["anchor_ts"], cfg["window_hours"])
-                total = raw5 + live
-            else:
-                total = window_total(ledger, cfg["window_hours"], now) + live
+            total = window_total(ledger, cfg["window_hours"], now) + live
             cfg["ceiling_units"] = round(total)
             cfg["ceiling_calibrated"] = True
         CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
@@ -285,15 +286,17 @@ def main():
     # check
     own_full, _ = own_session_units()
     live = live_delta(sid, own_full, baselines)
-    fh = cfg.get("five_hour_anchor")
-    if fh and fh.get("anchor_ts"):
-        raw5, w5start = window_total_anchored(ledger, now, fh["anchor_ts"], cfg["window_hours"])
-        total5 = raw5 + live
-        five_hour_note = f"実測アンカー校正済(次リセット {datetime.fromtimestamp(w5start + cfg['window_hours']*3600, JST):%H:%M}JST)"
-    else:
-        total5 = window_total(ledger, cfg["window_hours"], now) + live
-        five_hour_note = "ローリング窓(実測アンカー未設定)"
+    # 5時間制限は「最初の使用から5時間後」の浮動ウィンドウ。固定時刻アンカーは誤り
+    # だったため廃止(2026-07-17)。純粋な「直近5時間のローリング」で自己調整する。
+    # ウィンドウ内の最古の活動 + 5h = 次に枠が空く目安。
+    total5 = window_total(ledger, cfg["window_hours"], now) + live
     pct5 = 100.0 * total5 / cfg["ceiling_units"]
+    recent_ts = [e["ts"] for e in ledger if e["ts"] >= now - cfg["window_hours"] * 3600]
+    win_start = min(recent_ts) if recent_ts else now
+    next_reset5 = win_start + cfg["window_hours"] * 3600
+    five_hour_note = (f"ローリング5h・枠が空く目安 "
+                      f"{datetime.fromtimestamp(next_reset5, JST):%H:%M}JST"
+                      f"(あと{max(0,(next_reset5-now)/60):.0f}分)")
 
     wk = cfg.get("weekly", {})
     pctw, pace, consumedw, wend = weekly_state(ledger, wk, now, live)
